@@ -1,0 +1,10 @@
+<?php
+$this->breadcrumbs=array(
+	'Ceps'=>array('index'),
+	'Criar novo Ceps',
+);
+?>
+
+<h1>Cadastrar CEP</h1>
+
+<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

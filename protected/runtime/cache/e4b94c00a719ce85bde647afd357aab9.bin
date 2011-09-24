@@ -1,0 +1,31 @@
+a:2:{i:0;a:2:{i:0;s:1504:"	<div id="cabecalho" class="clearfix">
+		<div id="logo">
+         <img src="/images/logopt1.jpg" alt="Lanchero Alimentos" width="593" height="241" border="0" usemap="#Map"/>
+<map name="Map" id="Map">
+  <area shape="rect" coords="11,42,483,240" href="/" alt="Lanchero Alimentos" />
+</map>
+          <img src="/images/logopt2.png" width="593" height="112" alt=""/>
+      </div>
+
+                <div id="enderecotopo">
+                    Distrito de Lácio - Marília/SP - Cep 17539 000<br/>
+                    14 3417 2002 - 14 3417 3339
+                </div>
+                <div id="menucontato">
+                    <ul>
+                        <li><a href="/contato/"><img src="/images/carta.jpg" width="35" height="27" alt="carta"/>Contato </a></li>
+                        <li><a href="/trabalhe-com-agente/">Trabalhe com a gente</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    </ul>
+                </div><!-- menucontato -->
+                <div id="menupadrao">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/a-lanchero/" >A Lanchero</a></li>
+                        <li><a href="/produtos/">Produtos</a></li>
+                        <li class="menuline"><a href="/dicas-e-receitas/">Dicas e Receitas</a></li>
+                        <li><a href="/representantes/">Representantes</a></li>
+                    </ul>
+                </div><!-- menu -->
+	</div><!-- cabecalho -->
+   
+ ";i:1;N;}i:1;N;}

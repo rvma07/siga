@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+
+# Make the backend accessible via url: http://site/sisadm.
+RewriteRule ^sisadm backend.php
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+

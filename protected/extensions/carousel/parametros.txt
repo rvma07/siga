@@ -1,0 +1,3 @@
+Parametros de Configuracao
+
+http://www.gmarwaha.com/jquery/jcarousellite/#demo

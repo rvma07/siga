@@ -1,0 +1,27 @@
+.megamenu{
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0px;
+    padding: 10px;
+    font: normal 12px Verdana;
+    z-index: 100;
+    background: url(../images/fundosub.png);
+    width: 460px;
+}
+
+.megamenu li{
+    float: left;
+    margin: 5px;
+}
+
+.megamenu li a{
+    background: #fad301;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    text-align: center;
+    width: 120px;
+    padding: 5px 10px 5px 10px;
+}
+

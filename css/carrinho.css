@@ -1,0 +1,13 @@
+.tbcart thead tr th{
+   text-align: center !important;
+   font-weight:  bold !important;
+   background: #ff0000;
+   vertical-align: middle;
+   color: #ffffff;
+
+}
+.tbcart td{
+    vertical-align: middle;
+    border: 1px solid gray;
+    padding: 3px;
+}

@@ -1,0 +1,243 @@
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+#erro span{
+     font-weight: bold;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding-left: 10px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+/***********************************************************/
+
+#geral{
+    width: 99%;
+    min-width: 980px;
+    margin: 0 auto;
+    padding: 2px;
+    font-size: 12px;
+    font-family: verdana, helvetica, arial;
+    line-height: 18px;
+}
+#barralogo{    
+    height: 100px;
+    border-bottom: none;
+}
+
+#logo{
+    width: 600px;
+    float: left;
+}
+
+#logo img{
+    float: left;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+#logo h2{
+    font-size: 14px;
+    margin-top: 10px;
+}
+#logo h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#identificacao{
+    padding: 10px;
+    width: 351px;
+    float: right;
+    text-align: right;
+}
+#menu{
+    height: 30px;
+    line-height: 30px;
+   border-bottom: none;
+    
+}
+#menuprincipal li{
+     border: none;
+     font-weight: normal;
+     border-left: #888 solid 1px;
+     border-right: #fff solid 1px;
+}
+
+#logout{
+    float: right;
+    height: 25px;
+    width: 35px;
+    margin-top: 2px;
+    margin-right: 5px;
+    line-height: 25px;
+   
+}
+
+#logout {padding: 0 0 0 20px;text-decoration: none;position: relative;}
+#logout span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+
+
+
+#menu ul li a{
+    display: block;
+    padding: 0 10px 0 10px;
+    border: none;
+    text-decoration: none;
+   
+}
+#menu ul li{
+    float: left;
+}
+#caminho{
+    height: 20px;
+    clear: both;
+    background: #f3f4f4;
+    color: #444;
+}
+#caminho a{
+    color: #444;
+    text-decoration: none;
+    font-weight: normal;
+}
+#conteudo{
+    min-height: 700px;
+    clear: both;
+    padding: 10px;
+    border: none;
+}
+#rodape{
+    margin-top: 20px;
+    font-weight:  normal;
+    text-align: center;
+    font-size: 10px;
+    clear: both;
+}
+.ui-state-hover{
+    font-weight: bold !important;
+}
+/************* home **************************/
+
+#homeesq{
+    width: 300px;
+    min-height: 300px;
+    float: left;
+}
+#homedir{
+    margin: 0 0 0 330px;
+    min-height: 300px;   
+}
+#datepicker1{
+    margin-left: 20px;
+}
+
+.tabela td, th{
+    padding: 3px;
+}
+
+/************** login ***********************/
+#telalogin{
+    width: 700px;
+    min-height: 400px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-350px;
+    margin-top:-200px;
+    padding: 2px;
+    font-size: 12px;
+    font-family: verdana, helvetica, arial;
+    line-height: 18px;
+ }
+ h2{
+     font-size: 16px;
+     font-weight: bold;
+     margin: 10px;
+     padding: 5px;
+}
+#formlogin{
+  min-height: 260px;
+}
+#login{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.btn {padding: 8px 8px 8px 20px;text-decoration: none;position: relative; margin-right: 10px; }
+.btn span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+.btngrid {padding: 3px 3px 3px 20px;text-decoration: none;position: relative; margin-right: 10px; }
+.btngrid span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+#ui-datepicker-div{
+    font-size: 12px !important;
+    width: 220px;
+}
+
+.perfil{
+    padding: 5px;
+}
+
+#ajuda{
+   
+
+}
