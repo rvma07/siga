@@ -21,6 +21,21 @@
 		<?php echo $form->textField($model,'nome',array('size'=>60,'maxlength'=>60)); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'email'); ?>
+		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>80)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'tema'); ?>
+		<?php echo $form->textField($model,'tema',array('size'=>50,'maxlength'=>50)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'ultima_visita'); ?>
+		<?php echo $form->textField($model,'ultima_visita'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Pesquisar',array('id'=>'buscaavancada')); ?>
 	</div>

@@ -6,6 +6,6 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Atualizar CEP <?php echo $model->idCEP; ?></h1>
+<h1>Atualizar Cep <?php echo $model->idCEP; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

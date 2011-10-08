@@ -38,10 +38,10 @@ class Sala extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('desc_sala, Unidade_cod_unidade, Periodo_cod_periodo, Serie_cod_serie', 'required'),
+			array('cod_sala, desc_sala, Unidade_cod_unidade, Periodo_cod_periodo, Serie_cod_serie', 'required'),
 			array('Periodo_cod_periodo', 'numerical', 'integerOnly'=>true),
+			array('cod_sala, Unidade_cod_unidade, Serie_cod_serie', 'length', 'max'=>10),
 			array('desc_sala', 'length', 'max'=>12),
-			array('Unidade_cod_unidade, Serie_cod_serie', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('cod_sala, desc_sala, Unidade_cod_unidade, Periodo_cod_periodo, Serie_cod_serie', 'safe', 'on'=>'search'),
@@ -57,9 +57,9 @@ class Sala extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'matriculas' => array(self::MANY_MANY, 'Matricula', 'matricula_has_sala(Matricula_cod_matricula, Sala_cod_sala)'),
+			'unidadeCodUnidade' => array(self::BELONGS_TO, 'Unidade', 'Unidade_cod_unidade'),
 			'periodoCodPeriodo' => array(self::BELONGS_TO, 'Periodo', 'Periodo_cod_periodo'),
 			'serieCodSerie' => array(self::BELONGS_TO, 'Serie', 'Serie_cod_serie'),
-			'unidadeCodUnidade' => array(self::BELONGS_TO, 'Unidade', 'Unidade_cod_unidade'),
 		);
 	}
 

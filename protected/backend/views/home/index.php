@@ -1,5 +1,5 @@
 <div id="homeesq">
-<h2 class="ui-widget-header">InformaÃ§Ãµes de Cadastro</h2>
+<h2 class="ui-widget-header">Informaçõess de Cadastro</h2>
 <table class="ui-widget ui-widget-content tabela">
 <thead>
 <tr class="ui-widget-header">
@@ -10,13 +10,13 @@
 
 </tbody>
 </table> 
-    <h2 class="ui-widget-header">CalendÃ¡rio</h2>       
+    <h2 class="ui-widget-header">Calendário</h2>
              <div id="datepicker1"></div>
   </div>
 <div id="homedir">
 
   <a name="ajuda"></a>
-  <h2 class="ui-widget-header">Utilize este canal para enviar alguma dÃºvida ou erro, referente ao Sistema Administrativo para Sete Quatro.</h2>
+  <h2 class="ui-widget-header">Utilize este canal para enviar alguma dúvida ou erro, referente ao Sistema Administrativo para nós..</h2>
   <div class="ui-widget-content" style="padding: 10px;">
       <div class="form">
            <?php if(Yii::app()->user->hasFlash('suporte')): ?>
@@ -25,7 +25,7 @@
             </div>
            <?php else: ?>
            <?php $form=$this->beginWidget('CActiveForm'); ?>
-          <p class="note">Campos com <span class="required">(*)</span> sÃ£o obrigatÃ³rios.</p>
+          <p class="note">Campos com <span class="required">(*)</span> são obrigatórios.</p>
 
                <div class="row">
                         <?php echo $form->labelEx($suporte,'assunto'); ?>

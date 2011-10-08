@@ -6,6 +6,6 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Atualizar funcionario <?php echo $model->cod_funcionario; ?></h1>
+<h1>Atualizar Funcionario <?php echo $model->cod_funcionario; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

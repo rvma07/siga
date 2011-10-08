@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 //  $dominio = $_SERVER['HTTP_HOST'];
 //  setcookie("tema", "sunny", time() + 31536000, "/", ".$dominio");
 ?>
@@ -31,9 +31,9 @@
     <div id="cabecalho">
         <div id="barralogo" class="ui-state-default">
             <div id="logo">
-                <img src="/images/logo_small.png" alt="iconesisadm"/>
-                <h1>Castelo dos doces</h1>
-                <h2>Sistema administrativo</h2>
+                <img src="/images/logo1.jpg" alt="iconesisadm"/>
+                <h1><center>SiGA</center></h1>
+                <h2><center>Sistema Gerenciador Acadêmico</center></h2>
             </div>
             
         </div>     
@@ -42,8 +42,8 @@
           <?php echo $content; ?>
     </div>
     <div id="rodape" class="ui-widget-header">
-        Sistema Desenvolvido por Setequatro - Comunicação e Tecnologia <br />
-        Todos direitos são reservados.
+        Sistema Desenvolvido pelos alunos do curso de Informática para Internet <br />
+        - Turma Betaweb - Todos direitos são reservados .
     </div>
 	    
       

@@ -1,6 +1,6 @@
 <?php
 
-class CEPController extends Controller
+class CepController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -55,14 +55,14 @@ class CEPController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new CEP;
+		$model=new Cep;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['CEP']))
+		if(isset($_POST['Cep']))
 		{
-			$model->attributes=$_POST['CEP'];
+			$model->attributes=$_POST['Cep'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->idCEP));
 		}
@@ -83,9 +83,9 @@ class CEPController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['CEP']))
+		if(isset($_POST['Cep']))
 		{
-			$model->attributes=$_POST['CEP'];
+			$model->attributes=$_POST['Cep'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->idCEP));
 		}
@@ -120,11 +120,11 @@ class CEPController extends Controller
 
 	public function actionIndex()
 	{
-		$model=new CEP('search');
+		$model=new Cep('search');
                 $model->pesquisar = $_GET['pesquisar'];
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['CEP']))
-			$model->attributes=$_GET['CEP'];
+		if(isset($_GET['Cep']))
+			$model->attributes=$_GET['Cep'];
 
 		$this->render('index',array(
 			'model'=>$model,
@@ -140,7 +140,7 @@ class CEPController extends Controller
 		if($this->_model===null)
 		{
 			if(isset($_GET['id']))
-				$this->_model=CEP::model()->findbyPk($_GET['id']);
+				$this->_model=Cep::model()->findbyPk($_GET['id']);
 			if($this->_model===null)
 				throw new CHttpException(404,'The requested page does not exist.');
 		}

@@ -72,7 +72,7 @@ class Aluno extends CActiveRecord
 			'matriculas' => array(self::HAS_MANY, 'Matricula', 'Aluno_cod_aluno'),
 			'nesses' => array(self::HAS_MANY, 'Ness', 'Aluno_cod_aluno'),
 			'procedencias' => array(self::HAS_MANY, 'Procedencia', 'Aluno_cod_aluno'),
-			'sexos' => array(self::HAS_MANY, 'Sexo', 'Aluno_cod_aluno'),
+			'sexos' => array(self::MANY_MANY, 'Sexo', 'sexo_has_aluno(Sexo_cod_sexo, Aluno_cod_aluno)'),
 			'telefones' => array(self::HAS_MANY, 'Telefone', 'Aluno_cod_aluno'),
 		);
 	}
@@ -83,19 +83,19 @@ class Aluno extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_aluno' => 'Código Aluno',
+			'cod_aluno' => 'Cod Aluno',
 			'ra_aluno' => 'Ra Aluno',
 			'nome_aluno' => 'Nome Aluno',
 			'sexo_aluno' => 'Sexo Aluno',
 			'local_nasc_aluno' => 'Local Nasc Aluno',
-			'data_nasc' => 'Data de Nascimento',
-			'nome_mae' => 'Nome da Mãe',
-			'nome_pai' => 'Nome do Pai',
-			'email_resp' => 'Email Responsável',
-			'email_aluno' => 'Email do aluno',
-			'cep' => 'CEP',
-			'num_end' => 'Número da casa',
-			'cod_etnia' => 'Código Etnia',
+			'data_nasc' => 'Data Nasc',
+			'nome_mae' => 'Nome Mae',
+			'nome_pai' => 'Nome Pai',
+			'email_resp' => 'Email Resp',
+			'email_aluno' => 'Email Aluno',
+			'cep' => 'Cep',
+			'num_end' => 'Num End',
+			'cod_etnia' => 'Cod Etnia',
 			'Etnia_cod_etnia' => 'Etnia Cod Etnia',
 		);
 	}

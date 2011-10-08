@@ -6,7 +6,7 @@
  * The followings are the available columns in table 'disciplinas':
  * @property string $cod_disciplina
  * @property string $desc_disciplina
- * @property string $id_serie
+ * @property string $Serie_cod_serie
  */
 class Disciplinas extends CActiveRecord
 {
@@ -36,12 +36,12 @@ class Disciplinas extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('desc_disciplina', 'required'),
+			array('cod_disciplina, desc_disciplina, Serie_cod_serie', 'required'),
+			array('cod_disciplina, Serie_cod_serie', 'length', 'max'=>10),
 			array('desc_disciplina', 'length', 'max'=>25),
-			array('id_serie', 'length', 'max'=>11),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cod_disciplina, desc_disciplina, id_serie', 'safe', 'on'=>'search'),
+			array('cod_disciplina, desc_disciplina, Serie_cod_serie', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -53,7 +53,7 @@ class Disciplinas extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'idSerie0' => array(self::BELONGS_TO, 'Serie', 'id_serie'),
+			'serieCodSerie' => array(self::BELONGS_TO, 'Serie', 'Serie_cod_serie'),
 			'notas' => array(self::HAS_MANY, 'Nota', 'Disciplinas_cod_disciplina'),
 		);
 	}
@@ -66,7 +66,7 @@ class Disciplinas extends CActiveRecord
 		return array(
 			'cod_disciplina' => 'Cod Disciplina',
 			'desc_disciplina' => 'Desc Disciplina',
-			'id_serie' => 'Id Serie',
+			'Serie_cod_serie' => 'Serie Cod Serie',
 		);
 	}
 
@@ -87,7 +87,7 @@ class Disciplinas extends CActiveRecord
 
 		$criteria->compare('desc_disciplina',$this->desc_disciplina,true);
 
-		$criteria->compare('id_serie',$this->id_serie,true);
+		$criteria->compare('Serie_cod_serie',$this->Serie_cod_serie,true);
 
                 }else{
             
@@ -95,7 +95,7 @@ class Disciplinas extends CActiveRecord
 
 		$criteria->compare('desc_disciplina',$this->pesquisar,true,'OR');
 
-		$criteria->compare('id_serie',$this->pesquisar,true,'OR');
+		$criteria->compare('Serie_cod_serie',$this->pesquisar,true,'OR');
 
                 }
 

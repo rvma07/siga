@@ -7,6 +7,7 @@ class WebUser extends CWebUser {
 
   // Store model to not repeat query.
   private $_model;
+  public $ultima;
 
   // Return first name.
   // access it by Yii::app()->user->first_name
@@ -33,7 +34,7 @@ class WebUser extends CWebUser {
         if($this->_model===null)
         {
             if($id!==null)
-                $this->_model=Usuarios::model()->findByPk($id);
+                $this->_model=Funcionario::model()->findByPk($id);
         }
         return $this->_model;
     }

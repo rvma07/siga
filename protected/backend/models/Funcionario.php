@@ -7,6 +7,10 @@
  * @property string $cod_funcionario
  * @property string $matricula_funcionario
  * @property string $nome
+ * @property string $email
+ * @property string $tema
+ * @property string $password
+ * @property string $ultima_visita
  */
 class Funcionario extends CActiveRecord
 {
@@ -36,12 +40,16 @@ class Funcionario extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_funcionario', 'required'),
+			array('cod_funcionario, email, tema, password', 'required'),
 			array('cod_funcionario, matricula_funcionario', 'length', 'max'=>10),
 			array('nome', 'length', 'max'=>60),
+			array('email', 'length', 'max'=>80),
+			array('tema', 'length', 'max'=>50),
+			array('password', 'length', 'max'=>32),
+			array('ultima_visita', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cod_funcionario, matricula_funcionario, nome', 'safe', 'on'=>'search'),
+			array('cod_funcionario, matricula_funcionario, nome, email, tema, password, ultima_visita', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -54,7 +62,7 @@ class Funcionario extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'unidades' => array(self::MANY_MANY, 'Unidade', 'funcionario_has_unidade(Funcionario_cod_funcionario, Unidade_cod_unidade)'),
-			'sexos' => array(self::HAS_MANY, 'Sexo', 'Funcionario_cod_funcionario'),
+			'sexos' => array(self::MANY_MANY, 'Sexo', 'sexo_has_funcionario(Sexo_cod_sexo, Funcionario_cod_funcionario)'),
 			'telefones' => array(self::HAS_MANY, 'Telefone', 'Funcionario_cod_funcionario'),
 		);
 	}
@@ -68,6 +76,10 @@ class Funcionario extends CActiveRecord
 			'cod_funcionario' => 'Cod Funcionario',
 			'matricula_funcionario' => 'Matricula Funcionario',
 			'nome' => 'Nome',
+			'email' => 'Email',
+			'tema' => 'Tema',
+			'password' => 'Password',
+			'ultima_visita' => 'Ultima Visita',
 		);
 	}
 
@@ -90,6 +102,14 @@ class Funcionario extends CActiveRecord
 
 		$criteria->compare('nome',$this->nome,true);
 
+		$criteria->compare('email',$this->email,true);
+
+		$criteria->compare('tema',$this->tema,true);
+
+		$criteria->compare('password',$this->password,true);
+
+		$criteria->compare('ultima_visita',$this->ultima_visita,true);
+
                 }else{
             
                        		$criteria->compare('cod_funcionario',$this->pesquisar,true,'OR');
@@ -97,6 +117,14 @@ class Funcionario extends CActiveRecord
 		$criteria->compare('matricula_funcionario',$this->pesquisar,true,'OR');
 
 		$criteria->compare('nome',$this->pesquisar,true,'OR');
+
+		$criteria->compare('email',$this->pesquisar,true,'OR');
+
+		$criteria->compare('tema',$this->pesquisar,true,'OR');
+
+		$criteria->compare('password',$this->pesquisar,true,'OR');
+
+		$criteria->compare('ultima_visita',$this->pesquisar,true,'OR');
 
                 }
 

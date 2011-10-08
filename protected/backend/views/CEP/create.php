@@ -5,6 +5,6 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Cadastrar CEP</h1>
+<h1>Cadastrar Cep</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
