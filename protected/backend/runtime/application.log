@@ -3260,3 +3260,30 @@ in C:\wamp\www\backend.php (16)
 in C:\wamp\www\protected\backend\extensions\gii-sisadm\GiiModule.php (136)
 in C:\wamp\www\protected\backend\extensions\gii-sisadm\views\layouts\main.php (3)
 in C:\wamp\www\protected\backend\extensions\gii-sisadm\views\layouts\generator.php (25)
+2011/10/08 14:49:19 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/10/08 14:49:19 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/10/08 14:49:19 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/10/08 14:49:19 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/10/08 14:49:19 [trace] [system.caching.CFileCache] Saving "Yii.CUrlManager.rules" to cache
+in C:\wamp\www\backend.php (16)
+2011/10/08 14:49:19 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\protected\backend\controllers\LoginController.php (24)
+in C:\wamp\www\backend.php (16)
+2011/10/08 14:49:19 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\protected\backend\controllers\LoginController.php (24)
+in C:\wamp\www\backend.php (16)
+2011/10/08 14:49:19 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\login\login.php (19)
+in C:\wamp\www\protected\backend\controllers\LoginController.php (30)
+in C:\wamp\www\backend.php (16)
+2011/10/08 14:49:19 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\login\login.php (44)
+in C:\wamp\www\protected\backend\controllers\LoginController.php (30)
+in C:\wamp\www\backend.php (16)
+2011/10/08 14:49:19 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\backend\controllers\LoginController.php (30)
+in C:\wamp\www\backend.php (16)
