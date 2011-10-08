@@ -12,8 +12,6 @@ $this->breadcrumbs=array(
 	'attributes'=>array(
 		'cod_sexo',
 		'desc_sexo',
-		'Aluno_cod_aluno',
-		'Funcionario_cod_funcionario',
 	),
 )); ?>
 
@@ -23,10 +21,10 @@ $this->breadcrumbs=array(
 <br />
 <br />
 
-<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Sexo/update','id'=>$model->id), array('class'=>'btn ui-state-default ui-corner-all')) ?>
+<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Sexo/update','id'=>$model->cod_sexo), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 
  <?php echo CHtml::linkButton('<span class="ui-icon ui-icon-closethick"></span>Excluir',array(
-'submit'=>array('/Sexo/delete','id'=>$model->id),
+'submit'=>array('/Sexo/delete','id'=>$model->cod_sexo),
 'class'=>'btn ui-state-default ui-corner-all',
 'confirm'=>'Deseja realmente excluir este usuário?',
 )); ?>

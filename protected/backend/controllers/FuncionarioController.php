@@ -55,20 +55,21 @@ class FuncionarioController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new funcionario;
+		$model=new Funcionario;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['funcionario']))
+		if(isset($_POST['Funcionario']))
 		{
-			$model->attributes=$_POST['funcionario'];
+			$model->attributes=$_POST['Funcionario'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->cod_funcionario));
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
+			'sexos'=>Sexo::model()->findAll()
 		));
 	}
 
@@ -83,9 +84,9 @@ class FuncionarioController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['funcionario']))
+		if(isset($_POST['Funcionario']))
 		{
-			$model->attributes=$_POST['funcionario'];
+			$model->attributes=$_POST['Funcionario'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->cod_funcionario));
 		}
@@ -120,11 +121,11 @@ class FuncionarioController extends Controller
 
 	public function actionIndex()
 	{
-		$model=new funcionario('search');
+		$model=new Funcionario('search');
                 $model->pesquisar = $_GET['pesquisar'];
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['funcionario']))
-			$model->attributes=$_GET['funcionario'];
+		if(isset($_GET['Funcionario']))
+			$model->attributes=$_GET['Funcionario'];
 
 		$this->render('index',array(
 			'model'=>$model,
@@ -140,7 +141,7 @@ class FuncionarioController extends Controller
 		if($this->_model===null)
 		{
 			if(isset($_GET['id']))
-				$this->_model=funcionario::model()->findbyPk($_GET['id']);
+				$this->_model=Funcionario::model()->findbyPk($_GET['id']);
 			if($this->_model===null)
 				throw new CHttpException(404,'The requested page does not exist.');
 		}

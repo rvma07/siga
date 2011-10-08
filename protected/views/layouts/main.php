@@ -3,7 +3,17 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="language" content="pt" />
-	<title>Teste</title>
+	<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+	<link rel="stylesheet" type="text/css" href="/css/reset.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/form.css" />
+    <?php
+        Yii::app()->clientScript->registerCoreScript('jquery');
+        $cs=Yii::app()->clientScript;
+        $cs->registerScriptFile(Yii::app()->baseUrl . '/assets/jquery.meio.mask.js', CClientScript::POS_HEAD);
+        $cs->registerScriptFile(Yii::app()->baseUrl . '/assets/function.js', CClientScript::POS_HEAD);
+     ?>
+	<title>SiGA</title>
 </head>
 <body>
     <?php echo $content; ?>

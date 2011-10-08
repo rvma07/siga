@@ -10,7 +10,7 @@ $this->renderPartial('_pesquisa');
 <h1>Lista de Funcionarios</h1>
 
 <br />
-<a href="/sisadm/funcionario/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo funcionario</a><br />
+<a href="/sisadm/Funcionario/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo Funcionario</a><br />
 <br/>
 
 <div class="search-form" style="display:none">
@@ -28,6 +28,12 @@ $this->renderPartial('_pesquisa');
 		'cod_funcionario',
 		'matricula_funcionario',
 		'nome',
+		'email',
+		'tema',
+		'password',
+		/*
+		'ultima_visita',
+		*/
 		array(
 			'class'=>'CButtonColumn',
 		),

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MENU ADMINISTRADOR</title>
+<style type="text/css">
+		body{font:12px/1.2 Verdana, sans-serif; padding:0 10px;}
+		a:link, a:visited{text-decoration:none; color:#416CE5; border-bottom:1px solid #416CE5;}
+		h2{font-size:13px; margin:15px 0 0 0;}
+	</style>
+	<link media="screen" rel="stylesheet" href="colorbox.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="colorbox/jquery.colorbox.js"></script>
+	<script>
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			$("a[rel='example1']").colorbox();
+			$("a[rel='example2']").colorbox({transition:"fade"});
+			$("a[rel='example3']").colorbox({transition:"none", width:"60%", height:"60%"});
+			$("a[rel='example4']").colorbox({slideshow:true});
+			$(".example5").colorbox();
+			$(".example6").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+			$(".example7").colorbox({width:"80%", height:"80%", iframe:true});
+			$(".example8").colorbox({width:"50%", inline:true, href:"#inline_example1"});
+			$(".example9").colorbox({
+				onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+				onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+				onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+				onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+				onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+			});
+
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+				return false;
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+<table width="47%" border="0">
+  <tr>
+    <td width="16%"><a class='example7' href="m_aluno.html"><img src="\images\aluno.png" width="172" height="72" /></a></td>
+    <td width="1%"><img src="ano.png" width="172" height="72" /></td>
+    <td width="83%"><img src="diciplinas.png" width="172" height="72" /></td>
+  </tr>
+  <tr>
+    <td><img src="etinia.png" width="172" height="72" /></td>
+    <td><img src="funcionario.png" width="172" height="72" /></td>
+    <td><img src="funcoes.png" width="172" height="72" /></td>
+  </tr>
+  <tr>
+    <td><img src="periodo.png" width="172" height="72" /></td>
+    <td><img src="sala.png" width="172" height="72" /></td>
+    <td><img src="serie.png" width="172" height="72" /></td>
+  </tr>
+  <tr>
+    <td><img src="undiade.png" width="172" height="72" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

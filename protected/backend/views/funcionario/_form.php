@@ -21,6 +21,30 @@
 		<?php echo $form->error($model,'nome'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'email'); ?>
+		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>80)); ?>
+		<?php echo $form->error($model,'email'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'tema'); ?>
+		<?php echo $form->textField($model,'tema',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->error($model,'tema'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'password'); ?>
+		<?php echo $form->passwordField($model,'password',array('size'=>32,'maxlength'=>32)); ?>
+		<?php echo $form->error($model,'password'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo CHtml::label('Sexo','sexo'); ?>
+		<?php echo CHtml::dropDownList('sexo','',CHtml::listData($sexos,'cod_sexo','desc_sexo')); ?>
+		<?php echo $form->error($model,'password'); ?>
+	</div>
+	
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Criar' : 'Salvar'); ?>
 	</div>

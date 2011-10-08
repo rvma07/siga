@@ -28,9 +28,9 @@
     <div id="cabecalho">
         <div id="barralogo" class="ui-state-default">
             <div id="logo">
-                <img src="/images/logo_small.png" alt="iconesisadm"/>
-                <h1>Castelo dos doces</h1>
-                <h2>Sistema administrativo</h2>
+                <img src="/images/logo3.jpg" alt="iconesisadm"/>
+                <h1><center>SiGA</h1>
+                <h2>Sistema Gerenciador Academico</center></h2>
             </div>
             <div id="identificacao">
                 <?php
@@ -61,7 +61,7 @@
         <?php echo $content; ?>
     </div>
     <div id="rodape" class="ui-widget-header">
-        Sistema Desenvolvido por Setequatro - Comunicação e Tecnologia <br />
+        Sistema Desenvolvido por Rafael, Carlos e Jorge - Grupo de TCC da ETEC Antonio Devisate <br />
         Todos direitos são reservados.
     </div>
 	    

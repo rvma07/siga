@@ -38,8 +38,9 @@ class Unidade extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
+			array('cod_unidade', 'required'),
 			array('cep', 'numerical', 'integerOnly'=>true),
-			array('tipo_unidade, num_end_unidade', 'length', 'max'=>10),
+			array('cod_unidade, tipo_unidade, num_end_unidade', 'length', 'max'=>10),
 			array('nome_unidade', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

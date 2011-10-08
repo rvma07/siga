@@ -6,7 +6,7 @@ class UserIdentity extends CUserIdentity
     public function authenticate()
     {
         $username=strtolower($this->username);
-        $user=Usuarios::model()->find('LOWER(email)=?',array($username));
+        $user=Funcionario::model()->find('LOWER(email)=?',array($username));
         if($user===null)
             $this->errorCode=self::ERROR_USERNAME_INVALID;
         else if($user->password!==md5($this->password))
@@ -17,7 +17,7 @@ class UserIdentity extends CUserIdentity
         {
             $dominio = $_SERVER['HTTP_HOST'];
             setcookie("tema", $user->tema, time() + 31536000, "/", ".$dominio");
-            $this->_id=$user->id;
+            $this->_id=$user->cod_funcionario;
             $this->username=$user->email;
             $this->setState('ultima', $user->ultima_visita != '0000-00-00 00:00:00' ? $user->ultima_visita : date("Y-m-d H:i:s"));
             $this->errorCode=self::ERROR_NONE;

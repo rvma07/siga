@@ -6,8 +6,6 @@
  * The followings are the available columns in table 'sexo':
  * @property string $cod_sexo
  * @property string $desc_sexo
- * @property string $Aluno_cod_aluno
- * @property string $Funcionario_cod_funcionario
  */
 class Sexo extends CActiveRecord
 {
@@ -37,10 +35,10 @@ class Sexo extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('desc_sexo, Aluno_cod_aluno, Funcionario_cod_funcionario', 'length', 'max'=>10),
+			array('desc_sexo', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cod_sexo, desc_sexo, Aluno_cod_aluno, Funcionario_cod_funcionario', 'safe', 'on'=>'search'),
+			array('cod_sexo, desc_sexo', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -52,8 +50,8 @@ class Sexo extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'alunoCodAluno' => array(self::BELONGS_TO, 'Aluno', 'Aluno_cod_aluno'),
-			'funcionarioCodFuncionario' => array(self::BELONGS_TO, 'Funcionario', 'Funcionario_cod_funcionario'),
+			'alunos' => array(self::MANY_MANY, 'Aluno', 'sexo_has_aluno(Sexo_cod_sexo, Aluno_cod_aluno)'),
+			'funcionarios' => array(self::MANY_MANY, 'Funcionario', 'sexo_has_funcionario(Sexo_cod_sexo, Funcionario_cod_funcionario)'),
 		);
 	}
 
@@ -65,8 +63,6 @@ class Sexo extends CActiveRecord
 		return array(
 			'cod_sexo' => 'Cod Sexo',
 			'desc_sexo' => 'Desc Sexo',
-			'Aluno_cod_aluno' => 'Aluno Cod Aluno',
-			'Funcionario_cod_funcionario' => 'Funcionario Cod Funcionario',
 		);
 	}
 
@@ -87,19 +83,11 @@ class Sexo extends CActiveRecord
 
 		$criteria->compare('desc_sexo',$this->desc_sexo,true);
 
-		$criteria->compare('Aluno_cod_aluno',$this->Aluno_cod_aluno,true);
-
-		$criteria->compare('Funcionario_cod_funcionario',$this->Funcionario_cod_funcionario,true);
-
                 }else{
             
                        		$criteria->compare('cod_sexo',$this->pesquisar,true,'OR');
 
 		$criteria->compare('desc_sexo',$this->pesquisar,true,'OR');
-
-		$criteria->compare('Aluno_cod_aluno',$this->pesquisar,true,'OR');
-
-		$criteria->compare('Funcionario_cod_funcionario',$this->pesquisar,true,'OR');
 
                 }
 

@@ -10,7 +10,7 @@ $this->renderPartial('_pesquisa');
 <h1>Lista de Ceps</h1>
 
 <br />
-<a href="/sisadm/CEP/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo CEP</a><br />
+<a href="/sisadm/Cep/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo Cep</a><br />
 <br/>
 
 <div class="search-form" style="display:none">

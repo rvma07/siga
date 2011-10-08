@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+		body{font:15px/1.2 Verdana, sans-serif; padding:0 10px;}
+		a:link, a:visited{text-decoration:none; color:#416CE5; border-bottom:1px solid #416CE5;}
+		h2{font-size:13px; margin:15px 0 0 0;}
+	</style>
+	<link media="screen" rel="stylesheet" href="colorbox.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="colorbox/jquery.colorbox.js"></script>
+	<script>
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			$("a[rel='example1']").colorbox();
+			$("a[rel='example2']").colorbox({transition:"fade"});
+			$("a[rel='example3']").colorbox({transition:"none", width:"75%", height:"75%"});
+			$("a[rel='example4']").colorbox({slideshow:true});
+			$(".example5").colorbox();
+			$(".example6").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+			$(".example7").colorbox({width:"99%", height:"99%", iframe:true});
+			$(".example8").colorbox({width:"50%", inline:true, href:"#inline_example1"});
+			$(".example9").colorbox({
+				onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+				onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+				onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+				onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+				onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+			});
+
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+				return false;
+			});
+		});
+	</script>
+<title>MENU ALUNO</title>
+</head>
+
+<body>
+<table width="100" border="0">
+  <tr>
+    <td><a class='example7' href="http://localhost/aluno/create"><img src="novo.png" width="172" height="72" /></a></td>
+    <td><img src="editar.png" width="172" height="72" /></td>
+    <td><img src="excluir.png" width="172" height="72" /></td>
+  </tr>
+  <tr>
+    <td><img src="chamadas.png" width="172" height="72" /></td>
+    <td><img src="matricular.png" width="172" height="72" /></td>
+    <td><img src="movimentacao.png" width="172" height="72" /></td>
+  </tr>
+  <tr>
+    <td><img src="notas.png" width="172" height="72" /></td>
+    <td><img src="procedencia.png" width="172" height="72" /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

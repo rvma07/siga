@@ -27,8 +27,6 @@ $this->renderPartial('_pesquisa');
 	'columns'=>array(
 		'cod_sexo',
 		'desc_sexo',
-		'Aluno_cod_aluno',
-		'Funcionario_cod_funcionario',
 		array(
 			'class'=>'CButtonColumn',
 		),

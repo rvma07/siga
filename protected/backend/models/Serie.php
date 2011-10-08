@@ -35,7 +35,8 @@ class Serie extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('desc_serie', 'required'),
+			array('cod_serie, desc_serie', 'required'),
+			array('cod_serie', 'length', 'max'=>10),
 			array('desc_serie', 'length', 'max'=>12),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -51,7 +52,7 @@ class Serie extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'disciplinases' => array(self::HAS_MANY, 'Disciplinas', 'id_serie'),
+			'disciplinases' => array(self::HAS_MANY, 'Disciplinas', 'Serie_cod_serie'),
 			'salas' => array(self::HAS_MANY, 'Sala', 'Serie_cod_serie'),
 		);
 	}

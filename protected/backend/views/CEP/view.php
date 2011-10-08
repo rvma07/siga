@@ -5,7 +5,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h2>Visualizar CEP</h2>
+<h2>Visualizar Cep</h2>
 
 <?php $this->widget('backend.extensions.widgets.CDetailViewUI', array(
 	'data'=>$model,
@@ -25,13 +25,13 @@ $this->breadcrumbs=array(
 <br />
 <br />
 
-<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('CEP/update','id'=>$model->id), array('class'=>'btn ui-state-default ui-corner-all')) ?>
+<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Cep/update','id'=>$model->id), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 
  <?php echo CHtml::linkButton('<span class="ui-icon ui-icon-closethick"></span>Excluir',array(
-'submit'=>array('/CEP/delete','id'=>$model->id),
+'submit'=>array('/Cep/delete','id'=>$model->id),
 'class'=>'btn ui-state-default ui-corner-all',
 'confirm'=>'Deseja realmente excluir este usuário?',
 )); ?>
 
-<?php echo CHtml::link('<span class="ui-icon ui-icon-arrowreturnthick-1-w"></span>Cancelar', array('/CEP/index'), array('class'=>'btn ui-state-default ui-corner-all')) ?>
+<?php echo CHtml::link('<span class="ui-icon ui-icon-arrowreturnthick-1-w"></span>Cancelar', array('/Cep/index'), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 

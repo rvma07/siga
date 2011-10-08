@@ -71,7 +71,7 @@ class HomeController extends Controller
                 if($suporte->validate()){
                      $headers = 'MIME-Version: 1.0' . "\r\n";
                      $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-                     $headers .="From: suporte@setequatro.com.br \r\nReply-To: suporte@setequatro.com.br";
+                     $headers .="From: suporte@setequatro.com.br \r\nReply-To: rvma07@gmail.com";
                      $body  = "<b>Cliente:</b><br />" . chr(10);
                      $body .= Yii::app()->name.'<br />' . chr(10);
                      $body .= "<b>Usu&aacute;rio:</b><br />" . chr(10);

@@ -26,7 +26,7 @@ $(function(){
                   prevText: 'Anterior'
                  });
 
-    $('#datepicker1').datepicker({
+    $('input[rel="data"]').datepicker({
         inline: true
      });
 
