@@ -63,8 +63,14 @@ class FuncionarioController extends Controller
 		if(isset($_POST['Funcionario']))
 		{
 			$model->attributes=$_POST['Funcionario'];
-			if($model->save())
+			$model->password = md5($_POST['Funcionarios']['password']);
+			if($model->save()){
+				$sexo_func = new SexoHasFuncionario;
+				$sexo_func->Sexo_cod_sexo = $_POST['sexo'];
+				$sexo_func->Funcionario_cod_funcionario = $model->cod_funcionario;
+				$sexo_func->save();
 				$this->redirect(array('view','id'=>$model->cod_funcionario));
+			}
 		}
 
 		$this->render('create',array(
