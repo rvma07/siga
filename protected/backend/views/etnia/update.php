@@ -6,6 +6,6 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Atualizar etnia <?php echo $model->cod_etnia; ?></h1>
+<h1>Atualizar Etnia <?php echo $model->cod_etnia; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -55,14 +55,14 @@ class EtniaController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new etnia;
+		$model=new Etnia;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['etnia']))
+		if(isset($_POST['Etnia']))
 		{
-			$model->attributes=$_POST['etnia'];
+			$model->attributes=$_POST['Etnia'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->cod_etnia));
 		}
@@ -83,9 +83,9 @@ class EtniaController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['etnia']))
+		if(isset($_POST['Etnia']))
 		{
-			$model->attributes=$_POST['etnia'];
+			$model->attributes=$_POST['Etnia'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->cod_etnia));
 		}
@@ -120,11 +120,11 @@ class EtniaController extends Controller
 
 	public function actionIndex()
 	{
-		$model=new etnia('search');
+		$model=new Etnia('search');
                 $model->pesquisar = $_GET['pesquisar'];
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['etnia']))
-			$model->attributes=$_GET['etnia'];
+		if(isset($_GET['Etnia']))
+			$model->attributes=$_GET['Etnia'];
 
 		$this->render('index',array(
 			'model'=>$model,
@@ -140,7 +140,7 @@ class EtniaController extends Controller
 		if($this->_model===null)
 		{
 			if(isset($_GET['id']))
-				$this->_model=etnia::model()->findbyPk($_GET['id']);
+				$this->_model=Etnia::model()->findbyPk($_GET['id']);
 			if($this->_model===null)
 				throw new CHttpException(404,'The requested page does not exist.');
 		}

@@ -6,7 +6,6 @@
  * The followings are the available columns in table 'ness':
  * @property string $cod_ness
  * @property string $desc_ness
- * @property string $Aluno_cod_aluno
  */
 class Ness extends CActiveRecord
 {
@@ -36,12 +35,10 @@ class Ness extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_ness, Aluno_cod_aluno', 'required'),
-			array('cod_ness, Aluno_cod_aluno', 'length', 'max'=>10),
 			array('desc_ness', 'length', 'max'=>60),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cod_ness, desc_ness, Aluno_cod_aluno', 'safe', 'on'=>'search'),
+			array('cod_ness, desc_ness', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -53,7 +50,7 @@ class Ness extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'alunoCodAluno' => array(self::BELONGS_TO, 'Aluno', 'Aluno_cod_aluno'),
+			'alunos' => array(self::MANY_MANY, 'Aluno', 'ness_has_aluno(Ness_cod_ness, Aluno_cod_aluno)'),
 		);
 	}
 
@@ -65,7 +62,6 @@ class Ness extends CActiveRecord
 		return array(
 			'cod_ness' => 'Cod Ness',
 			'desc_ness' => 'Desc Ness',
-			'Aluno_cod_aluno' => 'Aluno Cod Aluno',
 		);
 	}
 
@@ -86,15 +82,11 @@ class Ness extends CActiveRecord
 
 		$criteria->compare('desc_ness',$this->desc_ness,true);
 
-		$criteria->compare('Aluno_cod_aluno',$this->Aluno_cod_aluno,true);
-
                 }else{
             
                        		$criteria->compare('cod_ness',$this->pesquisar,true,'OR');
 
 		$criteria->compare('desc_ness',$this->pesquisar,true,'OR');
-
-		$criteria->compare('Aluno_cod_aluno',$this->pesquisar,true,'OR');
 
                 }
 

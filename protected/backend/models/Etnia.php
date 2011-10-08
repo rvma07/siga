@@ -35,8 +35,6 @@ class Etnia extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_etnia', 'required'),
-			array('cod_etnia', 'numerical', 'integerOnly'=>true),
 			array('desc_etnia', 'length', 'max'=>20),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

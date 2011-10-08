@@ -55,14 +55,14 @@ class SerieController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new serie;
+		$model=new Serie;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['serie']))
+		if(isset($_POST['Serie']))
 		{
-			$model->attributes=$_POST['serie'];
+			$model->attributes=$_POST['Serie'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->cod_serie));
 		}
@@ -83,9 +83,9 @@ class SerieController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['serie']))
+		if(isset($_POST['Serie']))
 		{
-			$model->attributes=$_POST['serie'];
+			$model->attributes=$_POST['Serie'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->cod_serie));
 		}
@@ -120,11 +120,11 @@ class SerieController extends Controller
 
 	public function actionIndex()
 	{
-		$model=new serie('search');
+		$model=new Serie('search');
                 $model->pesquisar = $_GET['pesquisar'];
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['serie']))
-			$model->attributes=$_GET['serie'];
+		if(isset($_GET['Serie']))
+			$model->attributes=$_GET['Serie'];
 
 		$this->render('index',array(
 			'model'=>$model,
@@ -140,7 +140,7 @@ class SerieController extends Controller
 		if($this->_model===null)
 		{
 			if(isset($_GET['id']))
-				$this->_model=serie::model()->findbyPk($_GET['id']);
+				$this->_model=Serie::model()->findbyPk($_GET['id']);
 			if($this->_model===null)
 				throw new CHttpException(404,'The requested page does not exist.');
 		}

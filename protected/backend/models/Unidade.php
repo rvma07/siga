@@ -8,7 +8,7 @@
  * @property string $tipo_unidade
  * @property string $nome_unidade
  * @property string $num_end_unidade
- * @property integer $cep
+ * @property string $cep
  */
 class Unidade extends CActiveRecord
 {
@@ -38,10 +38,9 @@ class Unidade extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_unidade', 'required'),
-			array('cep', 'numerical', 'integerOnly'=>true),
-			array('cod_unidade, tipo_unidade, num_end_unidade', 'length', 'max'=>10),
+			array('tipo_unidade, num_end_unidade', 'length', 'max'=>10),
 			array('nome_unidade', 'length', 'max'=>45),
+			array('cep', 'length', 'max'=>9),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('cod_unidade, tipo_unidade, nome_unidade, num_end_unidade, cep', 'safe', 'on'=>'search'),
@@ -96,7 +95,7 @@ class Unidade extends CActiveRecord
 
 		$criteria->compare('num_end_unidade',$this->num_end_unidade,true);
 
-		$criteria->compare('cep',$this->cep);
+		$criteria->compare('cep',$this->cep,true);
 
                 }else{
             

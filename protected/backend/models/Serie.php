@@ -1,9 +1,9 @@
 <?php
 
 /**
- * This is the model class for table "serie".
+ * This is the model class for table "Serie".
  *
- * The followings are the available columns in table 'serie':
+ * The followings are the available columns in table 'Serie':
  * @property string $cod_serie
  * @property string $desc_serie
  */
@@ -24,7 +24,7 @@ class Serie extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'serie';
+		return 'Serie';
 	}
 
 	/**
@@ -35,8 +35,7 @@ class Serie extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_serie, desc_serie', 'required'),
-			array('cod_serie', 'length', 'max'=>10),
+			array('desc_serie', 'required'),
 			array('desc_serie', 'length', 'max'=>12),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

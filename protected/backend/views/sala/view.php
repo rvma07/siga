@@ -24,10 +24,10 @@ $this->breadcrumbs=array(
 <br />
 <br />
 
-<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Sala/update','id'=>$model->id), array('class'=>'btn ui-state-default ui-corner-all')) ?>
+<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Sala/update','cod_sala'=>$model->cod_sala), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 
  <?php echo CHtml::linkButton('<span class="ui-icon ui-icon-closethick"></span>Excluir',array(
-'submit'=>array('/Sala/delete','id'=>$model->id),
+'submit'=>array('/Sala/delete','cod_sala'=>$model->cod_sala),
 'class'=>'btn ui-state-default ui-corner-all',
 'confirm'=>'Deseja realmente excluir este usuário?',
 )); ?>

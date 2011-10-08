@@ -17,7 +17,7 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Pesquisar',array('id'=>'buscaavancada')); ?>
+		<?php echo CHtml::submitButton('Pesquisar',array('cod_periodo'=>'buscaavancada')); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

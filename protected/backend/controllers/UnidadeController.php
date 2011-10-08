@@ -64,7 +64,7 @@ class UnidadeController extends Controller
 		{
 			$model->attributes=$_POST['Unidade'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->cod_unidade));
+				$this->redirect(array('view','cod_unidade'=>$model->cod_unidade));
 		}
 
 		$this->render('create',array(
@@ -87,7 +87,7 @@ class UnidadeController extends Controller
 		{
 			$model->attributes=$_POST['Unidade'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->cod_unidade));
+				$this->redirect(array('view','cod_unidade'=>$model->cod_unidade));
 		}
 
 		$this->render('update',array(
@@ -139,8 +139,8 @@ class UnidadeController extends Controller
 	{
 		if($this->_model===null)
 		{
-			if(isset($_GET['id']))
-				$this->_model=Unidade::model()->findbyPk($_GET['id']);
+			if(isset($_GET['cod_unidade']))
+				$this->_model=Unidade::model()->findbyPk($_GET['cod_unidade']);
 			if($this->_model===null)
 				throw new CHttpException(404,'The requested page does not exist.');
 		}

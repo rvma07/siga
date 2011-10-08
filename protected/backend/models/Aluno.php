@@ -70,7 +70,7 @@ class Aluno extends CActiveRecord
 			'etniaCodEtnia' => array(self::BELONGS_TO, 'Etnia', 'Etnia_cod_etnia'),
 			'ceps' => array(self::HAS_MANY, 'Cep', 'Aluno_cod_aluno'),
 			'matriculas' => array(self::HAS_MANY, 'Matricula', 'Aluno_cod_aluno'),
-			'nesses' => array(self::HAS_MANY, 'Ness', 'Aluno_cod_aluno'),
+			'nesses' => array(self::MANY_MANY, 'Ness', 'ness_has_aluno(Ness_cod_ness, Aluno_cod_aluno)'),
 			'procedencias' => array(self::HAS_MANY, 'Procedencia', 'Aluno_cod_aluno'),
 			'sexos' => array(self::MANY_MANY, 'Sexo', 'sexo_has_aluno(Sexo_cod_sexo, Aluno_cod_aluno)'),
 			'telefones' => array(self::HAS_MANY, 'Telefone', 'Aluno_cod_aluno'),

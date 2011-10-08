@@ -10,7 +10,7 @@ $this->renderPartial('_pesquisa');
 <h1>Lista de Series</h1>
 
 <br />
-<a href="/sisadm/serie/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo serie</a><br />
+<a href="/sisadm/Serie/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo Serie</a><br />
 <br/>
 
 <div class="search-form" style="display:none">

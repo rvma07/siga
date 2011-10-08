@@ -5,7 +5,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h2>Visualizar etnia</h2>
+<h2>Visualizar Etnia</h2>
 
 <?php $this->widget('backend.extensions.widgets.CDetailViewUI', array(
 	'data'=>$model,
@@ -21,13 +21,13 @@ $this->breadcrumbs=array(
 <br />
 <br />
 
-<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('etnia/update','id'=>$model->id), array('class'=>'btn ui-state-default ui-corner-all')) ?>
+<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Etnia/update','id'=>$model->cod_etnia), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 
  <?php echo CHtml::linkButton('<span class="ui-icon ui-icon-closethick"></span>Excluir',array(
-'submit'=>array('/etnia/delete','id'=>$model->id),
+'submit'=>array('/Etnia/delete','id'=>$model->cod_etnia),
 'class'=>'btn ui-state-default ui-corner-all',
 'confirm'=>'Deseja realmente excluir este usuário?',
 )); ?>
 
-<?php echo CHtml::link('<span class="ui-icon ui-icon-arrowreturnthick-1-w"></span>Cancelar', array('/etnia/index'), array('class'=>'btn ui-state-default ui-corner-all')) ?>
+<?php echo CHtml::link('<span class="ui-icon ui-icon-arrowreturnthick-1-w"></span>Cancelar', array('/Etnia/index'), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 

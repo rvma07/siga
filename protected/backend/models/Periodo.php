@@ -35,8 +35,6 @@ class Periodo extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_periodo', 'required'),
-			array('cod_periodo', 'numerical', 'integerOnly'=>true),
 			array('desc_periodo', 'length', 'max'=>12),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

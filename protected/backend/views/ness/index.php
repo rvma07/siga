@@ -27,7 +27,6 @@ $this->renderPartial('_pesquisa');
 	'columns'=>array(
 		'cod_ness',
 		'desc_ness',
-		'Aluno_cod_aluno',
 		array(
 			'class'=>'CButtonColumn',
 		),

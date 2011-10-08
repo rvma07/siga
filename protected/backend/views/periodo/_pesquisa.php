@@ -36,7 +36,7 @@ $('#busca').click(function(){
      )); ?>
 
     <?php echo CHtml::textField('pesquisar','',array('size'=>30)); ?>
-    <?php echo CHtml::submitButton('Pesquisar',array('name'=>'pesquisa','id'=>'busca')); ?>
+    <?php echo CHtml::submitButton('Pesquisar',array('name'=>'pesquisa','cod_periodo'=>'busca')); ?>
     <?php echo '<br />'.CHtml::link('Busca Avançada','#',array('class'=>'search-button1')); ?>
      
 
