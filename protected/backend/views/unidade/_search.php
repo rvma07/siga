@@ -28,7 +28,7 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'cep'); ?>
-		<?php echo $form->textField($model,'cep'); ?>
+		<?php echo $form->textField($model,'cep',array('size'=>9,'maxlength'=>9)); ?>
 	</div>
 
 	<div class="row buttons">

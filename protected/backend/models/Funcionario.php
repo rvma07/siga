@@ -11,6 +11,7 @@
  * @property string $tema
  * @property string $password
  * @property string $ultima_visita
+ * @property integer $status
  */
 class Funcionario extends CActiveRecord
 {
@@ -40,8 +41,9 @@ class Funcionario extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_funcionario, email, tema, password', 'required'),
-			array('cod_funcionario, matricula_funcionario', 'length', 'max'=>10),
+			array('email, tema, password, status', 'required'),
+			array('status', 'numerical', 'integerOnly'=>true),
+			array('matricula_funcionario', 'length', 'max'=>10),
 			array('nome', 'length', 'max'=>60),
 			array('email', 'length', 'max'=>80),
 			array('tema', 'length', 'max'=>50),
@@ -49,7 +51,7 @@ class Funcionario extends CActiveRecord
 			array('ultima_visita', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cod_funcionario, matricula_funcionario, nome, email, tema, password, ultima_visita', 'safe', 'on'=>'search'),
+			array('cod_funcionario, matricula_funcionario, nome, email, tema, password, ultima_visita, status', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -80,6 +82,7 @@ class Funcionario extends CActiveRecord
 			'tema' => 'Tema',
 			'password' => 'Password',
 			'ultima_visita' => 'Ultima Visita',
+			'status' => 'Status',
 		);
 	}
 
@@ -110,6 +113,8 @@ class Funcionario extends CActiveRecord
 
 		$criteria->compare('ultima_visita',$this->ultima_visita,true);
 
+		$criteria->compare('status',$this->status);
+
                 }else{
             
                        		$criteria->compare('cod_funcionario',$this->pesquisar,true,'OR');
@@ -125,6 +130,8 @@ class Funcionario extends CActiveRecord
 		$criteria->compare('password',$this->pesquisar,true,'OR');
 
 		$criteria->compare('ultima_visita',$this->pesquisar,true,'OR');
+
+		$criteria->compare('status',$this->pesquisar,true,'OR');
 
                 }
 

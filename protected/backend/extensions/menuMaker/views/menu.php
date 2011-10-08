@@ -1,6 +1,6 @@
 <div id="menu" class="ui-widget-header">
     <a href="/sisadm/home/#ajuda" id="logout" class="ui-state-default ui-corner-all" style="width: 0px;"><span class="ui-icon ui-icon-help"></span></a>
-    <a href="/sisadm/login/logout" id="logout" class="ui-state-default ui-corner-all" title="Tire suas dÃºvidas"><span class="ui-icon ui-icon-closethick"></span>Sair</a>
+    <a href="/sisadm/login/logout" id="logout" class="ui-state-default ui-corner-all" title="Tire suas dúvidas"><span class="ui-icon ui-icon-closethick"></span>Sair</a>
     <?php $this->widget('application.extensions.mbmenu.MbMenu',array(
                 'activeCssClass'=>'ui-state-hover',
                 'items'=>array(
