@@ -35,8 +35,6 @@ class HomeController extends Controller
 		);
 	}
 
-       
-
 	public function actions()
 	{
 		return array(
@@ -85,9 +83,8 @@ class HomeController extends Controller
                 }
             }
             $this->render('index',array('suporte'=>$suporte));
-       
+      
 	}
-
         
 	public function actionErro()
 	{
@@ -98,9 +95,4 @@ class HomeController extends Controller
 	        	$this->render('erro', $error);
 	    }
 	}
-
-  
-
-
-
 }

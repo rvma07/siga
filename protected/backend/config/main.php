@@ -25,15 +25,11 @@ $backendArray=array(
         'application.extensions.*',
     ),
 
-
-
     'modules'=>array(
         'gii'=>array(
             'class'=>'backend.extensions.gii-sisadm.GiiModule',
             'password'=>'a12b25',
-      
-
-                     
+                          
         ),
     ),
 
@@ -78,15 +74,13 @@ $backendArray=array(
 //                        array(
 //                            'class'=>'CEmailLogRoute',
 //                            'levels'=>'error, warning',
-//                            'emails'=>'suporte@setequatro.com.br',
+//                            'emails'=>'suporte@beta.com.br',
 //                        ),
 
                         ),
                             ),
 
     ),
-
- 
 );
 
 if(!function_exists('w3_array_union_recursive'))
