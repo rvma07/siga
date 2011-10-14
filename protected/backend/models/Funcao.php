@@ -35,8 +35,7 @@ class Funcao extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_funcao, desc_funcao', 'required'),
-			array('cod_funcao', 'length', 'max'=>10),
+			array('desc_funcao', 'required'),
 			array('desc_funcao', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * This is the model class for table "Serie".
+ * This is the model class for table "serie".
  *
- * The followings are the available columns in table 'Serie':
+ * The followings are the available columns in table 'serie':
  * @property string $cod_serie
  * @property string $desc_serie
  */
@@ -24,7 +24,7 @@ class Serie extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'Serie';
+		return 'serie';
 	}
 
 	/**

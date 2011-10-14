@@ -38,9 +38,9 @@ class Presenca extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_presenca, Matricula_has_Sala_Matricula_cod_matricula, Matricula_has_Sala_Sala_cod_sala', 'required'),
-			array('cod_presenca, Matricula_has_Sala_Matricula_cod_matricula, Matricula_has_Sala_Sala_cod_sala', 'length', 'max'=>10),
+			array('Matricula_has_Sala_Matricula_cod_matricula, Matricula_has_Sala_Sala_cod_sala', 'required'),
 			array('valor', 'length', 'max'=>1),
+			array('Matricula_has_Sala_Matricula_cod_matricula, Matricula_has_Sala_Sala_cod_sala', 'length', 'max'=>10),
 			array('dia', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

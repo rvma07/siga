@@ -28,11 +28,11 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'cep'); ?>
-		<?php echo $form->textField($model,'cep',array('size'=>9,'maxlength'=>9)); ?>
+		<?php echo $form->textField($model,'cep',array('size'=>10,'maxlength'=>10)); ?>
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Pesquisar',array('cod_unidade'=>'buscaavancada')); ?>
+		<?php echo CHtml::submitButton('Pesquisar',array('id'=>'buscaavancada')); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

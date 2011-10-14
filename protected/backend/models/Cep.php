@@ -39,8 +39,8 @@ class Cep extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('idCEP, localidade, Aluno_cod_aluno', 'required'),
-			array('idCEP, localidade', 'numerical', 'integerOnly'=>true),
+			array('localidade, Aluno_cod_aluno', 'required'),
+			array('localidade', 'numerical', 'integerOnly'=>true),
 			array('tipo_logradouro', 'length', 'max'=>5),
 			array('logradouro', 'length', 'max'=>80),
 			array('bairro', 'length', 'max'=>50),

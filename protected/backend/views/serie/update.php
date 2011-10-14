@@ -6,6 +6,6 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Atualizar Serie <?php echo $model->cod_serie; ?></h1>
+<h1>Atualizar Ano <?php echo $model->cod_serie; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

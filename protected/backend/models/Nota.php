@@ -38,9 +38,9 @@ class Nota extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_nota, nota, data_refencia, Matricula_cod_matricula, Disciplinas_cod_disciplina', 'required'),
-			array('cod_nota, Matricula_cod_matricula, Disciplinas_cod_disciplina', 'length', 'max'=>10),
+			array('nota, data_refencia, Matricula_cod_matricula, Disciplinas_cod_disciplina', 'required'),
 			array('nota', 'length', 'max'=>2),
+			array('Matricula_cod_matricula, Disciplinas_cod_disciplina', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('cod_nota, nota, data_refencia, Matricula_cod_matricula, Disciplinas_cod_disciplina', 'safe', 'on'=>'search'),

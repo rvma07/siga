@@ -10,7 +10,7 @@
 							                	array('label'=>'Periodo', 'url'=>array('./sisadm/periodo')),
 						                        array('label'=>'Ano', 'url'=>array('./sisadm/serie')),
 						                        array('label'=>'Sala', 'url'=>array('./sisadm/sala')),
-												array('label'=>'NESS', 'url'=>array('./sisadm/ness')),
+												array('label'=>'NEES', 'url'=>array('./sisadm/nees')),
 												array('label'=>'Sexo', 'url'=>array('./sisadm/sexo')),
 						                        array('label'=>'Etnia', 'url'=>array('./sisadm/etnia')),
 												array('label'=>'Funcionário', 'url'=>array('./sisadm/funcionario')))),

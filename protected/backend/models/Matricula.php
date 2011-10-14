@@ -38,9 +38,9 @@ class Matricula extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_matricula, cod_aluno, Aluno_cod_aluno', 'required'),
+			array('cod_aluno, Aluno_cod_aluno', 'required'),
 			array('cod_aluno, cod_periodo, cod_unidade', 'numerical', 'integerOnly'=>true),
-			array('cod_matricula, Aluno_cod_aluno', 'length', 'max'=>10),
+			array('Aluno_cod_aluno', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('cod_matricula, cod_aluno, cod_periodo, cod_unidade, Aluno_cod_aluno', 'safe', 'on'=>'search'),

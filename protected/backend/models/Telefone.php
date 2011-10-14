@@ -40,12 +40,12 @@ class Telefone extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_telefone, tipo_fone, Aluno_cod_aluno, Funcionario_cod_funcionario', 'required'),
-			array('cod_telefone, Aluno_cod_aluno, Funcionario_cod_funcionario', 'length', 'max'=>10),
+			array('tipo_fone, Aluno_cod_aluno, Funcionario_cod_funcionario', 'required'),
 			array('tipo_fone', 'length', 'max'=>3),
 			array('num_fone', 'length', 'max'=>20),
 			array('contato_fone', 'length', 'max'=>30),
 			array('sms_fone', 'length', 'max'=>1),
+			array('Aluno_cod_aluno, Funcionario_cod_funcionario', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('cod_telefone, tipo_fone, num_fone, contato_fone, sms_fone, Aluno_cod_aluno, Funcionario_cod_funcionario', 'safe', 'on'=>'search'),

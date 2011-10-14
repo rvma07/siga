@@ -10,7 +10,7 @@ $this->renderPartial('_pesquisa');
 <h1>Lista de Unidades</h1>
 
 <br />
-<a href="/sisadm/Unidade/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo Unidade</a><br />
+<a href="/sisadm/Unidade/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Cadastrar nova Unidade</a><br />
 <br/>
 
 <div class="search-form" style="display:none">

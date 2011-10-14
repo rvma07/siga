@@ -37,8 +37,8 @@ class Movimentacao extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_movimentacao, dta_entrada, Matricula_cod_matricula', 'required'),
-			array('cod_movimentacao, Matricula_cod_matricula', 'length', 'max'=>10),
+			array('dta_entrada, Matricula_cod_matricula', 'required'),
+			array('Matricula_cod_matricula', 'length', 'max'=>10),
 			array('dta_saida', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

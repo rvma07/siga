@@ -29,7 +29,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cep'); ?>
-		<?php echo $form->textField($model,'cep',array('size'=>9,'maxlength'=>9)); ?>
+		<?php echo $form->textField($model,'cep',array('size'=>10,'maxlength'=>10)); ?>
 		<?php echo $form->error($model,'cep'); ?>
 	</div>
 

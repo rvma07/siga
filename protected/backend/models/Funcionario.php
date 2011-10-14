@@ -8,10 +8,10 @@
  * @property string $matricula_funcionario
  * @property string $nome
  * @property string $email
- * @property string $tema
  * @property string $password
  * @property string $ultima_visita
- * @property integer $status
+ * @property string $status
+ * @property string $tema
  */
 class Funcionario extends CActiveRecord
 {
@@ -41,17 +41,16 @@ class Funcionario extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('email, tema, password, status', 'required'),
-			array('status', 'numerical', 'integerOnly'=>true),
 			array('matricula_funcionario', 'length', 'max'=>10),
 			array('nome', 'length', 'max'=>60),
-			array('email', 'length', 'max'=>80),
-			array('tema', 'length', 'max'=>50),
+			array('email', 'length', 'max'=>85),
 			array('password', 'length', 'max'=>32),
+			array('status', 'length', 'max'=>1),
+			array('tema', 'length', 'max'=>45),
 			array('ultima_visita', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cod_funcionario, matricula_funcionario, nome, email, tema, password, ultima_visita, status', 'safe', 'on'=>'search'),
+			array('cod_funcionario, matricula_funcionario, nome, email, password, ultima_visita, status, tema', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -79,10 +78,10 @@ class Funcionario extends CActiveRecord
 			'matricula_funcionario' => 'Matricula Funcionario',
 			'nome' => 'Nome',
 			'email' => 'Email',
-			'tema' => 'Tema',
 			'password' => 'Password',
 			'ultima_visita' => 'Ultima Visita',
 			'status' => 'Status',
+			'tema' => 'Tema',
 		);
 	}
 
@@ -107,13 +106,13 @@ class Funcionario extends CActiveRecord
 
 		$criteria->compare('email',$this->email,true);
 
-		$criteria->compare('tema',$this->tema,true);
-
 		$criteria->compare('password',$this->password,true);
 
 		$criteria->compare('ultima_visita',$this->ultima_visita,true);
 
-		$criteria->compare('status',$this->status);
+		$criteria->compare('status',$this->status,true);
+
+		$criteria->compare('tema',$this->tema,true);
 
                 }else{
             
@@ -125,13 +124,13 @@ class Funcionario extends CActiveRecord
 
 		$criteria->compare('email',$this->pesquisar,true,'OR');
 
-		$criteria->compare('tema',$this->pesquisar,true,'OR');
-
 		$criteria->compare('password',$this->pesquisar,true,'OR');
 
 		$criteria->compare('ultima_visita',$this->pesquisar,true,'OR');
 
 		$criteria->compare('status',$this->pesquisar,true,'OR');
+
+		$criteria->compare('tema',$this->pesquisar,true,'OR');
 
                 }
 

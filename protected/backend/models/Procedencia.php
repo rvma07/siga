@@ -38,8 +38,7 @@ class Procedencia extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_procedencia, Aluno_cod_aluno', 'required'),
-			array('cod_procedencia', 'numerical', 'integerOnly'=>true),
+			array('Aluno_cod_aluno', 'required'),
 			array('NomeEscolaProced, SerieProced, CidadeProced', 'length', 'max'=>45),
 			array('Aluno_cod_aluno', 'length', 'max'=>10),
 			// The following rule is used by search().

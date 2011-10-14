@@ -12,7 +12,7 @@ $this->breadcrumbs=array(
     Se você digitou a URL manualmente verifique a ortografia e tente novamente.
     </p>
     <p>
-    Se você acha que isso é um erro no servidor, por favor contate-nós por este e-mail <span>suporte@setequatro.com.br</span>.
+    Se você acha que isso é um erro no servidor, por favor contate-nós por este e-mail <span>suporte@siga.com.br</span>.
     </p>
     <div class="version">
     <span>Data: <?php  echo date('d-m-Y H:i:s'); ?></span>

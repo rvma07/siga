@@ -36,9 +36,9 @@ class Disciplinas extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_disciplina, desc_disciplina, Serie_cod_serie', 'required'),
-			array('cod_disciplina, Serie_cod_serie', 'length', 'max'=>10),
+			array('desc_disciplina, Serie_cod_serie', 'required'),
 			array('desc_disciplina', 'length', 'max'=>25),
+			array('Serie_cod_serie', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('cod_disciplina, desc_disciplina, Serie_cod_serie', 'safe', 'on'=>'search'),
