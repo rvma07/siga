@@ -18,8 +18,15 @@ class LoginController extends Controller
 		if(isset($_POST['LoginForm']))
 		{
 			$model->attributes=$_POST['LoginForm'];
-		        if($model->validate() && $model->login())
+		        if($model->validate() && $model->login()){
+				//gravar data ultimo acesso
+					$command = new CDbCommand (Yii::app()->db,
+					'update funcionario set ultima_visita = now() 
+					where cod_funcionario =' . Yii::app()->user->id);
+					$command->execute();
+				//fim grava acesso
 				$this->redirect('/sisadm/home');
+				}
 		}else{
                     if(!Yii::app()->user->isGuest){
                             $this->redirect('/sisadm/home');
