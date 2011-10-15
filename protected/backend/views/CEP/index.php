@@ -30,7 +30,6 @@ $this->renderPartial('_pesquisa');
 		'tipo_logradouro',
 		'logradouro',
 		'bairro',
-		'Aluno_cod_aluno',
 		array(
 			'class'=>'CButtonColumn',
 		),

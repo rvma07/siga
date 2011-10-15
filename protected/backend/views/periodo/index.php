@@ -10,7 +10,7 @@ $this->renderPartial('_pesquisa');
 <h1>Lista de Periodos</h1>
 
 <br />
-<a href="/sisadm/Periodo/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo Periodo</a><br />
+<a href="/sisadm/Periodo/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Cadastrar Per&iacuteodo</a><br />
 <br/>
 
 <div class="search-form" style="display:none">

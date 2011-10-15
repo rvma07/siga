@@ -35,11 +35,11 @@ foreach($this->tableSchema->columns as $column)
  </div>
 <br />
 <br />
-
-<?php echo "<?php echo"; ?> CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('<?php echo $this->modelClass; ?>/update','id'=>$model->id), array('class'=>'btn ui-state-default ui-corner-all')) ?>
+<?php $primary_name = (is_array($this->tableSchema->primaryKey))? $this->tableSchema->primaryKey[0] : $this->tableSchema->primaryKey; ?>
+<?php echo "<?php echo"; ?> CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('<?php echo $this->modelClass; ?>/update','id'=>$model-><?php echo $primary_name; ?>), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 
  <?php echo "<?php echo"; ?> CHtml::linkButton('<span class="ui-icon ui-icon-closethick"></span>Excluir',array(
-'submit'=>array('/<?php echo $this->modelClass; ?>/delete','id'=>$model->id),
+'submit'=>array('/<?php echo $this->modelClass; ?>/delete','id'=>$model-><?php echo $primary_name; ?>),
 'class'=>'btn ui-state-default ui-corner-all',
 'confirm'=>'Deseja realmente excluir este usuário?',
 )); ?>

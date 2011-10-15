@@ -9,7 +9,6 @@
  * @property string $tipo_logradouro
  * @property string $logradouro
  * @property string $bairro
- * @property string $Aluno_cod_aluno
  */
 class Cep extends CActiveRecord
 {
@@ -39,15 +38,14 @@ class Cep extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('localidade, Aluno_cod_aluno', 'required'),
+			array('localidade', 'required'),
 			array('localidade', 'numerical', 'integerOnly'=>true),
 			array('tipo_logradouro', 'length', 'max'=>5),
 			array('logradouro', 'length', 'max'=>80),
 			array('bairro', 'length', 'max'=>50),
-			array('Aluno_cod_aluno', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('idCEP, localidade, tipo_logradouro, logradouro, bairro, Aluno_cod_aluno', 'safe', 'on'=>'search'),
+			array('idCEP, localidade, tipo_logradouro, logradouro, bairro', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -59,7 +57,7 @@ class Cep extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'alunoCodAluno' => array(self::BELONGS_TO, 'Aluno', 'Aluno_cod_aluno'),
+			'alunos' => array(self::HAS_MANY, 'Aluno', 'CEP_idCEP'),
 			'localidades' => array(self::HAS_MANY, 'Localidades', 'CEP_idCEP'),
 		);
 	}
@@ -75,7 +73,6 @@ class Cep extends CActiveRecord
 			'tipo_logradouro' => 'Tipo Logradouro',
 			'logradouro' => 'Logradouro',
 			'bairro' => 'Bairro',
-			'Aluno_cod_aluno' => 'Aluno Cod Aluno',
 		);
 	}
 
@@ -102,8 +99,6 @@ class Cep extends CActiveRecord
 
 		$criteria->compare('bairro',$this->bairro,true);
 
-		$criteria->compare('Aluno_cod_aluno',$this->Aluno_cod_aluno,true);
-
                 }else{
             
                        		$criteria->compare('idCEP',$this->pesquisar,true,'OR');
@@ -115,8 +110,6 @@ class Cep extends CActiveRecord
 		$criteria->compare('logradouro',$this->pesquisar,true,'OR');
 
 		$criteria->compare('bairro',$this->pesquisar,true,'OR');
-
-		$criteria->compare('Aluno_cod_aluno',$this->pesquisar,true,'OR');
 
                 }
 

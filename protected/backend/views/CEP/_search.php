@@ -31,11 +31,6 @@
 		<?php echo $form->textField($model,'bairro',array('size'=>50,'maxlength'=>50)); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->label($model,'Aluno_cod_aluno'); ?>
-		<?php echo $form->textField($model,'Aluno_cod_aluno',array('size'=>10,'maxlength'=>10)); ?>
-	</div>
-
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Pesquisar',array('id'=>'buscaavancada')); ?>
 	</div>
