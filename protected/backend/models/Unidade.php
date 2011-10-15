@@ -38,8 +38,9 @@ class Unidade extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('tipo_unidade, num_end_unidade, cep', 'length', 'max'=>10),
+			array('tipo_unidade, num_end_unidade', 'length', 'max'=>10),
 			array('nome_unidade', 'length', 'max'=>45),
+			array('cep', 'length', 'max'=>11),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('cod_unidade, tipo_unidade, nome_unidade, num_end_unidade, cep', 'safe', 'on'=>'search'),
@@ -65,11 +66,11 @@ class Unidade extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_unidade' => 'Cod Unidade',
-			'tipo_unidade' => 'Tipo Unidade',
-			'nome_unidade' => 'Nome Unidade',
-			'num_end_unidade' => 'Num End Unidade',
-			'cep' => 'Cep',
+			'cod_unidade' => 'Código Unidade',
+			'tipo_unidade' => 'Tipo da Unidade',
+			'nome_unidade' => 'Nome da Unidade',
+			'num_end_unidade' => 'N&uacutemero da Unidade',
+			'cep' => 'CEP',
 		);
 	}
 

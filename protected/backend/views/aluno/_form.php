@@ -87,6 +87,12 @@
 		<?php echo $form->error($model,'Etnia_cod_etnia'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'caminho'); ?>
+		<?php echo $form->textField($model,'caminho',array('size'=>60,'maxlength'=>80)); ?>
+		<?php echo $form->error($model,'caminho'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Criar' : 'Salvar'); ?>
 	</div>

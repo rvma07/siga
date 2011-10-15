@@ -12,6 +12,7 @@
  * @property string $ultima_visita
  * @property string $status
  * @property string $tema
+ * @property string $caminho
  */
 class Funcionario extends CActiveRecord
 {
@@ -47,10 +48,11 @@ class Funcionario extends CActiveRecord
 			array('password', 'length', 'max'=>32),
 			array('status', 'length', 'max'=>1),
 			array('tema', 'length', 'max'=>45),
+			array('caminho', 'length', 'max'=>80),
 			array('ultima_visita', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cod_funcionario, matricula_funcionario, nome, email, password, ultima_visita, status, tema', 'safe', 'on'=>'search'),
+			array('cod_funcionario, matricula_funcionario, nome, email, password, ultima_visita, status, tema, caminho', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -74,14 +76,15 @@ class Funcionario extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_funcionario' => 'Cod Funcionario',
-			'matricula_funcionario' => 'Matricula Funcionario',
+			'cod_funcionario' => 'C&oacutedigo do Funcion&aacuterio',
+			'matricula_funcionario' => 'Matr&iacutecula do Funcion&aacuterio',
 			'nome' => 'Nome',
-			'email' => 'Email',
-			'password' => 'Password',
+			'email' => 'E-mail',
+			'password' => 'Senha',
 			'ultima_visita' => 'Ultima Visita',
 			'status' => 'Status',
 			'tema' => 'Tema',
+			'caminho' => 'Foto',
 		);
 	}
 
@@ -114,6 +117,8 @@ class Funcionario extends CActiveRecord
 
 		$criteria->compare('tema',$this->tema,true);
 
+		$criteria->compare('caminho',$this->caminho,true);
+
                 }else{
             
                        		$criteria->compare('cod_funcionario',$this->pesquisar,true,'OR');
@@ -131,6 +136,8 @@ class Funcionario extends CActiveRecord
 		$criteria->compare('status',$this->pesquisar,true,'OR');
 
 		$criteria->compare('tema',$this->pesquisar,true,'OR');
+
+		$criteria->compare('caminho',$this->pesquisar,true,'OR');
 
                 }
 

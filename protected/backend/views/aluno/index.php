@@ -40,6 +40,7 @@ $this->renderPartial('_pesquisa');
 		'num_end',
 		'cod_etnia',
 		'Etnia_cod_etnia',
+		'caminho',
 		*/
 		array(
 			'class'=>'CButtonColumn',

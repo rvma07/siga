@@ -18,6 +18,7 @@
  * @property integer $num_end
  * @property integer $cod_etnia
  * @property integer $Etnia_cod_etnia
+ * @property string $caminho
  */
 class Aluno extends CActiveRecord
 {
@@ -52,10 +53,11 @@ class Aluno extends CActiveRecord
 			array('ra_aluno', 'length', 'max'=>14),
 			array('nome_aluno, nome_mae, nome_pai', 'length', 'max'=>60),
 			array('email_resp, email_aluno', 'length', 'max'=>100),
+			array('caminho', 'length', 'max'=>80),
 			array('data_nasc', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cod_aluno, ra_aluno, nome_aluno, sexo_aluno, local_nasc_aluno, data_nasc, nome_mae, nome_pai, email_resp, email_aluno, cep, num_end, cod_etnia, Etnia_cod_etnia', 'safe', 'on'=>'search'),
+			array('cod_aluno, ra_aluno, nome_aluno, sexo_aluno, local_nasc_aluno, data_nasc, nome_mae, nome_pai, email_resp, email_aluno, cep, num_end, cod_etnia, Etnia_cod_etnia, caminho', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -98,6 +100,7 @@ class Aluno extends CActiveRecord
 			'num_end' => 'Num End',
 			'cod_etnia' => 'Cod Etnia',
 			'Etnia_cod_etnia' => 'Etnia Cod Etnia',
+			'caminho' => 'Caminho',
 		);
 	}
 
@@ -142,6 +145,8 @@ class Aluno extends CActiveRecord
 
 		$criteria->compare('Etnia_cod_etnia',$this->Etnia_cod_etnia);
 
+		$criteria->compare('caminho',$this->caminho,true);
+
                 }else{
             
                        		$criteria->compare('cod_aluno',$this->pesquisar,true,'OR');
@@ -171,6 +176,8 @@ class Aluno extends CActiveRecord
 		$criteria->compare('cod_etnia',$this->pesquisar,true,'OR');
 
 		$criteria->compare('Etnia_cod_etnia',$this->pesquisar,true,'OR');
+
+		$criteria->compare('caminho',$this->pesquisar,true,'OR');
 
                 }
 

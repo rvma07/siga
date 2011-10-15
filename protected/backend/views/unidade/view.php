@@ -18,7 +18,7 @@ $this->breadcrumbs=array(
 	),
 )); ?>
 
-<h2 class="ui-widget-header">Descri&ccedil&atildeo</h2>
+<h2 class="ui-widget-header">Descrição</h2>
 <div class="perfil ui-widget-content">
  </div>
 <br />

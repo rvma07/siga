@@ -99,6 +99,7 @@ class FuncionarioController extends Controller
 
 		$this->render('update',array(
 			'model'=>$model,
+			'sexos'=>Sexo::model()->findAll()
 		));
 	}
 

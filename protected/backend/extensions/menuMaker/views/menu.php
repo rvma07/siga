@@ -18,7 +18,7 @@
 						array('label'=>'Chamada', 'url'=>array('./sisadm/chamada'),
 							'items'=>array(
 								array('label'=>'Realizar','url'=>array('./sisadm/chamada/realizar')))),
-                        array('label'=>'Localidade', 'url'=>array('./sisadm/localidade')),
+                        array('label'=>'Localidade', 'url'=>array('./sisadm/localidades')),
 						array('label'=>'CEP', 'url'=>array('./sisadm/CEP')),
 						array('label'=>'Matrícula', 'url'=>array('./sisadm/matricula')),
 						array('label'=>'Movimentação', 'url'=>array('./sisadm/movimentacao')),

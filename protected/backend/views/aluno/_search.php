@@ -76,6 +76,11 @@
 		<?php echo $form->textField($model,'Etnia_cod_etnia'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'caminho'); ?>
+		<?php echo $form->textField($model,'caminho',array('size'=>60,'maxlength'=>80)); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Pesquisar',array('id'=>'buscaavancada')); ?>
 	</div>

@@ -24,6 +24,7 @@ $this->breadcrumbs=array(
 		'num_end',
 		'cod_etnia',
 		'Etnia_cod_etnia',
+		'caminho',
 	),
 )); ?>
 
