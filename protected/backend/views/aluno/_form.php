@@ -76,21 +76,21 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'cod_etnia'); ?>
-		<?php echo $form->textField($model,'cod_etnia'); ?>
-		<?php echo $form->error($model,'cod_etnia'); ?>
+		<?php echo $form->labelEx($model,'caminho'); ?>
+		<?php echo $form->textField($model,'caminho',array('size'=>60,'maxlength'=>80)); ?>
+		<?php echo $form->error($model,'caminho'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'CEP_idCEP'); ?>
+		<?php echo $form->textField($model,'CEP_idCEP'); ?>
+		<?php echo $form->error($model,'CEP_idCEP'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Etnia_cod_etnia'); ?>
 		<?php echo $form->textField($model,'Etnia_cod_etnia'); ?>
 		<?php echo $form->error($model,'Etnia_cod_etnia'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'caminho'); ?>
-		<?php echo $form->textField($model,'caminho',array('size'=>60,'maxlength'=>80)); ?>
-		<?php echo $form->error($model,'caminho'); ?>
 	</div>
 
 	<div class="row buttons">

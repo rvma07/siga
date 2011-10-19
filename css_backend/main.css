@@ -135,9 +135,6 @@ div.breadcrumbs span
 #logout {padding: 0 0 0 20px;text-decoration: none;position: relative;}
 #logout span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
 
-
-
-
 #menu ul li a{
     display: block;
     padding: 0 10px 0 10px;
@@ -187,7 +184,7 @@ div.breadcrumbs span
     min-height: 300px;   
 }
 #datepicker1{
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .tabela td, th{

@@ -65,6 +65,7 @@ class Funcionario extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'unidades' => array(self::MANY_MANY, 'Unidade', 'funcionario_has_unidade(Funcionario_cod_funcionario, Unidade_cod_unidade)'),
+			'logs' => array(self::HAS_MANY, 'Log', 'Funcionario_cod_funcionario'),
 			'sexos' => array(self::MANY_MANY, 'Sexo', 'sexo_has_funcionario(Sexo_cod_sexo, Funcionario_cod_funcionario)'),
 			'telefones' => array(self::HAS_MANY, 'Telefone', 'Funcionario_cod_funcionario'),
 		);
@@ -76,15 +77,15 @@ class Funcionario extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_funcionario' => 'C&oacutedigo do Funcion&aacuterio',
-			'matricula_funcionario' => 'Matr&iacutecula do Funcion&aacuterio',
+			'cod_funcionario' => 'Cod Funcionario',
+			'matricula_funcionario' => 'Matricula Funcionario',
 			'nome' => 'Nome',
-			'email' => 'E-mail',
-			'password' => 'Senha',
+			'email' => 'Email',
+			'password' => 'Password',
 			'ultima_visita' => 'Ultima Visita',
 			'status' => 'Status',
 			'tema' => 'Tema',
-			'caminho' => 'Foto',
+			'caminho' => 'Caminho',
 		);
 	}
 

@@ -22,9 +22,9 @@ $this->breadcrumbs=array(
 		'email_aluno',
 		'cep',
 		'num_end',
-		'cod_etnia',
-		'Etnia_cod_etnia',
 		'caminho',
+		'CEP_idCEP',
+		'Etnia_cod_etnia',
 	),
 )); ?>
 
@@ -33,11 +33,10 @@ $this->breadcrumbs=array(
  </div>
 <br />
 <br />
-
-<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Aluno/update','id'=>$model->id), array('class'=>'btn ui-state-default ui-corner-all')) ?>
+<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Aluno/update','id'=>$model->cod_aluno), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 
  <?php echo CHtml::linkButton('<span class="ui-icon ui-icon-closethick"></span>Excluir',array(
-'submit'=>array('/Aluno/delete','id'=>$model->id),
+'submit'=>array('/Aluno/delete','id'=>$model->cod_aluno),
 'class'=>'btn ui-state-default ui-corner-all',
 'confirm'=>'Deseja realmente excluir este usuário?',
 )); ?>

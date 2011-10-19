@@ -38,9 +38,9 @@ $this->renderPartial('_pesquisa');
 		'email_aluno',
 		'cep',
 		'num_end',
-		'cod_etnia',
-		'Etnia_cod_etnia',
 		'caminho',
+		'CEP_idCEP',
+		'Etnia_cod_etnia',
 		*/
 		array(
 			'class'=>'CButtonColumn',

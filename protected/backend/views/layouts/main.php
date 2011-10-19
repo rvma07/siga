@@ -40,9 +40,10 @@
                 if (($hora_do_dia >18) && ($hora_do_dia <=24)) echo "<strong>Boa Noite</strong> ";
                 if (($hora_do_dia >00) && ($hora_do_dia <=06)) echo "<strong>Boa Madrugada</strong> ";
                 ?>
-                <?php echo Yii::app()->user->Nome; ?>!<br />
-				Último acesso: <?php echo date("d/m/y");?> 
-				               <?php echo date("H:i");?> 
+                <?php echo Yii::app()->user->nome; ?> !<br />
+			
+				Último acesso: !<br />
+				Hojé é: <?php echo date("d/m/y");?> , <?php echo date("H:i");?> 
 				
 				
             </div>

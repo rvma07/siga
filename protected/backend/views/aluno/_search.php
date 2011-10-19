@@ -67,18 +67,18 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'cod_etnia'); ?>
-		<?php echo $form->textField($model,'cod_etnia'); ?>
+		<?php echo $form->label($model,'caminho'); ?>
+		<?php echo $form->textField($model,'caminho',array('size'=>60,'maxlength'=>80)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'CEP_idCEP'); ?>
+		<?php echo $form->textField($model,'CEP_idCEP'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'Etnia_cod_etnia'); ?>
 		<?php echo $form->textField($model,'Etnia_cod_etnia'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'caminho'); ?>
-		<?php echo $form->textField($model,'caminho',array('size'=>60,'maxlength'=>80)); ?>
 	</div>
 
 	<div class="row buttons">

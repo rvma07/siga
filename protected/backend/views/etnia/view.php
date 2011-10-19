@@ -20,7 +20,6 @@ $this->breadcrumbs=array(
  </div>
 <br />
 <br />
-
 <?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Etnia/update','id'=>$model->cod_etnia), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 
  <?php echo CHtml::linkButton('<span class="ui-icon ui-icon-closethick"></span>Excluir',array(

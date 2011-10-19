@@ -1,5 +1,5 @@
 <div id="menu" class="ui-widget-header">
-    <a href="/sisadm/home/#ajuda" id="logout" class="ui-state-default ui-corner-all" style="width: 0px;"><span class="ui-icon ui-icon-help"></span></a>
+    <a href="/sisadm/home/#ajuda"  id="logout" class="ui-state-default ui-corner-all" style="width: 0px;"><span class="ui-icon ui-icon-help"></span></a>
     <a href="/sisadm/login/logout" id="logout" class="ui-state-default ui-corner-all" title="Tire suas dúvidas"><span class="ui-icon ui-icon-closethick"></span>Sair</a>
     <?php $this->widget('application.extensions.mbmenu.MbMenu',array(
                 'activeCssClass'=>'ui-state-hover',
@@ -23,12 +23,10 @@
 						array('label'=>'Matrícula', 'url'=>array('./sisadm/matricula')),
 						array('label'=>'Movimentação', 'url'=>array('./sisadm/movimentacao')),
 						array('label'=>'Função', 'url'=>array('./sisadm/funcao')),
-						array('label'=>'Funcionário', 'url'=>array('./sisadm/funcionario')),
-						array('label'=>'Disciplina', 'url'=>array('./sisadm/disciplina')),
+						array('label'=>'Disciplina', 'url'=>array('./sisadm/disciplinas')),
 						array('label'=>'Presença', 'url'=>array('./sisadm/presenca')),
 						array('label'=>'Procedência', 'url'=>array('./sisadm/procedencia')),
-						array('label'=>'Meu Perfil', 'url'=>array('./sisadm/usuarios/meuperfil/'.Yii::app()->user->id)),
-
+						
                 ),
     )); ?>
 </div>

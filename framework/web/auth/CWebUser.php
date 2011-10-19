@@ -382,6 +382,7 @@ class CWebUser extends CApplicationComponent implements IWebUser
 	 */
 	protected function afterLogin($fromCookie)
 	{
+	 
 	}
 
 	/**
