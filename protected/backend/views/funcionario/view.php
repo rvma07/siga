@@ -14,9 +14,11 @@ $this->breadcrumbs=array(
 		'matricula_funcionario',
 		'nome',
 		'email',
-		'tema',
 		'password',
 		'ultima_visita',
+		'status',
+		'tema',
+		'caminho',
 	),
 )); ?>
 
@@ -25,7 +27,6 @@ $this->breadcrumbs=array(
  </div>
 <br />
 <br />
-
 <?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Funcionario/update','id'=>$model->cod_funcionario), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 
  <?php echo CHtml::linkButton('<span class="ui-icon ui-icon-closethick"></span>Excluir',array(

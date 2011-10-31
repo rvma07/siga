@@ -22,9 +22,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'sexo_aluno'); ?>
-		<?php echo $form->textField($model,'sexo_aluno'); ?>
-		<?php echo $form->error($model,'sexo_aluno'); ?>
+		<?php echo CHtml::label('Sexo','sexo'); ?>
+		<?php echo CHtml::dropDownList('sexo','',CHtml::listData($sexos,'cod_sexo','desc_sexo')); ?>
+		<?php echo $form->error($model,'sexo'); ?>
 	</div>
 
 	<div class="row">
@@ -74,6 +74,12 @@
 		<?php echo $form->textField($model,'num_end'); ?>
 		<?php echo $form->error($model,'num_end'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo CHtml::label('Etnia','etnia'); ?>
+		<?php echo CHtml::dropDownList('etnia','',CHtml::listData($etnia,'cod_etnia','desc_etnia')); ?>
+		<?php echo $form->error($model,'etnia'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'caminho'); ?>
@@ -81,20 +87,9 @@
 		<?php echo $form->error($model,'caminho'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'CEP_idCEP'); ?>
-		<?php echo $form->textField($model,'CEP_idCEP'); ?>
-		<?php echo $form->error($model,'CEP_idCEP'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'Etnia_cod_etnia'); ?>
-		<?php echo $form->textField($model,'Etnia_cod_etnia'); ?>
-		<?php echo $form->error($model,'Etnia_cod_etnia'); ?>
-	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Criar' : 'Salvar'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Salvar' : 'Salvar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

@@ -10,7 +10,7 @@ $this->renderPartial('_pesquisa');
 <h1>Lista de Disciplinases</h1>
 
 <br />
-<a href="/sisadm/disciplinas/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo disciplinas</a><br />
+<a href="/sisadm/Disciplinas/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo Disciplinas</a><br />
 <br/>
 
 <div class="search-form" style="display:none">
@@ -27,7 +27,7 @@ $this->renderPartial('_pesquisa');
 	'columns'=>array(
 		'cod_disciplina',
 		'desc_disciplina',
-		'id_serie',
+		'Serie_cod_serie',
 		array(
 			'class'=>'CButtonColumn',
 		),

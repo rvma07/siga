@@ -12,3 +12,4 @@ class menuMaker extends CWidget {
     }
 
 }
+?>

@@ -16,9 +16,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_serie'); ?>
-		<?php echo $form->textField($model,'id_serie',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'id_serie'); ?>
+		<?php echo $form->labelEx($model,'Serie_cod_serie'); ?>
+		<?php echo $form->textField($model,'Serie_cod_serie',array('size'=>10,'maxlength'=>10)); ?>
+		<?php echo $form->error($model,'Serie_cod_serie'); ?>
 	</div>
 
 	<div class="row buttons">

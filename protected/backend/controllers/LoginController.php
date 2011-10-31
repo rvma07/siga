@@ -26,6 +26,7 @@ class LoginController extends Controller
 					where cod_funcionario =' . Yii::app()->user->id);
 					$command->execute();
 				//fim grava acesso */
+				
 				$this->redirect('/sisadm/home');
 				}
 		}else{

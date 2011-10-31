@@ -55,14 +55,14 @@ class DisciplinasController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new disciplinas;
+		$model=new Disciplinas;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['disciplinas']))
+		if(isset($_POST['Disciplinas']))
 		{
-			$model->attributes=$_POST['disciplinas'];
+			$model->attributes=$_POST['Disciplinas'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->cod_disciplina));
 		}
@@ -83,9 +83,9 @@ class DisciplinasController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['disciplinas']))
+		if(isset($_POST['Disciplinas']))
 		{
-			$model->attributes=$_POST['disciplinas'];
+			$model->attributes=$_POST['Disciplinas'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->cod_disciplina));
 		}
@@ -120,11 +120,11 @@ class DisciplinasController extends Controller
 
 	public function actionIndex()
 	{
-		$model=new disciplinas('search');
+		$model=new Disciplinas('search');
                 $model->pesquisar = $_GET['pesquisar'];
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['disciplinas']))
-			$model->attributes=$_GET['disciplinas'];
+		if(isset($_GET['Disciplinas']))
+			$model->attributes=$_GET['Disciplinas'];
 
 		$this->render('index',array(
 			'model'=>$model,
@@ -140,7 +140,7 @@ class DisciplinasController extends Controller
 		if($this->_model===null)
 		{
 			if(isset($_GET['id']))
-				$this->_model=disciplinas::model()->findbyPk($_GET['id']);
+				$this->_model=Disciplinas::model()->findbyPk($_GET['id']);
 			if($this->_model===null)
 				throw new CHttpException(404,'The requested page does not exist.');
 		}

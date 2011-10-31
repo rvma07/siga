@@ -215,3 +215,4 @@ class MbMenu extends CMenu
     }
 	
 }
+?>

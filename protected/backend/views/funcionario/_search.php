@@ -23,17 +23,27 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'email'); ?>
-		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>80)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'tema'); ?>
-		<?php echo $form->textField($model,'tema',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>85)); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'ultima_visita'); ?>
 		<?php echo $form->textField($model,'ultima_visita'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'status'); ?>
+		<?php echo $form->textField($model,'status',array('size'=>1,'maxlength'=>1)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'tema'); ?>
+		<?php echo $form->textField($model,'tema',array('size'=>45,'maxlength'=>45)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'caminho'); ?>
+		<?php echo $form->textField($model,'caminho',array('size'=>60,'maxlength'=>80)); ?>
 	</div>
 
 	<div class="row buttons">

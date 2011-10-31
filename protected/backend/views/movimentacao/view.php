@@ -22,11 +22,10 @@ $this->breadcrumbs=array(
  </div>
 <br />
 <br />
-
-<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Movimentacao/update','id'=>$model->id), array('class'=>'btn ui-state-default ui-corner-all')) ?>
+<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Movimentacao/update','id'=>$model->cod_movimentacao), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 
  <?php echo CHtml::linkButton('<span class="ui-icon ui-icon-closethick"></span>Excluir',array(
-'submit'=>array('/Movimentacao/delete','id'=>$model->id),
+'submit'=>array('/Movimentacao/delete','id'=>$model->cod_movimentacao),
 'class'=>'btn ui-state-default ui-corner-all',
 'confirm'=>'Deseja realmente excluir este usuário?',
 )); ?>

@@ -5,6 +5,6 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Cadastrar disciplinas</h1>
+<h1>Cadastrar Disciplinas</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

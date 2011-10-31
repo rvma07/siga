@@ -18,6 +18,8 @@ $this->breadcrumbs=array(
 	'enableAjaxValidation'=>true,
 )); ?>
 
+
+
     <div class="row">
 		<?php echo $form->labelEx($model,'Usu&aacute;rio'); ?>
 		<?php echo $form->textField($model,'username',array('class'=>'text ui-widget-content ui-corner-all','size'=>'30')); ?>

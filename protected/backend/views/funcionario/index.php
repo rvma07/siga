@@ -29,10 +29,12 @@ $this->renderPartial('_pesquisa');
 		'matricula_funcionario',
 		'nome',
 		'email',
-		'tema',
 		'password',
-		/*
 		'ultima_visita',
+		/*
+		'status',
+		'tema',
+		'caminho',
 		*/
 		array(
 			'class'=>'CButtonColumn',

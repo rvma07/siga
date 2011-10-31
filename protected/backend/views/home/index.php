@@ -1,8 +1,45 @@
-<div id="homeesq">
 
-    <h2 class="ui-widget-header"> Calend&aacuterio </h2>
-             <div id="datepicker1"></div>
-  </div>
+<div id="homeesq">
+	<!--//acodeao-->
+			<div class="basic" style="float:left;"  id="list1a">
+				<a> Calend&aacuterio </a>
+					<div>
+					<p>
+						<div id = "Datepicker1"></div>
+					</p>
+					</div>
+
+				<a>Aluno</a>
+					<div>
+						<div>
+							<img src ="/images/aluno.jpg" alt="" width="50" height="50">
+							<img src ="/images/matricula.jpg" alt="" width="50" height="50">
+						</div>
+					</div>
+			<a>Relat&oacuterios</a>
+			<div>
+				<p>
+					get two for three beer.
+				</p>
+				<p>
+					And now, for something completely different.<br/>
+					And now, for something completely different.<br/>
+					And now, for something completely different.<br/>
+
+					Period.
+
+				</p>
+			</div>
+			<a> Administrativo </a>
+			<div>
+					<href="./sisadm/unidade"> <img src ="/images/escola.png" alt="" width="50" height="50">
+					<href="./sisadm/funcionario"> <img src ="/images/func.jpg" alt="" width="50" height="50">					
+			    
+			</div>	
+		</div>
+		<!-- fim acordeo -->
+	
+ </div>
 <div id="homedir">
 
   <a name="ajuda"></a>

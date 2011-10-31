@@ -6,6 +6,6 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Atualizar disciplinas <?php echo $model->cod_disciplina; ?></h1>
+<h1>Atualizar Disciplinas <?php echo $model->cod_disciplina; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

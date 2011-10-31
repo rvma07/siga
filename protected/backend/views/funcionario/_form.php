@@ -20,6 +20,12 @@
 		<?php echo $form->textField($model,'nome',array('size'=>60,'maxlength'=>60)); ?>
 		<?php echo $form->error($model,'nome'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo CHtml::label('Sexo','sexo'); ?>
+		<?php echo CHtml::dropDownList('sexo','',CHtml::listData($sexos,'cod_sexo','desc_sexo')); ?>
+		<?php echo $form->error($model,'password'); ?> 
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'email'); ?>
@@ -39,11 +45,6 @@
 		<?php echo $form->error($model,'password'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo CHtml::label('Sexo','sexo'); ?>
-		<?php echo CHtml::dropDownList('sexo','',CHtml::listData($sexos,'cod_sexo','desc_sexo')); ?>
-		<?php echo $form->error($model,'password'); ?>
-	</div>
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'status'); ?>

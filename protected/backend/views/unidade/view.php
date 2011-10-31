@@ -18,12 +18,11 @@ $this->breadcrumbs=array(
 	),
 )); ?>
 
-<h2 class="ui-widget-header">Descrição</h2>
+<h2 class="ui-widget-header">Descricao</h2>
 <div class="perfil ui-widget-content">
  </div>
 <br />
 <br />
-
 <?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Unidade/update','id'=>$model->cod_unidade), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 
  <?php echo CHtml::linkButton('<span class="ui-icon ui-icon-closethick"></span>Excluir',array(
