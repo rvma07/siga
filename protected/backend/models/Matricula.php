@@ -9,6 +9,7 @@
  * @property integer $cod_periodo
  * @property integer $cod_unidade
  * @property string $Aluno_cod_aluno
+ * @property integer $Procedencia_cod_procedencia
  */
 class Matricula extends CActiveRecord
 {
@@ -38,12 +39,12 @@ class Matricula extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_aluno, Aluno_cod_aluno', 'required'),
-			array('cod_aluno, cod_periodo, cod_unidade', 'numerical', 'integerOnly'=>true),
+			array('cod_aluno, Aluno_cod_aluno, Procedencia_cod_procedencia', 'required'),
+			array('cod_aluno, cod_periodo, cod_unidade, Procedencia_cod_procedencia', 'numerical', 'integerOnly'=>true),
 			array('Aluno_cod_aluno', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cod_matricula, cod_aluno, cod_periodo, cod_unidade, Aluno_cod_aluno', 'safe', 'on'=>'search'),
+			array('cod_matricula, cod_aluno, cod_periodo, cod_unidade, Aluno_cod_aluno, Procedencia_cod_procedencia', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -56,6 +57,7 @@ class Matricula extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'alunoCodAluno' => array(self::BELONGS_TO, 'Aluno', 'Aluno_cod_aluno'),
+			'procedenciaCodProcedencia' => array(self::BELONGS_TO, 'Procedencia', 'Procedencia_cod_procedencia'),
 			'salas' => array(self::MANY_MANY, 'Sala', 'matricula_has_sala(Matricula_cod_matricula, Sala_cod_sala)'),
 			'movimentacaos' => array(self::HAS_MANY, 'Movimentacao', 'Matricula_cod_matricula'),
 			'notas' => array(self::HAS_MANY, 'Nota', 'Matricula_cod_matricula'),
@@ -73,6 +75,7 @@ class Matricula extends CActiveRecord
 			'cod_periodo' => 'Cod Periodo',
 			'cod_unidade' => 'Cod Unidade',
 			'Aluno_cod_aluno' => 'Aluno Cod Aluno',
+			'Procedencia_cod_procedencia' => 'Procedencia Cod Procedencia',
 		);
 	}
 
@@ -99,6 +102,8 @@ class Matricula extends CActiveRecord
 
 		$criteria->compare('Aluno_cod_aluno',$this->Aluno_cod_aluno,true);
 
+		$criteria->compare('Procedencia_cod_procedencia',$this->Procedencia_cod_procedencia);
+
                 }else{
             
                        		$criteria->compare('cod_matricula',$this->pesquisar,true,'OR');
@@ -110,6 +115,8 @@ class Matricula extends CActiveRecord
 		$criteria->compare('cod_unidade',$this->pesquisar,true,'OR');
 
 		$criteria->compare('Aluno_cod_aluno',$this->pesquisar,true,'OR');
+
+		$criteria->compare('Procedencia_cod_procedencia',$this->pesquisar,true,'OR');
 
                 }
 

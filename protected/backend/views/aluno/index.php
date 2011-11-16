@@ -10,7 +10,7 @@ $this->renderPartial('_pesquisa');
 <h1>Lista de Alunos</h1>
 
 <br />
-<a href="/sisadm/Aluno/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo Aluno</a><br />
+<a href="/sisadm/Aluno/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Cadastrar Aluno</a><br />
 <br/>
 
 <div class="search-form" style="display:none">
@@ -31,16 +31,20 @@ $this->renderPartial('_pesquisa');
 		'sexo_aluno',
 		'local_nasc_aluno',
 		'data_nasc',
-		/*
 		'nome_mae',
+		/*
 		'nome_pai',
 		'email_resp',
 		'email_aluno',
-		'cep',
-		'num_end',
 		'caminho',
-		'CEP_idCEP',
 		'Etnia_cod_etnia',
+		'password',
+		'cep',
+		'end_aluno',
+		'num_end',
+		'bairro_aluno',
+		'comp_aluno',
+		'cidade_aluno',
 		*/
 		array(
 			'class'=>'CButtonColumn',

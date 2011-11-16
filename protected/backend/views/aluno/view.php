@@ -20,11 +20,15 @@ $this->breadcrumbs=array(
 		'nome_pai',
 		'email_resp',
 		'email_aluno',
-		'cep',
-		'num_end',
 		'caminho',
-		'CEP_idCEP',
 		'Etnia_cod_etnia',
+		'password',
+		'cep',
+		'end_aluno',
+		'num_end',
+		'bairro_aluno',
+		'comp_aluno',
+		'cidade_aluno',
 	),
 )); ?>
 

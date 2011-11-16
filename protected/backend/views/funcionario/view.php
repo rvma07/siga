@@ -5,7 +5,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h2>Visualizar Funcionario</h2>
+<h2>Visualizar Funcionário</h2>
 
 <?php $this->widget('backend.extensions.widgets.CDetailViewUI', array(
 	'data'=>$model,
@@ -22,7 +22,7 @@ $this->breadcrumbs=array(
 	),
 )); ?>
 
-<h2 class="ui-widget-header">Descricao</h2>
+<h2 class="ui-widget-header">Descrição</h2>
 <div class="perfil ui-widget-content">
  </div>
 <br />

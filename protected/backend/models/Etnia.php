@@ -60,8 +60,8 @@ class Etnia extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_etnia' => 'Cod Etnia',
-			'desc_etnia' => 'Desc Etnia',
+			'cod_etnia' => 'C&oacutedigo',
+			'desc_etnia' => 'Descricao',
 		);
 	}
 

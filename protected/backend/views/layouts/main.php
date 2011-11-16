@@ -8,29 +8,28 @@
     <meta name="robots" content="index, follow" />
     <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/assets/ie6.js"></script>
+	
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css_backend/print.css" media="print" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css_backend/reset.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css_backend/main.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css_backend/form.css" />
-	<link type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css_backend/<?php echo Yii::app()->user->Tema; ?>/jquery.ui.all.css" rel="stylesheet" />
-    <?php
-        Yii::app()->clientScript->registerCoreScript('jquery');
+	<link rel="stylesheet" type="text/css" href="/css/accordion/css/accordion.css" />
+	
+	<link type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css_backend/<?php echo Yii::app()->user->Tema;?>/jquery.ui.core.css" rel="stylesheet" />
+	<link type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css_backend/<?php echo Yii::app()->user->Tema;?>/jquery.ui.all.css" rel="stylesheet" />
+	<link type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css_backend/<?php echo Yii::app()->user->Tema;?>/jquery.ui.datepicker.css" rel="stylesheet" />
+		
+	<?php
+        $cs=Yii::app()->clientScript->registerCoreScript('jquery');
         $cs=Yii::app()->clientScript;
         $cs->registerScriptFile(Yii::app()->baseUrl . '/assets/jquery-ui-1.8.5.custom.min.js', CClientScript::POS_HEAD);
         $cs->registerScriptFile(Yii::app()->baseUrl . '/assets/jquery.meio.mask.js', CClientScript::POS_HEAD);
+		$cs->registerScriptFile(Yii::app()->baseUrl . '/css/accordion/js/jquery.msAccordion.js', CClientScript::POS_HEAD);
         $cs->registerScriptFile(Yii::app()->baseUrl . '/assets/functionBackend.js', CClientScript::POS_HEAD);                
      ?>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
- <!-- colocar scrpits do acordion -->
-	<link rel="stylesheet" href="/css/accordion/demo.css" type="text/css" charset="utf-8"" />
-	<script type="text/javascript" src="js/jquery-1.4.2.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="/css/accordion/jquery.accordion.js" charset="utf-8"></script>
-    <script type="text/javascript">
-    $(".accordion").accordion();
-
-    </script>
-
-
+	
+	<!-- SISTEMA ACCORDION-->
 	<script type="text/javascript">
 	jQuery().ready(function(){
 
@@ -136,12 +135,10 @@
 		});
 
 	});
-	</script> 
+	</script>
+	<!-- FIM ACCORDION -->
 
-
- 
- <!-- // fim do acordion -->
-</head>
+ </head>
 <body>
 <div id="geral" class="ui-widget-content">
     <div id="cabecalho">

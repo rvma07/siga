@@ -31,11 +31,9 @@ $(function(){
      });
 
     $('input[rel="telefone"]').setMask({mask:'(99) 9999-9999'});
-    
- })
 
-
-  
+	$('#acordeon_teste').msAccordion();
+});
  function atualizarfoto(){
                  $.ajax({
                       type: "get",
@@ -47,5 +45,3 @@ $(function(){
                   });
 
             }
-
-

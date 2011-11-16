@@ -57,8 +57,23 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->label($model,'caminho'); ?>
+		<?php echo $form->textField($model,'caminho',array('size'=>60,'maxlength'=>80)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'Etnia_cod_etnia'); ?>
+		<?php echo $form->textField($model,'Etnia_cod_etnia'); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->label($model,'cep'); ?>
 		<?php echo $form->textField($model,'cep'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'end_aluno'); ?>
+		<?php echo $form->textField($model,'end_aluno',array('size'=>60,'maxlength'=>60)); ?>
 	</div>
 
 	<div class="row">
@@ -67,18 +82,18 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'caminho'); ?>
-		<?php echo $form->textField($model,'caminho',array('size'=>60,'maxlength'=>80)); ?>
+		<?php echo $form->label($model,'bairro_aluno'); ?>
+		<?php echo $form->textField($model,'bairro_aluno',array('size'=>45,'maxlength'=>45)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'CEP_idCEP'); ?>
-		<?php echo $form->textField($model,'CEP_idCEP'); ?>
+		<?php echo $form->label($model,'comp_aluno'); ?>
+		<?php echo $form->textField($model,'comp_aluno',array('size'=>25,'maxlength'=>25)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'Etnia_cod_etnia'); ?>
-		<?php echo $form->textField($model,'Etnia_cod_etnia'); ?>
+		<?php echo $form->label($model,'cidade_aluno'); ?>
+		<?php echo $form->textField($model,'cidade_aluno',array('size'=>45,'maxlength'=>45)); ?>
 	</div>
 
 	<div class="row buttons">

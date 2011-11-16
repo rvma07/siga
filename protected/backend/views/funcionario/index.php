@@ -7,10 +7,10 @@ $this->renderPartial('_pesquisa');
 
 ?>
 
-<h1>Lista de Funcionarios</h1>
+<h1>Funcion&aacute;rios Cadastrados</h1>
 
 <br />
-<a href="/sisadm/Funcionario/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo Funcionario</a><br />
+<a href="/sisadm/Funcionario/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Cadastrar Funcion&aacute;rio</a><br />
 <br/>
 
 <div class="search-form" style="display:none">
@@ -29,11 +29,12 @@ $this->renderPartial('_pesquisa');
 		'matricula_funcionario',
 		'nome',
 		'email',
-		'password',
 		'ultima_visita',
+		'status',
 		/*
 		'status',
 		'tema',
+		'password',
 		'caminho',
 		*/
 		array(

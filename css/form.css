@@ -112,6 +112,17 @@ div.form select.success
 	border-color: #C6D880;
 }
 
+.terco{
+       float:left;
+       width:320px;
+
+}
+
+.terco input{
+       width:200px;
+
+}
+
 
 div.form .errorSummary
 {

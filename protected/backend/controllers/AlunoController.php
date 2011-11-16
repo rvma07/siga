@@ -63,25 +63,26 @@ class AlunoController extends Controller
 		if(isset($_POST['Aluno']))
 		{
 			$model->attributes=$_POST['Aluno'];
-			if($model->save())
+			if($model->save()){
 				$sexo_aluno = new SexoHasAluno;
 				$sexo_aluno->Sexo_cod_sexo = $_POST['sexo'];
 				$sexo_aluno->Aluno_cod_aluno = $model->cod_aluno;
 				$sexo_aluno->save();
 				
-				$etnia_aluno = new EtniaAluno;
+				$etnia_aluno = new EtniaHasAluno;
 				$etnia_aluno->Etnia_cod_etnia = $_POST['etnia'];
 				$etnia_aluno->Aluno_cod_aluno = $model->cod_aluno;
 				$etnia_aluno->save();
 				
 				$this->redirect(array('view','id'=>$model->cod_aluno));
+			}
 		}
-
 		$this->render('create',array(
 			'model'=>$model,
 			'sexos'=>Sexo::model()->findAll(),
 			'etnia'=>Etnia::model()->findAll()
 		));
+	   
 	}
 
 	/**
@@ -100,13 +101,10 @@ class AlunoController extends Controller
 			$model->attributes=$_POST['Aluno'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->cod_aluno));
-
-			}	
-		
+		}
 
 		$this->render('update',array(
 			'model'=>$model,
-			
 		));
 	}
 

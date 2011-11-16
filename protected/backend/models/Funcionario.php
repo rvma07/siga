@@ -65,7 +65,6 @@ class Funcionario extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'unidades' => array(self::MANY_MANY, 'Unidade', 'funcionario_has_unidade(Funcionario_cod_funcionario, Unidade_cod_unidade)'),
-			'logs' => array(self::HAS_MANY, 'Log', 'Funcionario_cod_funcionario'),
 			'sexos' => array(self::MANY_MANY, 'Sexo', 'sexo_has_funcionario(Sexo_cod_sexo, Funcionario_cod_funcionario)'),
 			'telefones' => array(self::HAS_MANY, 'Telefone', 'Funcionario_cod_funcionario'),
 		);

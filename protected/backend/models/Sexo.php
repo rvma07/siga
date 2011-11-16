@@ -35,6 +35,7 @@ class Sexo extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
+			array('desc_sexo', 'required'),
 			array('desc_sexo', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
