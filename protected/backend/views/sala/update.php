@@ -6,6 +6,6 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Atualizar Sala <?php echo $model->cod_sala; ?></h1>
+<h1>Atualizar Sala <?php echo $model->cod_sala;?></h1>
 
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php echo $this->renderPartial('_form', array('model'=>$model,'Unidade'=>$Unidade,'Periodo'=>$Periodo,'Serie'=>$Serie)); ?>

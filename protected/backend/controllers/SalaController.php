@@ -69,6 +69,9 @@ class SalaController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
+			'Unidade'=>Unidade::model()->findAll(),
+			'Periodo'=>Periodo::model()->findAll(),
+			'Serie'=>Serie::model()->findAll()
 		));
 	}
 
@@ -92,6 +95,9 @@ class SalaController extends Controller
 
 		$this->render('update',array(
 			'model'=>$model,
+			'Unidade'=>Unidade::model()->findAll(),
+			'Periodo'=>Periodo::model()->findAll(),
+			'Serie'=>Serie::model()->findAll()
 		));
 	}
 

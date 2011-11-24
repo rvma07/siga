@@ -5,7 +5,6 @@
  *
  * The followings are the available columns in table 'matricula':
  * @property string $cod_matricula
- * @property integer $cod_aluno
  * @property integer $cod_periodo
  * @property integer $cod_unidade
  * @property string $Aluno_cod_aluno
@@ -39,12 +38,12 @@ class Matricula extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('cod_aluno, Aluno_cod_aluno, Procedencia_cod_procedencia', 'required'),
-			array('cod_aluno, cod_periodo, cod_unidade, Procedencia_cod_procedencia', 'numerical', 'integerOnly'=>true),
+			array('Aluno_cod_aluno, Procedencia_cod_procedencia', 'required'),
+			array('cod_periodo, cod_unidade, Procedencia_cod_procedencia', 'numerical', 'integerOnly'=>true),
 			array('Aluno_cod_aluno', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cod_matricula, cod_aluno, cod_periodo, cod_unidade, Aluno_cod_aluno, Procedencia_cod_procedencia', 'safe', 'on'=>'search'),
+			array('cod_matricula, cod_periodo, cod_unidade, Aluno_cod_aluno, Procedencia_cod_procedencia', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -71,7 +70,6 @@ class Matricula extends CActiveRecord
 	{
 		return array(
 			'cod_matricula' => 'Cod Matricula',
-			'cod_aluno' => 'Cod Aluno',
 			'cod_periodo' => 'Cod Periodo',
 			'cod_unidade' => 'Cod Unidade',
 			'Aluno_cod_aluno' => 'Aluno Cod Aluno',
@@ -94,8 +92,6 @@ class Matricula extends CActiveRecord
                 if($this->pesquisar == ''){
                         		$criteria->compare('cod_matricula',$this->cod_matricula,true);
 
-		$criteria->compare('cod_aluno',$this->cod_aluno);
-
 		$criteria->compare('cod_periodo',$this->cod_periodo);
 
 		$criteria->compare('cod_unidade',$this->cod_unidade);
@@ -107,8 +103,6 @@ class Matricula extends CActiveRecord
                 }else{
             
                        		$criteria->compare('cod_matricula',$this->pesquisar,true,'OR');
-
-		$criteria->compare('cod_aluno',$this->pesquisar,true,'OR');
 
 		$criteria->compare('cod_periodo',$this->pesquisar,true,'OR');
 

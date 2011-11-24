@@ -27,12 +27,6 @@
 		<?php echo $form->error($model,'CidadeProced'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'Aluno_cod_aluno'); ?>
-		<?php echo $form->textField($model,'Aluno_cod_aluno',array('size'=>10,'maxlength'=>10)); ?>
-		<?php echo $form->error($model,'Aluno_cod_aluno'); ?>
-	</div>
-
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Criar' : 'Salvar'); ?>
 	</div>

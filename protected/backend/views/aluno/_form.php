@@ -22,9 +22,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo CHtml::label('Sexo','sexo'); ?>
-		<?php echo CHtml::dropDownList('sexo','',CHtml::listData($sexos,'cod_sexo','desc_sexo')); ?>
-		<?php echo $form->error($model,'sexo'); ?> 
+		<?php echo $form->labelEx($model,'sexo_aluno'); ?>
+		<?php echo CHtml::activeDropDownList($model,'sexo_aluno',CHtml::listData($sexos,'cod_sexo','desc_sexo')); ?>
+		<?php echo $form->error($model,'sexo_aluno'); ?>
 	</div>
 
 	<div class="row">
@@ -70,9 +70,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo CHtml::label('Etnia','etnia'); ?>
-		<?php echo CHtml::dropDownList('etnia','',CHtml::listData($etnia,'cod_etnia','desc_etnia')); ?>
-		<?php echo $form->error($model,'etnia'); ?>
+		<?php echo $form->labelEx($model,'Etnia'); ?>
+		<?php echo CHtml::activeDropDownList($model,'Etnia_cod_etnia',CHtml::listData($etnia,'cod_etnia','desc_etnia')); ?>
+		<?php echo $form->error($model,'Etnia_cod_etnia'); ?>
 	</div>
 
 	<div class="row">

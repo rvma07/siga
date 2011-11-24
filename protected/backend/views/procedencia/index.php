@@ -29,7 +29,6 @@ $this->renderPartial('_pesquisa');
 		'NomeEscolaProced',
 		'SerieProced',
 		'CidadeProced',
-		'Aluno_cod_aluno',
 		array(
 			'class'=>'CButtonColumn',
 		),

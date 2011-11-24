@@ -11,10 +11,11 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'tipo_unidade'); ?>
-		<?php echo CHtml::activeRadioButton($model,'tipo_unidade',array('value'=>'EMEI')); ?> EMEI
-		<?php echo CHtml::activeRadioButton($model,'tipo_unidade',array('value'=>'EMEF')); ?> EMEF
-		<?php echo CHtml::activeRadioButton($model,'tipo_unidade',array('value'=>'EMEFEI')); ?> EMEFEI
-		<?php echo $form->textField($model,'tipo_unidade',array('size'=>10,'maxlength'=>10)); ?>
+		<table border="0"><tr>
+		  <td width="100"><?php echo CHtml::activeRadioButton($model,'tipo_unidade',array('value'=>'EMEI')); ?> EMEI</td>
+		  <td width="100"><?php echo CHtml::activeRadioButton($model,'tipo_unidade',array('value'=>'EMEF')); ?> EMEF</td>
+ 		  <td width="100"><?php echo CHtml::activeRadioButton($model,'tipo_unidade',array('value'=>'EMEFEI')); ?> EMEFEI</td>
+		</tr></table>
 		<?php echo $form->error($model,'tipo_unidade'); ?>
 	</div>
 

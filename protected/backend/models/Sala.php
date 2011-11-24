@@ -69,11 +69,11 @@ class Sala extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_sala' => 'Cod Sala',
-			'desc_sala' => 'Desc Sala',
-			'Unidade_cod_unidade' => 'Unidade Cod Unidade',
-			'Periodo_cod_periodo' => 'Periodo Cod Periodo',
-			'Serie_cod_serie' => 'Serie Cod Serie',
+			'cod_sala' => 'C&oacute;digo',
+			'desc_sala' => 'Descri&ccedil;&atilde;o',
+			'Unidade_cod_unidade' => 'Unidade',
+			'Periodo_cod_periodo' => 'Per&iacute;odo',
+			'Serie_cod_serie' => 'C&oacute;digo Serie',
 		);
 	}
 

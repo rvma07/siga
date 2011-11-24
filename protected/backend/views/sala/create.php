@@ -1,10 +1,10 @@
 <?php
 $this->breadcrumbs=array(
 	'Salas'=>array('index'),
-	'Criar novo Salas',
+	'Cadastro de Turmas',
 );
 ?>
 
-<h1>Cadastrar Sala</h1>
+<h1>Cadastrar Turmas</h1>
 
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php echo $this->renderPartial('_form', array('model'=>$model,'Unidade'=>$Unidade,'Periodo'=>$Periodo,'Serie'=>$Serie)); ?>

@@ -56,7 +56,8 @@ class ChamadaController extends Controller
 	public function actionIndex()
 	{
 
-		$this->render('index');
+		$this->render('create',
+			array('Unidades'=>Unidade::model()->findAll()));
 	}
 
 	/**
@@ -74,7 +75,12 @@ class ChamadaController extends Controller
 		}
 		return $this->_model;
 	}
-
+    
+	public function create(){
+	$this->render('create',array(
+			'Unidade'=>Unidade::model()->findAll()));
+			
+	}
 	/**
 	 * Performs the AJAX validation.
 	 * @param CModel the model to be validated

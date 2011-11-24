@@ -18,10 +18,7 @@
 												array('label'=>'Funcionario', 'url'=>array('./sisadm/funcionario')))),
                         array('label'=>'Cadastro de Alunos', 'url'=>array('./sisadm/aluno')),
 						array('label'=>'Dias Letivos', 'url'=>array('./sisadm/diasLetivos')),
-						array('label'=>'Chamada', 'url'=>array('./sisadm/chamada'),
-							'items'=>array(
-								array('label'=>'Realizar','url'=>array('./sisadm/chamada/realizar')))),
-                        array('label'=>'Localidade', 'url'=>array('./sisadm/localidades')),
+						array('label'=>'Chamada', 'url'=>array('./sisadm/chamada')),
 						array('label'=>'CEP', 'url'=>array('./sisadm/CEP')),
 						array('label'=>'Matricula', 'url'=>array('./sisadm/matricula')),
 						array('label'=>'Movimentacao', 'url'=>array('./sisadm/movimentacao')),

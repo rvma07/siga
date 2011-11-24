@@ -62,8 +62,8 @@ class Sexo extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_sexo' => 'Cod Sexo',
-			'desc_sexo' => 'Desc Sexo',
+			'cod_sexo' => 'C&oacute;digo',
+			'desc_sexo' => 'Descri&ccedil;&atilde;o',
 		);
 	}
 

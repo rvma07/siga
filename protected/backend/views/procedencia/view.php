@@ -14,7 +14,6 @@ $this->breadcrumbs=array(
 		'NomeEscolaProced',
 		'SerieProced',
 		'CidadeProced',
-		'Aluno_cod_aluno',
 	),
 )); ?>
 
@@ -23,11 +22,10 @@ $this->breadcrumbs=array(
  </div>
 <br />
 <br />
-
-<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Procedencia/update','id'=>$model->id), array('class'=>'btn ui-state-default ui-corner-all')) ?>
+<?php echo CHtml::link('<span class="ui-icon ui-icon-pencil"></span>Editar', array('Procedencia/update','id'=>$model->cod_procedencia), array('class'=>'btn ui-state-default ui-corner-all')) ?>
 
  <?php echo CHtml::linkButton('<span class="ui-icon ui-icon-closethick"></span>Excluir',array(
-'submit'=>array('/Procedencia/delete','id'=>$model->id),
+'submit'=>array('/Procedencia/delete','id'=>$model->cod_procedencia),
 'class'=>'btn ui-state-default ui-corner-all',
 'confirm'=>'Deseja realmente excluir este usuário?',
 )); ?>

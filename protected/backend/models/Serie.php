@@ -62,8 +62,8 @@ class Serie extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_serie' => 'Cod Serie',
-			'desc_serie' => 'Desc Serie',
+			'cod_serie' => 'C&oacute;digo',
+			'desc_serie' => 'Ano / S&eacute;rie',
 		);
 	}
 

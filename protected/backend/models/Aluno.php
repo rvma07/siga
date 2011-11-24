@@ -7,8 +7,8 @@
  * @property string $cod_aluno
  * @property string $ra_aluno
  * @property string $nome_aluno
- * @property integer $sexo_aluno
- * @property integer $local_nasc_aluno
+ * @property string $sexo_aluno
+ * @property string $local_nasc_aluno
  * @property string $data_nasc
  * @property string $nome_mae
  * @property string $nome_pai
@@ -53,13 +53,14 @@ class Aluno extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('nome_aluno, sexo_aluno, data_nasc, nome_mae, Etnia_cod_etnia', 'required'),
-			array('sexo_aluno, local_nasc_aluno, Etnia_cod_etnia, cep, num_end', 'numerical', 'integerOnly'=>true),
+			array('Etnia_cod_etnia, cep, num_end', 'numerical', 'integerOnly'=>true),
 			array('ra_aluno', 'length', 'max'=>14),
 			array('nome_aluno, nome_mae, nome_pai, end_aluno', 'length', 'max'=>60),
+			array('sexo_aluno', 'length', 'max'=>10),
+			array('local_nasc_aluno, bairro_aluno, cidade_aluno', 'length', 'max'=>45),
 			array('email_resp, email_aluno', 'length', 'max'=>100),
 			array('caminho', 'length', 'max'=>80),
 			array('password', 'length', 'max'=>32),
-			array('bairro_aluno, cidade_aluno', 'length', 'max'=>45),
 			array('comp_aluno', 'length', 'max'=>25),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -76,10 +77,10 @@ class Aluno extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'etniaCodEtnia' => array(self::BELONGS_TO, 'Etnia', 'Etnia_cod_etnia'),
+			'sexoAluno0' => array(self::BELONGS_TO, 'Sexo', 'sexo_aluno'),
 			'matriculas' => array(self::HAS_MANY, 'Matricula', 'Aluno_cod_aluno'),
 			'nees' => array(self::MANY_MANY, 'Nees', 'nees_has_aluno(NEES_cod_nees, Aluno_cod_aluno)'),
 			'saudes' => array(self::MANY_MANY, 'Saude', 'saude_has_aluno(saude_cod_saude, Aluno_cod_aluno)'),
-			'sexos' => array(self::MANY_MANY, 'Sexo', 'sexo_has_aluno(Sexo_cod_sexo, Aluno_cod_aluno)'),
 			'telefones' => array(self::HAS_MANY, 'Telefone', 'Aluno_cod_aluno'),
 		);
 	}
@@ -90,24 +91,25 @@ class Aluno extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_aluno' => 'C&oacutedigo',
-			'ra_aluno' => 'R. A. ',
-			'nome_aluno' => 'Nome',
-			'sexo_aluno' => 'Sexo',
-			'local_nasc_aluno' => 'Local Nascimento',
-			'data_nasc' => 'Data Nascimento',
-			'nome_mae' => 'Nome da Mae',
-			'nome_pai' => 'Nome do Pai',
-			'email_resp' => 'E-mail Resp',
-			'email_aluno' => 'E-mail Aluno',
+			'cod_aluno' => 'Cod Aluno',
+			'ra_aluno' => 'Ra Aluno',
+			'nome_aluno' => 'Nome Aluno',
+			'sexo_aluno' => 'Sexo Aluno',
+			'local_nasc_aluno' => 'Local Nasc Aluno',
+			'data_nasc' => 'Data Nasc',
+			'nome_mae' => 'Nome Mae',
+			'nome_pai' => 'Nome Pai',
+			'email_resp' => 'Email Resp',
+			'email_aluno' => 'Email Aluno',
 			'caminho' => 'Caminho',
-			'Etnia_cod_etnia' => 'Etnia',
-			'password' => 'Senha',
-			'end_aluno' => 'Endereco',
-			'num_end' => 'N&uacutemero',
-			'bairro_aluno' => 'Bairro',
-			'comp_aluno' => 'Complemento',
-			'cidade_aluno' => 'Cidade',
+			'Etnia_cod_etnia' => 'Etnia Cod Etnia',
+			'password' => 'Password',
+			'cep' => 'Cep',
+			'end_aluno' => 'End Aluno',
+			'num_end' => 'Num End',
+			'bairro_aluno' => 'Bairro Aluno',
+			'comp_aluno' => 'Comp Aluno',
+			'cidade_aluno' => 'Cidade Aluno',
 		);
 	}
 
@@ -130,9 +132,9 @@ class Aluno extends CActiveRecord
 
 		$criteria->compare('nome_aluno',$this->nome_aluno,true);
 
-		$criteria->compare('sexo_aluno',$this->sexo_aluno);
+		$criteria->compare('sexo_aluno',$this->sexo_aluno,true);
 
-		$criteria->compare('local_nasc_aluno',$this->local_nasc_aluno);
+		$criteria->compare('local_nasc_aluno',$this->local_nasc_aluno,true);
 
 		$criteria->compare('data_nasc',$this->data_nasc,true);
 

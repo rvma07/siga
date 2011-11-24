@@ -26,10 +26,10 @@ $this->renderPartial('_pesquisa');
         'summaryText'=>Yii::t('backend', 'Existe {start} - {end} de {count}'),
 	'columns'=>array(
 		'cod_matricula',
-		'cod_aluno',
 		'cod_periodo',
 		'cod_unidade',
 		'Aluno_cod_aluno',
+		'Procedencia_cod_procedencia',
 		array(
 			'class'=>'CButtonColumn',
 		),

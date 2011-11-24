@@ -71,8 +71,6 @@
 			autoheight: false
 		});
 
-		
-
 		var wizard = $("#wizard").accordion({
 
 			header: '.title',
@@ -80,7 +78,6 @@
 			event: false
 
 		});
-
 		
 		var wizardButtons = $([]);
 
@@ -97,7 +94,6 @@
 			}));
 
 		});
-
 		
 		// bind to change event of select to control first and seconds accordion
 		// similar to tab's plugin triggerTab(), without an extra method
@@ -160,8 +156,7 @@
 			
 				Último acesso: !<br />
 				Hojé é: <?php echo date("d/m/y");?> , <?php echo date("H:i");?> 
-				
-				
+
             </div>
             
         </div>
@@ -184,7 +179,6 @@
         Sistema Desenvolvido por Rafael, Carlos e Jorge - Grupo de TCC da ETEC Antonio Devisate <br />
         Todos direitos são reservados.
     </div>
-	    
       
 </div><!-- page -->
 

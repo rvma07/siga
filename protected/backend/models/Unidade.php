@@ -66,10 +66,10 @@ class Unidade extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_unidade' => 'Cod Unidade',
-			'tipo_unidade' => 'Tipo Unidade',
-			'nome_unidade' => 'Nome Unidade',
-			'num_end_unidade' => 'Num End Unidade',
+			'cod_unidade' => 'Cod&iacute;go',
+			'tipo_unidade' => 'Tipo',
+			'nome_unidade' => 'Nome',
+			'num_end_unidade' => 'N&uacute;mero',
 			'cep' => 'Cep',
 		);
 	}

@@ -1,14 +1,20 @@
 <div id="homeesq">
     
 	<!--//acordeao-->
-	    <div id="acordeon_teste" class="accordionWrapper" style="list1a;">
+	    <div id="acordeon_teste" class="accordionWrapper">
 		 	<!-- Menu 1 -->
 			<div class="set">
 				<div class="title">Administrativo</div>
 				<div class="content">
-				   <a href="/sisadm/funcionario"><img src="/images/escola.png" alt="" width="50" height="50"></a>
-				   <a href="/sisadm/unidade"><img src="/images/escola.png" alt="" width="50" height="50"></a> 
-				   <a href="/sisadm/funcionario"> <img src="/images/func.jpg" alt="" width="50" height="50"></a> 
+				   <a href="/sisadm/unidade"><img src="/images/escola.png" alt="" width="50" height="50"></a>
+				   <a href="/sisadm/periodo"><img src="/images/escola.png" alt="" width="50" height="50"></a> 
+				   <a href="/sisadm/ano"> <img src="/images/func.jpg" alt="" width="50" height="50"></a> 
+				   <a href="/sisadm/sala"> <img src="/images/func.jpg" alt="" width="50" height="50"></a>
+				   <a href="/sisadm/nees"> <img src="/images/func.jpg" alt="" width="50" height="50"></a>
+				   <a href="/sisadm/saude"> <img src="/images/func.jpg" alt="" width="50" height="50"></a>
+				   <a href="/sisadm/alergia> <img src="/images/func.jpg" alt="" width="50" height="50"></a>
+				   <a href="/sisadm/sexo"> <img src="/images/func.jpg" alt="" width="50" height="50"></a>
+				   <a href="/sisadm/etnia"> <img src="/images/func.jpg" alt="" width="50" height="50"></a>
 				   <a href="/sisadm/funcionario"> <img src="/images/func.jpg" alt="" width="50" height="50"></a>
 				</div>
 			</div>
@@ -16,12 +22,10 @@
 			<div class="set">
 				<div class="title">Aluno</div>
 				<div class="content">
-				   <a href="/sisadm/funcionario"><img src="/images/escola.png" alt="" width="50" height="50"></a>
-				   <a href="/sisadm/unidade"><img src="/images/escola.png" alt="" width="50" height="50"></a> 
-				   <a href="/sisadm/funcionario"> <img src="/images/func.jpg" alt="" width="50" height="50"></a> 
-				   <a href="/sisadm/funcionario"> <img src="/images/func.jpg" alt="" width="50" height="50"></a>
+				   <a href="/sisadm/aluno"><img src="/images/escola.png" alt="" width="50" height="50"></a>
+				   <a href="/sisadm/chamada"><img src="/images/func.jpg" alt="" width="50" height="50"></a> 
 				</div>
-			</div>
+			</div><br/>
 			<!-- Menu 3 -->
 			<div class="set">
 				<div class="title">Relatorios</div>

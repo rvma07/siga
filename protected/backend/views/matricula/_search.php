@@ -12,11 +12,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'cod_aluno'); ?>
-		<?php echo $form->textField($model,'cod_aluno'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'cod_periodo'); ?>
 		<?php echo $form->textField($model,'cod_periodo'); ?>
 	</div>
@@ -29,6 +24,11 @@
 	<div class="row">
 		<?php echo $form->label($model,'Aluno_cod_aluno'); ?>
 		<?php echo $form->textField($model,'Aluno_cod_aluno',array('size'=>10,'maxlength'=>10)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'Procedencia_cod_procedencia'); ?>
+		<?php echo $form->textField($model,'Procedencia_cod_procedencia'); ?>
 	</div>
 
 	<div class="row buttons">

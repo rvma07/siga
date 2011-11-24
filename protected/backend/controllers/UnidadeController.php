@@ -59,7 +59,6 @@ class UnidadeController extends Controller
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-
 		if(isset($_POST['Unidade']))
 		{
 			$model->attributes=$_POST['Unidade'];
@@ -71,7 +70,7 @@ class UnidadeController extends Controller
 			'model'=>$model,
 		));
 	}
-
+	
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.
