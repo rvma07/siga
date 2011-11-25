@@ -7,10 +7,10 @@ $this->renderPartial('_pesquisa');
 
 ?>
 
-<h1>Lista de Etnias</h1>
+<h1>Lista de Chamadas</h1>
 
 <br />
-<a href="/sisadm/Etnia/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo Etnia</a><br />
+<a href="/sisadm/Etnia/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Lista de Chamadas</a><br />
 <br/>
 
 <div class="search-form" style="display:none">

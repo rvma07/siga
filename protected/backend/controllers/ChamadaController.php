@@ -30,7 +30,7 @@ class ChamadaController extends Controller
 	{
                 return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view', 'create','update', 'delete'),
+				'actions'=>array('index','view','carregaano'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -59,7 +59,13 @@ class ChamadaController extends Controller
 		$this->render('create',
 			array('Unidades'=>Unidade::model()->findAll()));
 	}
-
+	
+	public function actionCarregaano(){
+		$this->layout='nada';
+		$this->render('carrega_ano',array(
+			'anos' => Sala::model()->findAll('Unidade_cod_unidade = '.$_POST['id_unidade'])
+		));
+	}
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
@@ -74,12 +80,6 @@ class ChamadaController extends Controller
 				throw new CHttpException(404,'The requested page does not exist.');
 		}
 		return $this->_model;
-	}
-    
-	public function create(){
-	$this->render('create',array(
-			'Unidade'=>Unidade::model()->findAll()));
-			
 	}
 	/**
 	 * Performs the AJAX validation.

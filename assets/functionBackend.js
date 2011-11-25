@@ -33,6 +33,12 @@ $(function(){
     $('input[rel="telefone"]').setMask({mask:'(99) 9999-9999'});
 
 	$('#acordeon_teste').msAccordion();
+	
+	$('.unidade_chamada select').change(function(){
+	
+		$('.ano_chamada').load('/sisadm/chamada/carregaano',{ 'id_unidade' : $(this).attr('value')});
+	});
+	
 });
  function atualizarfoto(){
                  $.ajax({
