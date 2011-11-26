@@ -55,7 +55,7 @@ class Matricula extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'alunoCodAluno' => array(self::BELONGS_TO, 'Aluno', 'Aluno_cod_aluno'),
+			'aluno' => array(self::BELONGS_TO, 'Aluno', 'Aluno_cod_aluno'),
 			'procedenciaCodProcedencia' => array(self::BELONGS_TO, 'Procedencia', 'Procedencia_cod_procedencia'),
 			'salas' => array(self::MANY_MANY, 'Sala', 'matricula_has_sala(Matricula_cod_matricula, Sala_cod_sala)'),
 			'movimentacaos' => array(self::HAS_MANY, 'Movimentacao', 'Matricula_cod_matricula'),

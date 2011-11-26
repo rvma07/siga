@@ -20,7 +20,6 @@ class ChamadaController extends Controller
 			'accessControl', // perform access control for CRUD operations
 		);
 	}
-
 	/**
 	 * Specifies the access control rules.
 	 * This method is used by the 'accessControl' filter.
@@ -30,7 +29,7 @@ class ChamadaController extends Controller
 	{
                 return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','carregaano'),
+				'actions'=>array('index','view','carregaano','listaaluno'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -38,7 +37,6 @@ class ChamadaController extends Controller
 			),
 		);
 	}
-
 	/**
 	 * Displays a particular model.
 	 */
@@ -48,14 +46,24 @@ class ChamadaController extends Controller
 			'model'=>$this->loadModel(),
 		));
 	}
-
 	/**
 	 * Lists all models.
 	 */
 
 	public function actionIndex()
 	{
-
+		if (isset($_POST['Aluno'])){
+			foreach($_POST['Aluno'] as $chave => $valor){
+				$chave = explode("_",$chave);
+				$chamada = new Presenca();
+				$chamada->valor = $chave[2];
+				$chamada->Matricula_has_Sala_Matricula_cod_matricula = $chave[0];
+				$chamada->Matricula_has_Sala_Sala_cod_sala = $chave[1];
+				$chamada->dia = date("Y-m-d",strtotime($_POST['data_inicio']));
+				$chamada->save();
+				echo "Chave = $chave valor = $valor <br />";
+			}
+		}
 		$this->render('create',
 			array('Unidades'=>Unidade::model()->findAll()));
 	}
@@ -66,6 +74,15 @@ class ChamadaController extends Controller
 			'anos' => Sala::model()->findAll('Unidade_cod_unidade = '.$_POST['id_unidade'])
 		));
 	}
+	
+	public function actionListaaluno(){
+		
+		$this->layout='nada';
+		$this->render('listaaluno',array(
+			'alunos' => Matricula::model()->findAll(array('with' => 'salas','condition' => 'salas.cod_sala = '.$_REQUEST['id_sala']))
+		));
+	}
+	
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
