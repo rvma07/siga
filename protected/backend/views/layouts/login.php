@@ -31,7 +31,7 @@
     <div id="cabecalho">
         <div id="barralogo" class="ui-state-default">
             <div id="logo">
-                <img src="/images/logo1.jpg" alt="iconesisadm"/>
+                <img src="/images/logoc.jpg" alt="iconesisadm"/>
                 <h1><center>SiGA</center></h1>
                 <h2><center>Sistema Gerenciador Acadêmico</center></h2>
             </div>

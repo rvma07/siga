@@ -2153,3 +2153,1163 @@ in C:\wamp\www\index.php (14)
 2011/11/25 22:21:07 [trace] [system.CModule] Loading "coreMessages" application component
 in C:\wamp\www\index.php (14)
 2011/11/25 22:21:07 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 00:45:58 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:58 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:58 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:58 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:58 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:58 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\views\layouts\main.php (11)
+in C:\wamp\www\protected\controllers\HomeController.php (30)
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:58 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\controllers\HomeController.php (30)
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:45:59 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 00:46:04 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:04 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:04 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:04 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:04 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:04 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:04 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 00:46:15 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:15 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:15 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:15 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:15 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:15 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:46:15 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:34 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 00:56:59 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:59 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:59 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:59 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:59 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:56:59 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 00:57:47 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:57:47 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:57:47 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:57:47 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:57:47 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 00:57:47 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 00:57:47 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:15:59 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\views\layouts\main.php (11)
+in C:\wamp\www\protected\controllers\HomeController.php (30)
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\controllers\HomeController.php (30)
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:03 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 01:16:12 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:12 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:12 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:12 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:12 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:12 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 01:16:13 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:13 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:13 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:13 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:13 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:13 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:16:13 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 01:24:36 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:24:36 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:24:36 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:24:36 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:24:36 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 01:24:36 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 01:24:36 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\views\layouts\main.php (11)
+in C:\wamp\www\protected\controllers\HomeController.php (30)
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\controllers\HomeController.php (30)
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 02:05:20 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\views\layouts\main.php (11)
+in C:\wamp\www\protected\controllers\HomeController.php (30)
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\controllers\HomeController.php (30)
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:14:52 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:15:37 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:05 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:16:06 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:17:53 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:18:49 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:04 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:21:17 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:17 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:17 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:17 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:17 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:17 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:17 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:20 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:21:55 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:27:43 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:39:35 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:46:09 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "errorHandler" application component
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\index.php (14)
+2011/11/26 11:47:23 [trace] [system.CModule] Loading "errorHandler" application component
