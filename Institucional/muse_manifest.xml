@@ -1,0 +1,44 @@
+<manifest alg="1">
+  <folder name="image">
+    <file name="master_u499.jpg" crc="443236522"/>
+    <file name="master_u501.png" crc="513858620"/>
+    <file name="index_n60.jpg" crc="0"/>
+    <file name="index_n62.jpg" crc="0"/>
+    <file name="index_n64.jpg" crc="3824147636"/>
+    <file name="index_n80.jpg" crc="524483506"/>
+    <file name="index_n82.jpg" crc="316843237"/>
+    <file name="index_n84.jpg" crc="3758637057"/>
+    <file name="loading.gif" crc="3815509949"/>
+    <file name="index_n89.jpg" crc="322579904"/>
+    <file name="index_n91.jpg" crc="478241017"/>
+    <file name="index_n93.jpg" crc="4080906926"/>
+  </folder>
+  <folder name="scripts">
+    <folder name="0.9">
+      <file name="jquery-1.4.4.min.js" crc="247588841"/>
+      <file name="sprydomutils.js" crc="119034094"/>
+      <file name="museutils.js" crc="4270515061"/>
+      <file name="pie.js" crc="942815"/>
+      <file name="jquery.musemenu.js" crc="29447578"/>
+      <file name="musesprycommon.js" crc="4068598084"/>
+      <file name="musesprypanels.js" crc="4026774065"/>
+      <file name="musespryslideshow.js" crc="4257797952"/>
+      <file name="jquery.museoverlay.js" crc="144401316"/>
+    </folder>
+  </folder>
+  <folder name="css">
+    <file name="index.css" crc="4203735591"/>
+    <file name="institucional.css" crc="21025938"/>
+    <file name="projetos.css" crc="21025938"/>
+    <file name="blogs.css" crc="21025938"/>
+    <file name="notícias.css" crc="21025938"/>
+    <file name="mural.css" crc="21025938"/>
+    <file name="site_global.css" crc="3906326103"/>
+  </folder>
+  <file name="index.html" crc="235781696"/>
+  <file name="institucional.html" crc="4113825007"/>
+  <file name="projetos.html" crc="3902908657"/>
+  <file name="blogs.html" crc="4107189921"/>
+  <file name="notícias.html" crc="217286131"/>
+  <file name="mural.html" crc="48583689"/>
+</manifest>

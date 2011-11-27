@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background-color:#;
+	float:left;
+}
+
+
+#logo{
+	margin-top:10px;
+	height:150px;
+	width:351px;
+	background-color:#FFF;
+	float: left;
+	background-image:url(images/master_u499.jpg);
+}
+
+#titulo{
+	margin-top: 10px;
+	margin-left: 5px;
+	height:150px;
+	width:600px;
+	background:#;
+	font-size: 38px;
+	text-align:center;
+	float: left;
+}
+
+#titulo2{
+	width:600;
+	text-align:center;
+	float:none;
+	margin-top: 5px;
+	font-size: 20px;
+	}
+
+#siga{
+	background:url(images/logosiga2.jpg);
+	float: left;
+	margin-top:10px;
+	margin-left:5px;
+	height:153px;
+	width:180px;
+	font-size: 10px;
+	
+}
+
+#menu2{
+	height:20px;
+	width:120px;
+	float: left;
+	background-color:#;
+	text-align:center;
+	}
+	
+#banner{
+	margin-top: 0px;
+	width:960px;
+	float:left;
+}
+
+#noticias{
+	width:970px;
+	float:left;
+	margin-top:10px;
+	}
+
+#blocon{
+	margin-top:3px;
+	margin-left:2px;
+	width:315px;
+	float:left;
+	border:1px solid #000000;
+	word-wrap: break-word;
+	background-color:#ffffff;
+	}
+	
+#rodape{
+	width:960px;
+	border:1px solid #000000;
+	float:left;
+	margin-top:5px;
+	background:url(images/menu2.png) repeat-x 0 center;
+	}
+#wrapper #titulo #titulo3 {
+	font-size: 16px;
+}
+#wrapper #titulo #titulo3 {
+	font-size: 18px;
+}
+
+#corpo{
+	width:960px;
+}

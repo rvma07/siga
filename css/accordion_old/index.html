@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Accordion — Widgets</title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="css/core.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="css/accordion.core.css" type="text/css" charset="utf-8">
+        <style type="text/css">
+            .loading {
+                display: none;
+            }
+            .accordion {
+                border: 1px solid #ccc;
+                width:  50%;
+            }
+                .accordion li h3 a {
+                    background:             #666;
+                    background:             #666 -webkit-gradient(linear, left top, left bottom, from(#999), to(#666)) no-repeat;
+                    background:             #666 -moz-linear-gradient(top,  #999,  #666) no-repeat;
+                    border-bottom:          1px solid #333;
+                    border-top:             1px solid #ccc;
+                    color:                  #fff;
+                    display:                block;
+                    font-style:             normal;
+                    margin:                 0;
+                    padding:                5px 10px;
+                    text-shadow:            0 -1px 2px #333, #ccc 0 1px 2px;
+                }
+                    .accordion li.active h3 a {
+                        background:             #369;
+                        background:             #369 -webkit-gradient(linear, left top, left bottom, from(#69c), to(#369)) no-repeat;
+                        background:             #369 -moz-linear-gradient(top,  #69c,  #369) no-repeat;
+                        border-bottom:          1px solid #036;
+                        border-top:             1px solid #9cf;
+                        text-shadow:            0 -1px 2px #036, #9cf 0 1px 2px;
+                    }
+                    .accordion li.locked h3 a {
+                        background:             #963;
+                        background:             #963 -webkit-gradient(linear, left top, left bottom, from(#c96), to(#963)) no-repeat;
+                        background:             #963 -moz-linear-gradient(top,  #c96,  #963) no-repeat;
+                        border-bottom:          1px solid #630;
+                        border-top:             1px solid #fc9;
+                        text-shadow:            0 -1px 2px #630, #fc9 0 1px 2px;
+                    }
+                .accordion li h3 {
+                    margin:         0;
+                    padding:        0;
+                }
+                .accordion .panel {
+                    padding:        10px;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="page">
+            <h1>Widgets: Accordion</h1>
+            
+            <p>This is a customisable accordion widget for jQuery. It gets around the
+            well documented jQuery animation jump issue of slideDown() by just not using it.</p>
+            
+            <h2>Example 1</h2>
+            
+            <p>This is the default accordion. Toggling is disabled, and the first
+            item in the accordion automatically opens during accordion initialisation.</p>
+            
+            <ul id="example1" class="accordion">
+                <li>
+                    <h3>Handle 1</h3>
+                    <div class="panel loading">
+                        <h4>panel loading 1</h4>
+                        <p>Plain old heading and paragraph content.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Handle 2</h3>
+                    <ul class="panel loading">
+                        <li>How about&hellip;</li>
+                        <li>&hellip; a list &hellip;</li>
+                        <li>&hellip; of items?</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Handle 3</h3>
+                    <p class="panel loading">
+                        <img src="img/spa.png" alt="" width="220" height="220"> An image in a paragraph.
+                    </p>
+                </li>
+                <li>
+                    <h3>Handle 4</h3>
+                    <div class="panel loading">
+                        <h4>A nested list of items</h4>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2
+                                <ul>
+                                    <li>Subitem 1</li>
+                                    <li>Subitem 2</li>
+                                    <li>Subitem 3</li>
+                                </ul>
+                            </li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            
+            <h2>Example 2</h2>
+            
+            <p>With toggling enabled, the user is able to close down all items.</p>
+            
+            <ul id="example2" class="accordion">
+                <li>
+                    <h3>Handle 1</h3>
+                    <div class="panel loading">
+                        <h4>panel loading 1</h4>
+                        <p>Plain old heading and paragraph content.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Handle 2</h3>
+                    <ul class="panel loading">
+                        <li>How about&hellip;</li>
+                        <li>&hellip; a list &hellip;</li>
+                        <li>&hellip; of items?</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Handle 3</h3>
+                    <p class="panel loading">
+                        <img src="img/spa.png" alt="" width="220" height="220"> An image in a paragraph.
+                    </p>
+                </li>
+                <li>
+                    <h3>Handle 4</h3>
+                    <div class="panel loading">
+                        <h4>A nested list of items</h4>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2
+                                <ul>
+                                    <li>Subitem 1</li>
+                                    <li>Subitem 2</li>
+                                    <li>Subitem 3</li>
+                                </ul>
+                            </li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            
+            <h2>Example 3</h2>
+            
+            <p>By applying a class of "locked" (or whatever is specified in the
+            parameter object that is passed to the accordion plug-in), the corresponding
+            item is locked open. The rest of the accordion functions as expected
+            around the locked item.</p>
+            
+            <ul id="example3" class="accordion">
+                <li class="locked">
+                    <h3>Handle 1</h3>
+                    <div class="panel loading">
+                        <h4>panel loading 1 (Locked open)</h4>
+                        <p>Plain old heading and paragraph content.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Handle 2</h3>
+                    <ul class="panel loading">
+                        <li>How about&hellip;</li>
+                        <li>&hellip; a list &hellip;</li>
+                        <li>&hellip; of items?</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Handle 3</h3>
+                    <p class="panel loading">
+                        <img src="img/spa.png" alt="" width="220" height="220"> An image in a paragraph.
+                    </p>
+                </li>
+                <li>
+                    <h3>Handle 4</h3>
+                    <div class="panel loading">
+                        <h4>A nested list of items</h4>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2
+                                <ul>
+                                    <li>Subitem 1</li>
+                                    <li>Subitem 2</li>
+                                    <li>Subitem 3</li>
+                                </ul>
+                            </li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            
+            <h2>Example 4</h2>
+            
+            <p>This example isn't an accordion at all, and behaves like a standard
+            collapsible menu. It is possible to open more than one item.</p>
+            
+            <ul id="example4" class="accordion">
+                <li>
+                    <h3>Handle 1</h3>
+                    <div class="panel loading">
+                        <h4>panel loading 1</h4>
+                        <p>Plain old heading and paragraph content.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Handle 2</h3>
+                    <ul class="panel loading">
+                        <li>How about&hellip;</li>
+                        <li>&hellip; a list &hellip;</li>
+                        <li>&hellip; of items?</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Handle 3</h3>
+                    <p class="panel loading">
+                        <img src="img/spa.png" alt="" width="220" height="220"> An image in a paragraph.
+                    </p>
+                </li>
+                <li>
+                    <h3>Handle 4</h3>
+                    <div class="panel loading">
+                        <h4>A nested list of items</h4>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2
+                                <ul>
+                                    <li>Subitem 1</li>
+                                    <li>Subitem 2</li>
+                                    <li>Subitem 3</li>
+                                </ul>
+                            </li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <script type="text/javascript" src="js/jquery-1.4.2.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/jquery.accordion.2.0.js" charset="utf-8"></script>
+        <script type="text/javascript">
+            $('#example1, #example3').accordion();
+            $('#example2').accordion({
+                canToggle: true
+            });
+            $('#example4').accordion({
+                canToggle: true,
+                canOpenMultiple: true
+            });
+            $(".loading").removeClass("loading");
+        </script>
+More script and css style
+: <a href="http://www.htmldrive.net/" title="HTML DRIVE - Free DHMTL Scripts,Jquery plugins,Javascript,CSS,CSS3,Html5 Library">www.htmldrive.net </a>		
+    </body>
+</html>

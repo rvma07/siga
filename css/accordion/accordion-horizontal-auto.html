@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/accordion.css" />
+<script language="javascript" type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/jquery.msAccordion.js"></script>
+
+<title>Common Accordion</title>
+<style type="text/css">
+.set{border-bottom:1px solid #000}
+.set1{background-color:#C77B3F;}
+.set2{background-color:#FFC732;}
+.set3{background-color:#007C90;}
+.set4{background-color:#AD6F08;}
+.set5{background-color:#387855;}
+.set6{background-color:#8C4B2D;}
+.set7{background-color:#82A668;}
+</style>
+</head>
+
+<body>
+<h1>Horizontal Accordion - Automatic Delay 4 sec</h1>
+<div class="accordionWrapper" id="accordion1">
+<div class="set set1">
+    <div class="title"><img src="images/menu1-h.jpg" width="30" height="198" /></div>
+    <div class="content"><img src="images/menu-img-1.jpg" width="486" height="198" /></div>
+</div>
+<div class="set set2">
+    <div class="title"><img src="images/menu2-h.jpg" width="30" height="198" /></div>
+    <div class="content"><img src="images/menu-img-2.jpg" width="486" height="198" /></div>
+</div>
+<div class="set set3">
+    <div class="title"><img src="images/menu3-h.jpg" width="30" height="198" /></div>
+    <div class="content"><img src="images/menu-img-3.jpg" width="486" height="198" />
+    </div>
+</div>
+<div class="set set4">
+    <div class="title"><img src="images/menu4-h.jpg" width="30" height="198" /></div>
+    <div class="content"><img src="images/menu-img-4.jpg" width="486" height="198" /><br />
+</div>
+</div>
+<div class="set set5">
+    <div class="title"><img src="images/menu5-h.jpg" width="30" height="198" /></div>
+    <div class="content"><img src="images/menu-img-5.jpg" width="486" height="198" /></div>
+</div>
+<div class="set set6">
+    <div class="title"><img src="images/menu6-h.jpg" width="30" height="198" /></div>
+    <div class="content"><img src="images/menu-img-6.jpg" width="486" height="198" /></div>
+</div>
+<div class="set set7">
+    <div class="title"><img src="images/menu7-h.jpg" width="30" height="198" /></div>
+    <div class="content"><img src="images/menu-img-7.jpg" width="486" height="198" /></div>
+</div>
+</div>
+<br />
+<br />
+<br />
+<br />
+
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+						   $("#accordion1").msAccordion({defaultid:3, autodelay:4});
+						   }
+						   )
+</script>
+</body>
+</html>
