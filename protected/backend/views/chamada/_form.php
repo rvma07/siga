@@ -17,7 +17,7 @@
 			<?php echo CHtml::dropDownList('Ano','',array("","")); ?>
 		</div>
 		
-<div STYLE="float : right; width :50%; height:500px;" class="lista_alunos float:left;"> 
+<div STYLE="float:right; width:50%;  margin-top:-200px" class="lista_alunos"> 
 
  </div>
 <?php $this->endWidget(); ?>

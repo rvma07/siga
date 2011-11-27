@@ -7167,3 +7167,2324 @@ in C:\wamp\www\backend.php (16)
 in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
 in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
 in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 18:21:05 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:05 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:05 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:05 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:05 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:05 [trace] [system.web.filters.CFilterChain] Running filter PresencaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:05 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:05 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:05 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:05 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `presenca`
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `presenca`
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:06 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\presenca\_pesquisa.php (2)
+in C:\wamp\www\protected\backend\views\presenca\index.php (6)
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (131)
+2011/11/27 18:21:06 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\presenca\_pesquisa.php (36)
+in C:\wamp\www\protected\backend\views\presenca\index.php (6)
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (131)
+2011/11/27 18:21:06 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\protected\backend\views\presenca\index.php (26)
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (131)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:06 [trace] [system.db.ar.CActiveRecord] Presenca.count()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+2011/11/27 18:21:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `presenca` `t`
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+2011/11/27 18:21:06 [trace] [system.db.ar.CActiveRecord] Presenca.findAll()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+2011/11/27 18:21:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `presenca` `t` LIMIT 20
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+2011/11/27 18:21:06 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (229)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (131)
+2011/11/27 18:21:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (284)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (239)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+2011/11/27 18:21:06 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (486)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (464)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (437)
+2011/11/27 18:21:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 18:21:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 18:21:06 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 18:21:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 18:21:11 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:11 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:11 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:11 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:11 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:11 [trace] [system.web.filters.CFilterChain] Running filter PresencaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:11 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:11 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:11 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:11 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `presenca`
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `presenca`
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\presenca\_form.php (6)
+in C:\wamp\www\protected\backend\views\presenca\create.php (10)
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (72)
+2011/11/27 18:21:12 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\presenca\_form.php (40)
+in C:\wamp\www\protected\backend\views\presenca\create.php (10)
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (72)
+2011/11/27 18:21:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 18:21:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 18:21:12 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 18:21:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 18:21:12 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 18:21:12 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\views\layouts\main.php (167)
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (72)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:27 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:27 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:28 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:28 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:28 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:28 [trace] [system.web.filters.CFilterChain] Running filter PresencaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:28 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:28 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:28 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:28 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `presenca`
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `presenca`
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:29 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\presenca\_pesquisa.php (2)
+in C:\wamp\www\protected\backend\views\presenca\index.php (6)
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (131)
+2011/11/27 18:21:29 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\presenca\_pesquisa.php (36)
+in C:\wamp\www\protected\backend\views\presenca\index.php (6)
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (131)
+2011/11/27 18:21:29 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\protected\backend\views\presenca\index.php (26)
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (131)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:21:29 [trace] [system.db.ar.CActiveRecord] Presenca.count()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+2011/11/27 18:21:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `presenca` `t`
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+2011/11/27 18:21:29 [trace] [system.db.ar.CActiveRecord] Presenca.findAll()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+2011/11/27 18:21:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `presenca` `t` LIMIT 20
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+2011/11/27 18:21:29 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (229)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+in C:\wamp\www\protected\backend\controllers\PresencaController.php (131)
+2011/11/27 18:21:29 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (284)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (239)
+in C:\wamp\www\protected\backend\views\presenca\index.php (37)
+2011/11/27 18:21:29 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (486)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (464)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (437)
+2011/11/27 18:21:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 18:21:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 18:21:29 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 18:21:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\GiiModule.php (168)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\GiiModule.php (168)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\GiiModule.php (168)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\GiiModule.php (168)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\views\default\login.php (2)
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\controllers\DefaultController.php (47)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\views\default\login.php (10)
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\controllers\DefaultController.php (47)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:48 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\GiiModule.php (136)
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\views\layouts\main.php (3)
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\views\layouts\column1.php (7)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\GiiModule.php (168)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\GiiModule.php (168)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\GiiModule.php (168)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\GiiModule.php (168)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\views\layouts\column1.php (1)
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\controllers\DefaultController.php (17)
+in C:\wamp\www\backend.php (16)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\views\layouts\main.php (2)
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\views\layouts\column1.php (7)
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\controllers\DefaultController.php (17)
+2011/11/27 18:22:53 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\GiiModule.php (136)
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\views\layouts\main.php (3)
+in C:\wamp\www\protected\backend\extensions\gii-sisadm\views\layouts\column1.php (7)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\protected\backend\controllers\LoginController.php (33)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\protected\backend\controllers\LoginController.php (33)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\home\index.php (57)
+in C:\wamp\www\protected\backend\controllers\HomeController.php (85)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:43 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:02:43 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:02:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:02:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:02:44 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\home\index.php (77)
+2011/11/27 19:02:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\home\index.php (77)
+2011/11/27 19:02:44 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\home\index.php (89)
+in C:\wamp\www\protected\backend\controllers\HomeController.php (85)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:02:44 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 19:24:13 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:13 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:13 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:13 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:13 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:13 [trace] [system.web.filters.CFilterChain] Running filter UnidadeController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:13 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:13 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:13 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (122)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:13 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (122)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `unidade`
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (122)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `unidade`
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (122)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:14 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\unidade\_pesquisa.php (2)
+in C:\wamp\www\protected\backend\views\unidade\index.php (6)
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (130)
+2011/11/27 19:24:14 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\unidade\_pesquisa.php (36)
+in C:\wamp\www\protected\backend\views\unidade\index.php (6)
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (130)
+2011/11/27 19:24:14 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\protected\backend\views\unidade\index.php (26)
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (130)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:14 [trace] [system.db.ar.CActiveRecord] Unidade.count()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\unidade\index.php (37)
+2011/11/27 19:24:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `unidade` `t`
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\unidade\index.php (37)
+2011/11/27 19:24:14 [trace] [system.db.ar.CActiveRecord] Unidade.findAll()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\unidade\index.php (37)
+2011/11/27 19:24:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `unidade` `t` LIMIT 20
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\unidade\index.php (37)
+2011/11/27 19:24:14 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (229)
+in C:\wamp\www\protected\backend\views\unidade\index.php (37)
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (130)
+2011/11/27 19:24:14 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (284)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (239)
+in C:\wamp\www\protected\backend\views\unidade\index.php (37)
+2011/11/27 19:24:14 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (486)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (464)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (437)
+2011/11/27 19:24:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:24:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:24:14 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 19:24:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 19:24:19 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:19 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:19 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:19 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:19 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:19 [trace] [system.web.filters.CFilterChain] Running filter UnidadeController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:19 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:19 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:19 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:19 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `unidade`
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `unidade`
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:24:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\unidade\_form.php (6)
+in C:\wamp\www\protected\backend\views\unidade\create.php (10)
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (71)
+2011/11/27 19:24:20 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\unidade\_form.php (44)
+in C:\wamp\www\protected\backend\views\unidade\create.php (10)
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (71)
+2011/11/27 19:24:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:24:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:24:20 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 19:24:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 19:24:20 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 19:24:20 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\views\layouts\main.php (167)
+in C:\wamp\www\protected\backend\controllers\UnidadeController.php (71)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:38:54 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:38:54 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:38:54 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:38:54 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:38:54 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:38:54 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:38:54 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:38:54 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:38:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\home\index.php (57)
+in C:\wamp\www\protected\backend\controllers\HomeController.php (85)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:38:54 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:38:54 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:38:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:38:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:38:55 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\home\index.php (77)
+2011/11/27 19:38:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\home\index.php (77)
+2011/11/27 19:38:55 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\home\index.php (89)
+in C:\wamp\www\protected\backend\controllers\HomeController.php (85)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:38:55 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 19:39:14 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:14 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:14 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:14 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:14 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:14 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:14 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:14 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:14 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:14 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:15 [trace] [system.db.ar.CActiveRecord] Unidade.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `unidade` `t`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (6)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 19:39:15 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (23)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 19:39:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:39:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:39:15 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 19:39:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 19:39:15 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 19:39:15 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\views\layouts\main.php (167)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:39 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:39 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:39 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:39 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:39 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:39 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:39 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:39 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:39 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:39 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `sala`
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `sala`
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:40 [trace] [system.db.ar.CActiveRecord] Sala.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `sala` `t` WHERE Unidade_cod_unidade = 1
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:40 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (75)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:45 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:45 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:45 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:45 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:45 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:45 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:45 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:45 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:45 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:45 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula`
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula`
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.ar.CActiveRecord] Matricula.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula_has_sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula_has_sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`cod_matricula` AS `t0_c0`, `t`.`cod_periodo` AS `t0_c1`, `t`.`cod_unidade` AS `t0_c2`, `t`.`Aluno_cod_aluno` AS `t0_c3`, `t`.`Procedencia_cod_procedencia` AS `t0_c4`, `salas`.`cod_sala` AS `t1_c0`, `salas`.`desc_sala` AS `t1_c1`, `salas`.`Unidade_cod_unidade` AS `t1_c2`, `salas`.`Periodo_cod_periodo` AS `t1_c3`, `salas`.`Serie_cod_serie` AS `t1_c4` FROM `matricula` `t`  LEFT OUTER JOIN `matricula_has_sala` `salas_salas` ON (`t`.`cod_matricula`=`salas_salas`.`Matricula_cod_matricula`) LEFT OUTER JOIN `sala` `salas` ON (`salas`.`cod_sala`=`salas_salas`.`Sala_cod_sala`)  WHERE (salas.cod_sala = 2)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.ar.CActiveRecord] lazy loading Matricula.aluno
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `aluno`
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aluno`
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT `aluno`.`cod_aluno` AS `t1_c0`, `aluno`.`ra_aluno` AS `t1_c1`, `aluno`.`nome_aluno` AS `t1_c2`, `aluno`.`sexo_aluno` AS `t1_c3`, `aluno`.`local_nasc_aluno` AS `t1_c4`, `aluno`.`data_nasc` AS `t1_c5`, `aluno`.`nome_mae` AS `t1_c6`, `aluno`.`nome_pai` AS `t1_c7`, `aluno`.`email_resp` AS `t1_c8`, `aluno`.`email_aluno` AS `t1_c9`, `aluno`.`caminho` AS `t1_c10`, `aluno`.`Etnia_cod_etnia` AS `t1_c11`, `aluno`.`password` AS `t1_c12`, `aluno`.`cep` AS `t1_c13`, `aluno`.`end_aluno` AS `t1_c14`, `aluno`.`num_end` AS `t1_c15`, `aluno`.`bairro_aluno` AS `t1_c16`, `aluno`.`comp_aluno` AS `t1_c17`, `aluno`.`cidade_aluno` AS `t1_c18` FROM `aluno` `aluno`  WHERE (`aluno`.`cod_aluno`=:ypl0)
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.ar.CActiveRecord] lazy loading Matricula.aluno
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT `aluno`.`cod_aluno` AS `t1_c0`, `aluno`.`ra_aluno` AS `t1_c1`, `aluno`.`nome_aluno` AS `t1_c2`, `aluno`.`sexo_aluno` AS `t1_c3`, `aluno`.`local_nasc_aluno` AS `t1_c4`, `aluno`.`data_nasc` AS `t1_c5`, `aluno`.`nome_mae` AS `t1_c6`, `aluno`.`nome_pai` AS `t1_c7`, `aluno`.`email_resp` AS `t1_c8`, `aluno`.`email_aluno` AS `t1_c9`, `aluno`.`caminho` AS `t1_c10`, `aluno`.`Etnia_cod_etnia` AS `t1_c11`, `aluno`.`password` AS `t1_c12`, `aluno`.`cep` AS `t1_c13`, `aluno`.`end_aluno` AS `t1_c14`, `aluno`.`num_end` AS `t1_c15`, `aluno`.`bairro_aluno` AS `t1_c16`, `aluno`.`comp_aluno` AS `t1_c17`, `aluno`.`cidade_aluno` AS `t1_c18` FROM `aluno` `aluno`  WHERE (`aluno`.`cod_aluno`=:ypl0)
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:46 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:58 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:58 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:58 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:58 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:58 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:58 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:58 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:58 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:58 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:58 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `presenca`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `presenca`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:59 [trace] [system.db.ar.CActiveRecord] Presenca.insert()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (63)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:59 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `presenca` (`valor`, `Matricula_has_Sala_Matricula_cod_matricula`, `Matricula_has_Sala_Sala_cod_sala`, `dia`) VALUES (:yp0, :yp1, :yp2, :yp3)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (63)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:59 [trace] [system.db.ar.CActiveRecord] Presenca.insert()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (63)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:39:59 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `presenca` (`valor`, `Matricula_has_Sala_Matricula_cod_matricula`, `Matricula_has_Sala_Sala_cod_sala`, `dia`) VALUES (:yp0, :yp1, :yp2, :yp3)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (63)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:40:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:40:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:40:00 [trace] [system.db.ar.CActiveRecord] Unidade.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:40:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `unidade` `t`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 19:40:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (6)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 19:40:00 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (23)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 19:40:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:40:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 19:40:00 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 19:40:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 19:40:00 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 19:40:00 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\views\layouts\main.php (167)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:28 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:28 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:28 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:28 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:28 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:28 [trace] [system.web.filters.CFilterChain] Running filter AlunoController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:28 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:28 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:28 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (128)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:28 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (128)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `aluno`
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (128)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aluno`
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (128)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:29 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\aluno\_pesquisa.php (2)
+in C:\wamp\www\protected\backend\views\aluno\index.php (6)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (136)
+2011/11/27 20:32:29 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\aluno\_pesquisa.php (36)
+in C:\wamp\www\protected\backend\views\aluno\index.php (6)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (136)
+2011/11/27 20:32:29 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\protected\backend\views\aluno\index.php (26)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (136)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:29 [trace] [system.db.ar.CActiveRecord] Aluno.count()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\aluno\index.php (53)
+2011/11/27 20:32:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `aluno` `t`
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\aluno\index.php (53)
+2011/11/27 20:32:29 [trace] [system.db.ar.CActiveRecord] Aluno.findAll()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\aluno\index.php (53)
+2011/11/27 20:32:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `aluno` `t` LIMIT 20
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\aluno\index.php (53)
+2011/11/27 20:32:29 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (229)
+in C:\wamp\www\protected\backend\views\aluno\index.php (53)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (136)
+2011/11/27 20:32:29 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (284)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (239)
+in C:\wamp\www\protected\backend\views\aluno\index.php (53)
+2011/11/27 20:32:29 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (486)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (464)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (437)
+2011/11/27 20:32:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:32:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:32:29 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:32:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:32:31 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:31 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:31 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:31 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:31 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:31 [trace] [system.web.filters.CFilterChain] Running filter AlunoController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:31 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:31 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:31 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:31 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `aluno`
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aluno`
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `sexo`
+in C:\wamp\www\protected\backend\models\Sexo.php (19)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (72)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `sexo`
+in C:\wamp\www\protected\backend\models\Sexo.php (19)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (72)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:32 [trace] [system.db.ar.CActiveRecord] Sexo.findAll()
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (72)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `sexo` `t`
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (72)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `etnia`
+in C:\wamp\www\protected\backend\models\Etnia.php (19)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (73)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `etnia`
+in C:\wamp\www\protected\backend\models\Etnia.php (19)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (73)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:32 [trace] [system.db.ar.CActiveRecord] Etnia.findAll()
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (73)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `etnia` `t`
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (73)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:32:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\aluno\_form.php (6)
+in C:\wamp\www\protected\backend\views\aluno\create.php (10)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (74)
+2011/11/27 20:32:32 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\aluno\_form.php (124)
+in C:\wamp\www\protected\backend\views\aluno\create.php (10)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (74)
+2011/11/27 20:32:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:32:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:32:32 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:32:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:32:32 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 20:32:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\views\layouts\main.php (167)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:28 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:28 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:28 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:28 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:28 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:28 [trace] [system.web.filters.CFilterChain] Running filter AlunoController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:28 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:28 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:28 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:28 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `aluno`
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aluno`
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:29 [trace] [system.db.ar.CActiveRecord] Aluno.insert()
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (66)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:29 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `aluno` (`ra_aluno`, `nome_aluno`, `sexo_aluno`, `local_nasc_aluno`, `data_nasc`, `nome_mae`, `nome_pai`, `email_resp`, `email_aluno`, `caminho`, `Etnia_cod_etnia`, `password`, `cep`, `end_aluno`, `num_end`, `bairro_aluno`, `comp_aluno`, `cidade_aluno`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (66)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:30 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:30 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:30 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:30 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:30 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:30 [trace] [system.web.filters.CFilterChain] Running filter AlunoController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:30 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:30 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:30 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Aluno.php (36)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (148)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (48)
+2011/11/27 20:33:30 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Aluno.php (36)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (148)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (48)
+2011/11/27 20:33:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `aluno`
+in C:\wamp\www\protected\backend\models\Aluno.php (36)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (148)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (48)
+2011/11/27 20:33:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aluno`
+in C:\wamp\www\protected\backend\models\Aluno.php (36)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (148)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (48)
+2011/11/27 20:33:31 [trace] [system.db.ar.CActiveRecord] Aluno.findByPk()
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (148)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (48)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `aluno` `t` WHERE `t`.`cod_aluno`='3' LIMIT 1
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (148)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (48)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\aluno\view.php (33)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (49)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:31 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\backend\extensions\widgets\CDetailViewUI.php (11)
+in C:\wamp\www\protected\backend\views\aluno\view.php (33)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (49)
+2011/11/27 20:33:31 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\extensions\widgets\CDetailViewUI.php (12)
+in C:\wamp\www\protected\backend\views\aluno\view.php (33)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (49)
+2011/11/27 20:33:31 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\extensions\widgets\CDetailViewUI.php (12)
+in C:\wamp\www\protected\backend\views\aluno\view.php (33)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (49)
+2011/11/27 20:33:31 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\protected\backend\extensions\widgets\CDetailViewUI.php (21)
+in C:\wamp\www\protected\backend\views\aluno\view.php (33)
+in C:\wamp\www\protected\backend\controllers\AlunoController.php (49)
+2011/11/27 20:33:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:33:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:33:31 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:33:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:33:38 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:38 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:38 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:38 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:38 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:38 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:38 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:38 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\home\index.php (57)
+in C:\wamp\www\protected\backend\controllers\HomeController.php (85)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:38 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:33:38 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:33:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:33:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:33:40 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\home\index.php (77)
+2011/11/27 20:33:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\home\index.php (77)
+2011/11/27 20:33:40 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\home\index.php (89)
+in C:\wamp\www\protected\backend\controllers\HomeController.php (85)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:40 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 20:33:43 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:43 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:43 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:43 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:43 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:43 [trace] [system.web.filters.CFilterChain] Running filter MatriculaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:43 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:43 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:43 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:43 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula`
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula`
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:44 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\matricula\_pesquisa.php (2)
+in C:\wamp\www\protected\backend\views\matricula\index.php (6)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (131)
+2011/11/27 20:33:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\matricula\_pesquisa.php (36)
+in C:\wamp\www\protected\backend\views\matricula\index.php (6)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (131)
+2011/11/27 20:33:44 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\protected\backend\views\matricula\index.php (26)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (131)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:44 [trace] [system.db.ar.CActiveRecord] Matricula.count()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+2011/11/27 20:33:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `matricula` `t`
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+2011/11/27 20:33:44 [trace] [system.db.ar.CActiveRecord] Matricula.findAll()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+2011/11/27 20:33:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `matricula` `t` LIMIT 20
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+2011/11/27 20:33:44 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (229)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (131)
+2011/11/27 20:33:44 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (284)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (239)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+2011/11/27 20:33:44 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (486)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (464)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (437)
+2011/11/27 20:33:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:33:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:33:44 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:33:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:33:46 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:46 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:46 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:46 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:46 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:46 [trace] [system.web.filters.CFilterChain] Running filter MatriculaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:46 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:46 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:46 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:46 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula`
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula`
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:33:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\matricula\_form.php (6)
+in C:\wamp\www\protected\backend\views\matricula\create.php (10)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (72)
+2011/11/27 20:33:47 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\matricula\_form.php (40)
+in C:\wamp\www\protected\backend\views\matricula\create.php (10)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (72)
+2011/11/27 20:33:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:33:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:33:47 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:33:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:33:47 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 20:33:47 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\views\layouts\main.php (167)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (72)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:22 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:22 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:22 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:22 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:22 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:22 [trace] [system.web.filters.CFilterChain] Running filter MatriculaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:22 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:22 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:22 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:22 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula`
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula`
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.db.ar.CActiveRecord] Matricula.insert()
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (66)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `matricula` (`cod_periodo`, `cod_unidade`, `Aluno_cod_aluno`, `Procedencia_cod_procedencia`) VALUES (:yp0, :yp1, :yp2, :yp3)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (66)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.web.filters.CFilterChain] Running filter MatriculaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:23 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (143)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (48)
+2011/11/27 20:34:23 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (143)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (48)
+2011/11/27 20:34:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula`
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (143)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (48)
+2011/11/27 20:34:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula`
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (143)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (48)
+2011/11/27 20:34:24 [trace] [system.db.ar.CActiveRecord] Matricula.findByPk()
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (143)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (48)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `matricula` `t` WHERE `t`.`cod_matricula`='3' LIMIT 1
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (143)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (48)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:24 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\matricula\view.php (19)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (49)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:24 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\backend\extensions\widgets\CDetailViewUI.php (11)
+in C:\wamp\www\protected\backend\views\matricula\view.php (19)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (49)
+2011/11/27 20:34:24 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\extensions\widgets\CDetailViewUI.php (12)
+in C:\wamp\www\protected\backend\views\matricula\view.php (19)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (49)
+2011/11/27 20:34:24 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\extensions\widgets\CDetailViewUI.php (12)
+in C:\wamp\www\protected\backend\views\matricula\view.php (19)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (49)
+2011/11/27 20:34:24 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\protected\backend\extensions\widgets\CDetailViewUI.php (21)
+in C:\wamp\www\protected\backend\views\matricula\view.php (19)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (49)
+2011/11/27 20:34:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:34:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:34:24 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:34:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:34:30 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:30 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:30 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:30 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:30 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:30 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:30 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:30 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:30 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:30 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:31 [trace] [system.db.ar.CActiveRecord] Unidade.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `unidade` `t`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (6)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 20:34:31 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (23)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 20:34:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:34:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:34:31 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:34:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:34:31 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 20:34:31 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\views\layouts\main.php (167)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:34 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:34 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:34 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:34 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:34 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:34 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:34 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:34 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:34 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:34 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `sala`
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `sala`
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:35 [trace] [system.db.ar.CActiveRecord] Sala.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `sala` `t` WHERE Unidade_cod_unidade = 1
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:35 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (75)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:38 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:38 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:38 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:38 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:38 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:38 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:38 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:38 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:38 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:38 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula`
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula`
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.ar.CActiveRecord] Matricula.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula_has_sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula_has_sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`cod_matricula` AS `t0_c0`, `t`.`cod_periodo` AS `t0_c1`, `t`.`cod_unidade` AS `t0_c2`, `t`.`Aluno_cod_aluno` AS `t0_c3`, `t`.`Procedencia_cod_procedencia` AS `t0_c4`, `salas`.`cod_sala` AS `t1_c0`, `salas`.`desc_sala` AS `t1_c1`, `salas`.`Unidade_cod_unidade` AS `t1_c2`, `salas`.`Periodo_cod_periodo` AS `t1_c3`, `salas`.`Serie_cod_serie` AS `t1_c4` FROM `matricula` `t`  LEFT OUTER JOIN `matricula_has_sala` `salas_salas` ON (`t`.`cod_matricula`=`salas_salas`.`Matricula_cod_matricula`) LEFT OUTER JOIN `sala` `salas` ON (`salas`.`cod_sala`=`salas_salas`.`Sala_cod_sala`)  WHERE (salas.cod_sala = 2)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.ar.CActiveRecord] lazy loading Matricula.aluno
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `aluno`
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aluno`
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT `aluno`.`cod_aluno` AS `t1_c0`, `aluno`.`ra_aluno` AS `t1_c1`, `aluno`.`nome_aluno` AS `t1_c2`, `aluno`.`sexo_aluno` AS `t1_c3`, `aluno`.`local_nasc_aluno` AS `t1_c4`, `aluno`.`data_nasc` AS `t1_c5`, `aluno`.`nome_mae` AS `t1_c6`, `aluno`.`nome_pai` AS `t1_c7`, `aluno`.`email_resp` AS `t1_c8`, `aluno`.`email_aluno` AS `t1_c9`, `aluno`.`caminho` AS `t1_c10`, `aluno`.`Etnia_cod_etnia` AS `t1_c11`, `aluno`.`password` AS `t1_c12`, `aluno`.`cep` AS `t1_c13`, `aluno`.`end_aluno` AS `t1_c14`, `aluno`.`num_end` AS `t1_c15`, `aluno`.`bairro_aluno` AS `t1_c16`, `aluno`.`comp_aluno` AS `t1_c17`, `aluno`.`cidade_aluno` AS `t1_c18` FROM `aluno` `aluno`  WHERE (`aluno`.`cod_aluno`=:ypl0)
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.ar.CActiveRecord] lazy loading Matricula.aluno
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT `aluno`.`cod_aluno` AS `t1_c0`, `aluno`.`ra_aluno` AS `t1_c1`, `aluno`.`nome_aluno` AS `t1_c2`, `aluno`.`sexo_aluno` AS `t1_c3`, `aluno`.`local_nasc_aluno` AS `t1_c4`, `aluno`.`data_nasc` AS `t1_c5`, `aluno`.`nome_mae` AS `t1_c6`, `aluno`.`nome_pai` AS `t1_c7`, `aluno`.`email_resp` AS `t1_c8`, `aluno`.`email_aluno` AS `t1_c9`, `aluno`.`caminho` AS `t1_c10`, `aluno`.`Etnia_cod_etnia` AS `t1_c11`, `aluno`.`password` AS `t1_c12`, `aluno`.`cep` AS `t1_c13`, `aluno`.`end_aluno` AS `t1_c14`, `aluno`.`num_end` AS `t1_c15`, `aluno`.`bairro_aluno` AS `t1_c16`, `aluno`.`comp_aluno` AS `t1_c17`, `aluno`.`cidade_aluno` AS `t1_c18` FROM `aluno` `aluno`  WHERE (`aluno`.`cod_aluno`=:ypl0)
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:34:39 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:13 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:13 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:13 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:13 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:13 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:13 [trace] [system.web.filters.CFilterChain] Running filter MatriculaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:13 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:13 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:13 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:13 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula`
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula`
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (123)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:14 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\matricula\_pesquisa.php (2)
+in C:\wamp\www\protected\backend\views\matricula\index.php (6)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (131)
+2011/11/27 20:36:14 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\matricula\_pesquisa.php (36)
+in C:\wamp\www\protected\backend\views\matricula\index.php (6)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (131)
+2011/11/27 20:36:14 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\protected\backend\views\matricula\index.php (26)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (131)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:14 [trace] [system.db.ar.CActiveRecord] Matricula.count()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+2011/11/27 20:36:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `matricula` `t`
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+2011/11/27 20:36:14 [trace] [system.db.ar.CActiveRecord] Matricula.findAll()
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+2011/11/27 20:36:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `matricula` `t` LIMIT 20
+in C:\wamp\www\protected\backend\extensions\widgets\CBaseListViewUI.php (105)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (223)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+2011/11/27 20:36:14 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (229)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (131)
+2011/11/27 20:36:14 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (284)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (239)
+in C:\wamp\www\protected\backend\views\matricula\index.php (37)
+2011/11/27 20:36:14 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (486)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (464)
+in C:\wamp\www\protected\backend\extensions\widgets\grid\CGridViewUI.php (437)
+2011/11/27 20:36:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:36:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:36:14 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:36:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:36:29 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:29 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:29 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:29 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:29 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:29 [trace] [system.web.filters.CFilterChain] Running filter MatriculaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:29 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:29 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:29 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:29 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula`
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula`
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:36:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\matricula\_form.php (6)
+in C:\wamp\www\protected\backend\views\matricula\create.php (10)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (72)
+2011/11/27 20:36:30 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\matricula\_form.php (40)
+in C:\wamp\www\protected\backend\views\matricula\create.php (10)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (72)
+2011/11/27 20:36:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:36:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:36:30 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:36:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:36:30 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 20:36:30 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\views\layouts\main.php (167)
+in C:\wamp\www\protected\backend\controllers\MatriculaController.php (72)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:26 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:26 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:26 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:26 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:26 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:26 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:26 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:26 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:26 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:26 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:27 [trace] [system.db.ar.CActiveRecord] Unidade.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `unidade` `t`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (6)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 20:37:27 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (23)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 20:37:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:37:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:37:27 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:37:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:37:27 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 20:37:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\views\layouts\main.php (167)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:29 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:29 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:29 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:29 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:29 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:29 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:29 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:29 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:29 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:29 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `sala`
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `sala`
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:31 [trace] [system.db.ar.CActiveRecord] Sala.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `sala` `t` WHERE Unidade_cod_unidade = 1
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:31 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (75)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:32 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:32 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:32 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:32 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:32 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:32 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:32 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:33 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:33 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula`
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula`
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.ar.CActiveRecord] Matricula.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula_has_sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula_has_sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`cod_matricula` AS `t0_c0`, `t`.`cod_periodo` AS `t0_c1`, `t`.`cod_unidade` AS `t0_c2`, `t`.`Aluno_cod_aluno` AS `t0_c3`, `t`.`Procedencia_cod_procedencia` AS `t0_c4`, `salas`.`cod_sala` AS `t1_c0`, `salas`.`desc_sala` AS `t1_c1`, `salas`.`Unidade_cod_unidade` AS `t1_c2`, `salas`.`Periodo_cod_periodo` AS `t1_c3`, `salas`.`Serie_cod_serie` AS `t1_c4` FROM `matricula` `t`  LEFT OUTER JOIN `matricula_has_sala` `salas_salas` ON (`t`.`cod_matricula`=`salas_salas`.`Matricula_cod_matricula`) LEFT OUTER JOIN `sala` `salas` ON (`salas`.`cod_sala`=`salas_salas`.`Sala_cod_sala`)  WHERE (salas.cod_sala = 2)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.ar.CActiveRecord] lazy loading Matricula.aluno
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `aluno`
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aluno`
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT `aluno`.`cod_aluno` AS `t1_c0`, `aluno`.`ra_aluno` AS `t1_c1`, `aluno`.`nome_aluno` AS `t1_c2`, `aluno`.`sexo_aluno` AS `t1_c3`, `aluno`.`local_nasc_aluno` AS `t1_c4`, `aluno`.`data_nasc` AS `t1_c5`, `aluno`.`nome_mae` AS `t1_c6`, `aluno`.`nome_pai` AS `t1_c7`, `aluno`.`email_resp` AS `t1_c8`, `aluno`.`email_aluno` AS `t1_c9`, `aluno`.`caminho` AS `t1_c10`, `aluno`.`Etnia_cod_etnia` AS `t1_c11`, `aluno`.`password` AS `t1_c12`, `aluno`.`cep` AS `t1_c13`, `aluno`.`end_aluno` AS `t1_c14`, `aluno`.`num_end` AS `t1_c15`, `aluno`.`bairro_aluno` AS `t1_c16`, `aluno`.`comp_aluno` AS `t1_c17`, `aluno`.`cidade_aluno` AS `t1_c18` FROM `aluno` `aluno`  WHERE (`aluno`.`cod_aluno`=:ypl0)
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.ar.CActiveRecord] lazy loading Matricula.aluno
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT `aluno`.`cod_aluno` AS `t1_c0`, `aluno`.`ra_aluno` AS `t1_c1`, `aluno`.`nome_aluno` AS `t1_c2`, `aluno`.`sexo_aluno` AS `t1_c3`, `aluno`.`local_nasc_aluno` AS `t1_c4`, `aluno`.`data_nasc` AS `t1_c5`, `aluno`.`nome_mae` AS `t1_c6`, `aluno`.`nome_pai` AS `t1_c7`, `aluno`.`email_resp` AS `t1_c8`, `aluno`.`email_aluno` AS `t1_c9`, `aluno`.`caminho` AS `t1_c10`, `aluno`.`Etnia_cod_etnia` AS `t1_c11`, `aluno`.`password` AS `t1_c12`, `aluno`.`cep` AS `t1_c13`, `aluno`.`end_aluno` AS `t1_c14`, `aluno`.`num_end` AS `t1_c15`, `aluno`.`bairro_aluno` AS `t1_c16`, `aluno`.`comp_aluno` AS `t1_c17`, `aluno`.`cidade_aluno` AS `t1_c18` FROM `aluno` `aluno`  WHERE (`aluno`.`cod_aluno`=:ypl0)
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.ar.CActiveRecord] lazy loading Matricula.aluno
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT `aluno`.`cod_aluno` AS `t1_c0`, `aluno`.`ra_aluno` AS `t1_c1`, `aluno`.`nome_aluno` AS `t1_c2`, `aluno`.`sexo_aluno` AS `t1_c3`, `aluno`.`local_nasc_aluno` AS `t1_c4`, `aluno`.`data_nasc` AS `t1_c5`, `aluno`.`nome_mae` AS `t1_c6`, `aluno`.`nome_pai` AS `t1_c7`, `aluno`.`email_resp` AS `t1_c8`, `aluno`.`email_aluno` AS `t1_c9`, `aluno`.`caminho` AS `t1_c10`, `aluno`.`Etnia_cod_etnia` AS `t1_c11`, `aluno`.`password` AS `t1_c12`, `aluno`.`cep` AS `t1_c13`, `aluno`.`end_aluno` AS `t1_c14`, `aluno`.`num_end` AS `t1_c15`, `aluno`.`bairro_aluno` AS `t1_c16`, `aluno`.`comp_aluno` AS `t1_c17`, `aluno`.`cidade_aluno` AS `t1_c18` FROM `aluno` `aluno`  WHERE (`aluno`.`cod_aluno`=:ypl0)
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (14)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:37:34 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:43 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:43 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:43 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:43 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:43 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:43 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\protected\backend\controllers\LoginController.php (33)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:43 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\protected\backend\controllers\LoginController.php (33)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:44 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:44 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:44 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:44 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:44 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:44 [trace] [system.web.filters.CFilterChain] Running filter HomeController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:44 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:44 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\home\index.php (57)
+in C:\wamp\www\protected\backend\controllers\HomeController.php (85)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:44 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:59:44 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:59:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:59:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:59:45 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\home\index.php (77)
+2011/11/27 20:59:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\home\index.php (77)
+2011/11/27 20:59:45 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\home\index.php (89)
+in C:\wamp\www\protected\backend\controllers\HomeController.php (85)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:45 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 20:59:49 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:49 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:49 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:49 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:49 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:49 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:49 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:49 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:49 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:50 [trace] [system.db.ar.CActiveRecord] Unidade.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `unidade` `t`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (6)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 20:59:50 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (23)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 20:59:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:59:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 20:59:50 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:59:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 20:59:50 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
+2011/11/27 20:59:50 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\views\layouts\main.php (167)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:53 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:53 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:53 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:53 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:53 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:53 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `sala`
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `sala`
+in C:\wamp\www\protected\backend\models\Sala.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:54 [trace] [system.db.ar.CActiveRecord] Sala.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `sala` `t` WHERE Unidade_cod_unidade = 1
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (74)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:54 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (75)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:58 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:58 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:58 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:58 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:58 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:58 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:59 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:59 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:59 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 20:59:59 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula`
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula`
+in C:\wamp\www\protected\backend\models\Matricula.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.ar.CActiveRecord] Matricula.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `matricula_has_sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `matricula_has_sala`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`cod_matricula` AS `t0_c0`, `t`.`cod_periodo` AS `t0_c1`, `t`.`cod_unidade` AS `t0_c2`, `t`.`Aluno_cod_aluno` AS `t0_c3`, `t`.`Procedencia_cod_procedencia` AS `t0_c4`, `salas`.`cod_sala` AS `t1_c0`, `salas`.`desc_sala` AS `t1_c1`, `salas`.`Unidade_cod_unidade` AS `t1_c2`, `salas`.`Periodo_cod_periodo` AS `t1_c3`, `salas`.`Serie_cod_serie` AS `t1_c4` FROM `matricula` `t`  LEFT OUTER JOIN `matricula_has_sala` `salas_salas` ON (`t`.`cod_matricula`=`salas_salas`.`Matricula_cod_matricula`) LEFT OUTER JOIN `sala` `salas` ON (`salas`.`cod_sala`=`salas_salas`.`Sala_cod_sala`)  WHERE (salas.cod_sala = 2)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (82)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.ar.CActiveRecord] lazy loading Matricula.aluno
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (18)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `aluno`
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (18)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aluno`
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (18)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `aluno`.`cod_aluno` AS `t1_c0`, `aluno`.`ra_aluno` AS `t1_c1`, `aluno`.`nome_aluno` AS `t1_c2`, `aluno`.`sexo_aluno` AS `t1_c3`, `aluno`.`local_nasc_aluno` AS `t1_c4`, `aluno`.`data_nasc` AS `t1_c5`, `aluno`.`nome_mae` AS `t1_c6`, `aluno`.`nome_pai` AS `t1_c7`, `aluno`.`email_resp` AS `t1_c8`, `aluno`.`email_aluno` AS `t1_c9`, `aluno`.`caminho` AS `t1_c10`, `aluno`.`Etnia_cod_etnia` AS `t1_c11`, `aluno`.`password` AS `t1_c12`, `aluno`.`cep` AS `t1_c13`, `aluno`.`end_aluno` AS `t1_c14`, `aluno`.`num_end` AS `t1_c15`, `aluno`.`bairro_aluno` AS `t1_c16`, `aluno`.`comp_aluno` AS `t1_c17`, `aluno`.`cidade_aluno` AS `t1_c18` FROM `aluno` `aluno`  WHERE (`aluno`.`cod_aluno`=:ypl0)
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (18)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.ar.CActiveRecord] lazy loading Matricula.aluno
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (18)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `aluno`.`cod_aluno` AS `t1_c0`, `aluno`.`ra_aluno` AS `t1_c1`, `aluno`.`nome_aluno` AS `t1_c2`, `aluno`.`sexo_aluno` AS `t1_c3`, `aluno`.`local_nasc_aluno` AS `t1_c4`, `aluno`.`data_nasc` AS `t1_c5`, `aluno`.`nome_mae` AS `t1_c6`, `aluno`.`nome_pai` AS `t1_c7`, `aluno`.`email_resp` AS `t1_c8`, `aluno`.`email_aluno` AS `t1_c9`, `aluno`.`caminho` AS `t1_c10`, `aluno`.`Etnia_cod_etnia` AS `t1_c11`, `aluno`.`password` AS `t1_c12`, `aluno`.`cep` AS `t1_c13`, `aluno`.`end_aluno` AS `t1_c14`, `aluno`.`num_end` AS `t1_c15`, `aluno`.`bairro_aluno` AS `t1_c16`, `aluno`.`comp_aluno` AS `t1_c17`, `aluno`.`cidade_aluno` AS `t1_c18` FROM `aluno` `aluno`  WHERE (`aluno`.`cod_aluno`=:ypl0)
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (18)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.ar.CActiveRecord] lazy loading Matricula.aluno
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (18)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT `aluno`.`cod_aluno` AS `t1_c0`, `aluno`.`ra_aluno` AS `t1_c1`, `aluno`.`nome_aluno` AS `t1_c2`, `aluno`.`sexo_aluno` AS `t1_c3`, `aluno`.`local_nasc_aluno` AS `t1_c4`, `aluno`.`data_nasc` AS `t1_c5`, `aluno`.`nome_mae` AS `t1_c6`, `aluno`.`nome_pai` AS `t1_c7`, `aluno`.`email_resp` AS `t1_c8`, `aluno`.`email_aluno` AS `t1_c9`, `aluno`.`caminho` AS `t1_c10`, `aluno`.`Etnia_cod_etnia` AS `t1_c11`, `aluno`.`password` AS `t1_c12`, `aluno`.`cep` AS `t1_c13`, `aluno`.`end_aluno` AS `t1_c14`, `aluno`.`num_end` AS `t1_c15`, `aluno`.`bairro_aluno` AS `t1_c16`, `aluno`.`comp_aluno` AS `t1_c17`, `aluno`.`cidade_aluno` AS `t1_c18` FROM `aluno` `aluno`  WHERE (`aluno`.`cod_aluno`=:ypl0)
+in C:\wamp\www\protected\backend\views\chamada\listaaluno.php (18)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:00 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (83)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:12 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:12 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:12 [trace] [system.CModule] Loading "cache" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:12 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:12 [trace] [system.web.filters.CFilterChain] Running filter ChamadaController.filteraccessControl()
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:12 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:12 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:12 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `presenca`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `presenca`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (58)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:13 [trace] [system.db.ar.CActiveRecord] Presenca.insert()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (63)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:13 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `presenca` (`valor`, `Matricula_has_Sala_Matricula_cod_matricula`, `Matricula_has_Sala_Sala_cod_sala`, `dia`) VALUES (:yp0, :yp1, :yp2, :yp3)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (63)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:13 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (63)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `unidade`
+in C:\wamp\www\protected\backend\models\Unidade.php (22)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:13 [trace] [system.db.ar.CActiveRecord] Unidade.findAll()
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `unidade` `t`
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+in C:\wamp\www\backend.php (16)
+2011/11/27 21:00:13 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (6)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 21:00:13 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\protected\backend\views\chamada\_form.php (23)
+in C:\wamp\www\protected\backend\views\chamada\create.php (10)
+in C:\wamp\www\protected\backend\controllers\ChamadaController.php (68)
+2011/11/27 21:00:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 21:00:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `funcionario`
+in C:\wamp\www\protected\backend\models\Funcionario.php (26)
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+2011/11/27 21:00:13 [trace] [system.db.ar.CActiveRecord] Funcionario.findByPk()
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 21:00:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `funcionario` `t` WHERE `t`.`cod_funcionario`='1' LIMIT 1
+in C:\wamp\www\protected\backend\components\WebUser.php (37)
+in C:\wamp\www\protected\backend\components\WebUser.php (21)
+in C:\wamp\www\protected\backend\views\layouts\main.php (18)
+2011/11/27 21:00:13 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (109)
+in C:\wamp\www\protected\extensions\mbmenu\MbMenu.php (205)
+in C:\wamp\www\protected\backend\extensions\menuMaker\views\menu.php (31)
