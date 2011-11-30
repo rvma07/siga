@@ -70,7 +70,7 @@
 
 #blocon{
 	margin-top:5px;
-	margin-left:124px;
+	margin-left:9px;
 	width:420px;
 	height:190px;
 	float:left;
@@ -105,4 +105,5 @@
 
 #corpo{
 	width:960px;
+	min-height:600px;
 }

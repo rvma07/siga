@@ -1,7 +1,7 @@
 <?php
 $this->breadcrumbs=array(
 	'Procedencias'=>array('index'),
-	'Criar novo Procedencias',
+	'Cadastrar Procedencias',
 );
 ?>
 

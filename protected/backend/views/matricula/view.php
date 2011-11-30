@@ -13,7 +13,11 @@ $this->breadcrumbs=array(
 		'cod_matricula',
 		'cod_periodo',
 		'cod_unidade',
-		'Aluno_cod_aluno',
+                array(
+                    'name' => 'Aluno',
+                    'value' => $model->aluno->nome_aluno
+                ),
+		//'Aluno_cod_aluno',
 		'Procedencia_cod_procedencia',
 	),
 )); ?>

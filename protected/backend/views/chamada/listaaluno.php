@@ -18,6 +18,7 @@
 		<?php echo $a->aluno->nome_aluno; ?>
 		</div>
 		
+		
 		<div style="border:solid 1px #000; width:200px; height:20px; float:left; margin-top:2px; font-size:12px; text-align:center; margin-left:2px;">
 		<?php echo CHtml::radioButton("Aluno[".$a->cod_matricula."_".$a->salas[0]->cod_sala."_P]",false); ?>P
 		<?php echo CHtml::radioButton("Aluno[".$a->cod_matricula."_".$a->salas[0]->cod_sala."_F]",false); ?>F

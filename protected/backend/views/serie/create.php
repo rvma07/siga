@@ -1,7 +1,7 @@
 <?php
 $this->breadcrumbs=array(
 	'Series'=>array('index'),
-	'Criar novo Series',
+	'Criar nova Series',
 );
 ?>
 

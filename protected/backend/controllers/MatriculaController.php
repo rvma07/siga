@@ -63,12 +63,22 @@ class MatriculaController extends Controller
 		if(isset($_POST['Matricula']))
 		{
 			$model->attributes=$_POST['Matricula'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->cod_matricula));
+			if($model->save()){
+                            $mat_has_sala = new MatriculaHasSala();
+                            $mat_has_sala->Matricula_cod_matricula = $model->cod_matricula;
+                            $mat_has_sala->Sala_cod_sala = $_POST['sala'];
+                            $mat_has_sala->ativa = $_POST['ativo'];
+                            $mat_has_sala->save();
+                            $this->redirect(array('view','id'=>$model->cod_matricula));
+                        }
 		}
 
 		$this->render('create',array(
-			'model'=>$model,
+                    'model'=>$model,
+                    'salas' => Sala::model()->findAll(),
+                    'alunos' => Aluno::model()->findAll(),
+                    'procedencia' => Procedencia::model()->findAll()
+                   
 		));
 	}
 

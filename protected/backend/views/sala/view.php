@@ -12,8 +12,21 @@ $this->breadcrumbs=array(
 	'attributes'=>array(
 		'cod_sala',
 		'desc_sala',
-		'Unidade_cod_unidade',
-		'Periodo_cod_periodo',
+		//'Unidade_cod_unidade',
+                array(
+                      'name' => 'Unidade',
+                      'value' => $model->unidadeCodUnidade->nome_unidade
+                ),
+		//'Periodo_cod_periodo',
+               array(
+                      'name' => 'Per&iacute;odo',
+                      'value' => $model->periodoCodPeriodo->desc_periodo
+                ),
+		//'Serie_cod_serie',
+                array(
+                        'name' => 'Ano',
+                        'value' =>$model->serieCodSerie->desc_serie
+                ),
 		'Serie_cod_serie',
 	),
 )); ?>

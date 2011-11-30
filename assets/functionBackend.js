@@ -31,7 +31,26 @@ $(function(){
      });
 
     $('input[rel="telefone"]').setMask({mask:'(99) 9999-9999'});
-
+    $('input[rel="moeda"]').setMask({mask:'99,9999999', type:'reverse'});
+    $('input[rel="int"]').setMask({mask:'9999999', type:'reverse'});
+    $('input[rel="cpf"]').setMask({mask:'999.999.999-99'});
+    $('input[rel="cnpj"]').setMask({mask:'99.999.999/9999-99'});
+    $('input[rel="cep"]').setMask({mask:'99999-999'});
+    $('input[rel="cep"]').blur(function(){
+        if($.trim($('input[rel="cep"]').val()) != ""){
+            $.getScript("http://cep.republicavirtual.com.br/web_cep.php?formato=javascript&cep="+$('input[rel="cep"]').attr('value'), function(){
+                if (resultadoCEP["tipo_logradouro"] != '') {
+                    if (resultadoCEP["resultado"]) {
+                        $("input[rel='rua']").attr('value',unescape(resultadoCEP["tipo_logradouro"]) + ": " + unescape(resultadoCEP["logradouro"]));
+                        $("input[rel='bairro']").attr('value',unescape(resultadoCEP["bairro"]));
+                        $("input[rel='cidade']").attr('value',unescape(resultadoCEP["cidade"]));
+                        $("input[rel='uf']").attr('value',unescape(resultadoCEP["uf"]));
+                        $("input[rel='numero']").focus();
+                    }
+					
+                }});
+        }
+    });
 	$('#acordeon_teste').msAccordion();
 	
 	$('.unidade_chamada select').change(function(){

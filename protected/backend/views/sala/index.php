@@ -10,7 +10,7 @@ $this->renderPartial('_pesquisa');
 <h1>Lista de Salas</h1>
 
 <br />
-<a href="/sisadm/Sala/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar novo Sala</a><br />
+<a href="/sisadm/Sala/create" class="btn ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Criar Sala</a><br />
 <br/>
 
 <div class="search-form" style="display:none">
@@ -27,9 +27,21 @@ $this->renderPartial('_pesquisa');
 	'columns'=>array(
 		'cod_sala',
 		'desc_sala',
-		'Unidade_cod_unidade',
-		'Periodo_cod_periodo',
-		'Serie_cod_serie',
+		//'Unidade_cod_unidade',
+                array(
+			'name' => 'Unidade',
+			'value' => '$data->unidadeCodUnidade->nome_unidade'
+		),
+		//'Periodo_cod_periodo',
+                array(
+                        'name' => 'Per&iacute;odo',
+                        'value' => '$data->periodoCodPeriodo->desc_periodo'
+                ),
+		//'Serie_cod_serie',
+                array(
+                        'name' => 'Ano',
+                        'value' =>'$data->serieCodSerie->desc_serie'
+                ),
 		array(
 			'class'=>'CButtonColumn',
 		),

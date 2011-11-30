@@ -10,25 +10,25 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'NomeEscolaProced'); ?>
+		<?php echo $form->labelEx($model,'Escola de Procedencia'); ?>
 		<?php echo $form->textField($model,'NomeEscolaProced',array('size'=>45,'maxlength'=>45)); ?>
 		<?php echo $form->error($model,'NomeEscolaProced'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'SerieProced'); ?>
+		<?php echo $form->labelEx($model,'S&eacute;rie / Ano de Procedencia'); ?>
 		<?php echo $form->textField($model,'SerieProced',array('size'=>45,'maxlength'=>45)); ?>
 		<?php echo $form->error($model,'SerieProced'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'CidadeProced'); ?>
+		<?php echo $form->labelEx($model,'Cidade de Procedencia'); ?>
 		<?php echo $form->textField($model,'CidadeProced',array('size'=>45,'maxlength'=>45)); ?>
 		<?php echo $form->error($model,'CidadeProced'); ?>
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Criar' : 'Salvar'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'GRAVAR' : 'Salvar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

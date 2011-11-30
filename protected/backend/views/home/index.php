@@ -28,14 +28,14 @@
 				<div class="content">
 				   <a href="/sisadm/unidade"><img src="/images/icons/adm/adm_unidade.png" alt="" width="50" height="50"></a>
 				   <a href="/sisadm/periodo"><img src="/images/icons/adm/adm_periodo.png" alt="" width="50" height="50"></a> 
-				   <a href="/sisadm/ano"> <img src="/images/icons/adm/adm_serie.png" alt="" width="50" height="50"></a> 
+				   <a href="/sisadm/serie"> <img src="/images/icons/adm/adm_serie.png" alt="" width="50" height="50"></a> 
 				   <a href="/sisadm/sala"> <img src="/images/icons/adm/adm_sala.png" alt="" width="50" height="50"></a>
 				   <a href="/sisadm/nees"> <img src="/images/icons/adm/adm_nees.png" alt="" width="50" height="50"></a>
 				   <a href="/sisadm/saude"> <img src="/images/icons/adm/adm_saude.png" alt="" width="50" height="50"></a>
-				   <a href="/sisadm/alergia"> <img src="/images/icons/adm/adm_alergia.png" alt="" width="50" height="50"></a>
+				   <a href="/sisadm/alergias"> <img src="/images/icons/adm/adm_alergia.png" alt="" width="50" height="50"></a>
 				   <a href="/sisadm/sexo"> <img src="/images/icons/adm/adm_sexo.png" alt="" width="50" height="50"></a>
 				   <a href="/sisadm/etnia"> <img src="/images/icons/adm/adm_etnia.png" alt="" width="50" height="50"></a>
-				   <a href="/sisadm/disciplina"> <img src="/images/icons/adm/adm_disc.png" alt="" width="50" height="50"></a>
+				   <a href="/sisadm/disciplinas"> <img src="/images/icons/adm/adm_disc.png" alt="" width="50" height="50"></a>
 				   <a href="/sisadm/funcionario"> <img src="/images/icons/adm/adm_func.png" alt="" width="50" height="50"></a>
 				   
 				</div>

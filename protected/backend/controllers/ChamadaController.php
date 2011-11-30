@@ -56,12 +56,11 @@ class ChamadaController extends Controller
 			foreach($_POST['Aluno'] as $chave => $valor){
 				$chave = explode("_",$chave);
 				$chamada = new Presenca();
-				$chamada->valor = $chave[2];
+				$chamada->valor = $valor;
 				$chamada->Matricula_has_Sala_Matricula_cod_matricula = $chave[0];
 				$chamada->Matricula_has_Sala_Sala_cod_sala = $chave[1];
 				$chamada->dia = date("Y-m-d",strtotime($_POST['data_inicio']));
 				$chamada->save();
-				echo "Chave = $chave valor = $valor <br />";
 			}
 		}
 		$this->render('create',

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $this->breadcrumbs=array(
 	'Matriculas'=>array('index')
 );
@@ -26,10 +26,26 @@ $this->renderPartial('_pesquisa');
         'summaryText'=>Yii::t('backend', 'Existe {start} - {end} de {count}'),
 	'columns'=>array(
 		'cod_matricula',
-		'cod_periodo',
-		'cod_unidade',
-		'Aluno_cod_aluno',
-		'Procedencia_cod_procedencia',
+		//'cod_periodo',
+		array(
+			'name' => 'Per&iacute;odo',
+			'value' => '$data->salas[0]->periodoCodPeriodo->desc_periodo'
+		),
+		//'cod_unidade',
+		array(
+			'name' => 'Unidade',
+			'value' => '$data->salas[0]->unidadeCodUnidade->nome_unidade'
+		),
+		//'Aluno_cod_aluno',
+		array(
+			'name' => 'Aluno',
+			'value' => '$data->aluno->nome_aluno'
+		),
+		array(
+			'name' => 'Serie',
+			'value' => '$data->salas[0]->serieCodSerie->desc_serie'
+		),		
+		//'Procedencia_cod_procedencia',
 		array(
 			'class'=>'CButtonColumn',
 		),
