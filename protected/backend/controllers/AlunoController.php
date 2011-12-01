@@ -63,8 +63,13 @@ class AlunoController extends Controller
 		if(isset($_POST['Aluno']))
 		{
 			$model->attributes=$_POST['Aluno'];
+                        $foto = CUploadedFile::getInstance($model, 'caminho');
+                        $novo_nome = substr(md5(uniqid(time())),0,12);
+                        $caminho = explode('.',$foto);
+                        $model->caminho = $novo_nome . "." . $caminho[sizeof($caminho) - 1];
 			if($model->save()){
-				$this->redirect(array('view','id'=>$model->cod_aluno));
+                            $foto->saveAs(Yii::app()->basePath.'/../fotos/'.$model->caminho);
+                            $this->redirect(array('view','id'=>$model->cod_aluno));
 			}
 		}
 		$this->render('create',array(
@@ -88,9 +93,21 @@ class AlunoController extends Controller
 
 		if(isset($_POST['Aluno']))
 		{
-			$model->attributes=$_POST['Aluno'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->cod_aluno));
+                    $antigo = $model->caminho;
+                    $model->attributes=$_POST['Aluno'];
+                    $foto = CUploadedFile::getInstance($model, 'caminho');
+                    if (is_object($foto)){
+                        $novo_nome = substr(md5(uniqid(time())),0,12);
+                        $caminho = explode('.',$foto);
+                        $model->caminho = $novo_nome . "." . $caminho[sizeof($caminho) - 1];
+                        $foto->saveAs(Yii::app()->basePath.'/../fotos/'.$model->caminho);
+                    }else{
+                        $model->caminho = $antigo;
+                    }
+                    if($model->save()){                            
+                        $this->redirect(array('view','id'=>$model->cod_aluno));
+
+                    }
 		}
 
 		$this->render('update',array(

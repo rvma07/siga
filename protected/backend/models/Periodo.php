@@ -60,8 +60,8 @@ class Periodo extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_periodo' => 'C&oacute;digo',
-			'desc_periodo' => 'Descri&ccedil;&atilde;o',
+			'cod_periodo' => 'Cod Periodo',
+			'desc_periodo' => 'Desc Periodo',
 		);
 	}
 

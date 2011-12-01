@@ -11,7 +11,7 @@
 
         <div class="row">
             <?php echo CHtml::label("Sala", "sala"); ?>
-            <?php echo CHtml::dropDownList("sala", "", CHtml::listData($salas, "cod_sala", "desc_sala")); ?>
+            <?php echo CHtml::dropDownList("sala", "", $salas); ?>
         </div>
 
         <div class="row">
@@ -36,7 +36,7 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Criar' : 'Salvar'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'GRAVAR' : 'Salvar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

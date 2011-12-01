@@ -51,7 +51,7 @@ class Sexo extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'alunos' => array(self::MANY_MANY, 'Aluno', 'sexo_has_aluno(Sexo_cod_sexo, Aluno_cod_aluno)'),
+			'alunos' => array(self::HAS_MANY, 'Aluno', 'sexo_aluno'),
 			'funcionarios' => array(self::MANY_MANY, 'Funcionario', 'sexo_has_funcionario(Sexo_cod_sexo, Funcionario_cod_funcionario)'),
 		);
 	}
@@ -62,8 +62,8 @@ class Sexo extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_sexo' => 'C&oacute;digo',
-			'desc_sexo' => 'Descri&ccedil;&atilde;o',
+			'cod_sexo' => 'Cod Sexo',
+			'desc_sexo' => 'Desc Sexo',
 		);
 	}
 

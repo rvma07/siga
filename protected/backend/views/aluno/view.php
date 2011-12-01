@@ -13,15 +13,28 @@ $this->breadcrumbs=array(
 		'cod_aluno',
 		'ra_aluno',
 		'nome_aluno',
-		'sexo_aluno',
+		//'sexo_aluno',
+                array(
+                    'name' => 'Sexo',
+                    'value' => $model->sexoAluno0->desc_sexo
+                ),
 		'local_nasc_aluno',
 		'data_nasc',
 		'nome_mae',
 		'nome_pai',
 		'email_resp',
 		'email_aluno',
-		'caminho',
-		'Etnia_cod_etnia',
+		//'caminho',
+                array(
+                    'name' => 'Foto',
+                    'type'=>'image',
+                    'value'=>'/fotos/'.$model->caminho
+                ),
+		//'Etnia_cod_etnia',
+                array(
+                    'name' => 'Etnia',
+                    'value' => $model->etniaCodEtnia->desc_etnia
+                ),
 		'password',
 		'cep',
 		'end_aluno',

@@ -5,7 +5,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h2>Visualizar Saude</h2>
+<h2>Visualizar Sa&uacute;de</h2>
 
 <?php $this->widget('backend.extensions.widgets.CDetailViewUI', array(
 	'data'=>$model,

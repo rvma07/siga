@@ -26,22 +26,22 @@ $this->renderPartial('_pesquisa');
         'summaryText'=>Yii::t('backend', 'Existe {start} - {end} de {count}'),
 	'columns'=>array(
 		'cod_sala',
-		'desc_sala',
-		//'Unidade_cod_unidade',
+		//'Serie_cod_serie',
                 array(
-			'name' => 'Unidade',
-			'value' => '$data->unidadeCodUnidade->nome_unidade'
-		),
-		//'Periodo_cod_periodo',
+                        'name' => 'Ano',
+                        'value' =>'$data->serieCodSerie->desc_serie[ASC]'
+                ),
+                'desc_sala',
+                //'Periodo_cod_periodo',
                 array(
                         'name' => 'Per&iacute;odo',
                         'value' => '$data->periodoCodPeriodo->desc_periodo'
                 ),
-		//'Serie_cod_serie',
+            	//'Unidade_cod_unidade',
                 array(
-                        'name' => 'Ano',
-                        'value' =>'$data->serieCodSerie->desc_serie'
-                ),
+			'name' => 'Unidade',
+			'value' => '$data->unidadeCodUnidade->nome_unidade'
+		),
 		array(
 			'class'=>'CButtonColumn',
 		),

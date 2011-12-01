@@ -69,12 +69,12 @@ class Saude extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_saude' => 'C&oacute;digo',
+			'cod_saude' => 'Cod Saude',
 			'alergias_cod_alergias' => 'Alergias Cod Alergias',
-			'desc_medicamento' => 'Descri&ccedil;&atilde;o do Medicamento',
-			'desc_cirurgia' => 'Descri&ccedil;&atilde;o da Cirurgia',
-			'medicacao' => 'Medica&ccedil;&atildeo',
-			'desc_convenio' => 'Descri&ccedil;&atilde;o do Conv&ecirc;nio',
+			'desc_medicamento' => 'Desc Medicamento',
+			'desc_cirurgia' => 'Desc Cirurgia',
+			'medicacao' => 'Medicacao',
+			'desc_convenio' => 'Desc Convenio',
 			'vacinas' => 'Vacinas',
 		);
 	}

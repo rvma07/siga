@@ -3,6 +3,7 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'aluno-form',
 	'enableAjaxValidation'=>false,
+        'htmlOptions' => array('enctype' => 'multipart/form-data')
 )); ?>
 
 	<p class="note">Campos com <span class="required">*</span> são requeridos.</p>
@@ -58,14 +59,14 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Email do Aluno'); ?>
+		<?php echo $form->labelEx($model,'email_aluno'); ?>
 		<?php echo $form->textField($model,'email_aluno',array('size'=>60,'maxlength'=>100)); ?>
 		<?php echo $form->error($model,'email_aluno'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Foto'); ?>
-		<?php echo $form->textField($model,'caminho',array('size'=>60,'maxlength'=>80)); ?>
+		<?php echo $form->labelEx($model,'caminho'); ?>
+                <?php echo CHtml::activeFileField($model, 'caminho'); ?>		
 		<?php echo $form->error($model,'caminho'); ?>
 	</div>
 

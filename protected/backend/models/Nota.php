@@ -55,8 +55,8 @@ class Nota extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'matriculaCodMatricula' => array(self::BELONGS_TO, 'Matricula', 'Matricula_cod_matricula'),
 			'disciplinasCodDisciplina' => array(self::BELONGS_TO, 'Disciplinas', 'Disciplinas_cod_disciplina'),
+			'matriculaCodMatricula' => array(self::BELONGS_TO, 'Matricula', 'Matricula_cod_matricula'),
 		);
 	}
 

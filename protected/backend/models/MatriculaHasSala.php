@@ -53,7 +53,8 @@ class MatriculaHasSala extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'presencas' => array(self::HAS_MANY, 'Presenca', 'Matricula_has_Sala_Sala_cod_sala'),
+			'presencas' => array(self::BELONGS_TO, 'Presenca', 'Matricula_has_Sala_Sala_cod_sala'),
+                        'salas' => array(self::BELONGS_TO,'Sala','Sala_cod_sala')
 		);
 	}
 

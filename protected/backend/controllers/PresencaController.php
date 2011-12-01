@@ -125,9 +125,12 @@ class PresencaController extends Controller
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Presenca']))
 			$model->attributes=$_GET['Presenca'];
-
+                foreach(Sala::model()->findAll(array("order" => "desc_sala ASC")) as $s){
+                    $sala[$s->cod_sala] = $s->desc_sala . ' - ' .$s->serieCodSerie->desc_serie;
+                }
 		$this->render('index',array(
 			'model'=>$model,
+                        'sala' => $sala
 		));
 	}
 

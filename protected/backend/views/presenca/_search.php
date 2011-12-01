@@ -7,28 +7,14 @@
 )); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'cod_presenca'); ?>
-		<?php echo $form->textField($model,'cod_presenca',array('size'=>10,'maxlength'=>10)); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'dia'); ?>
 		<?php echo $form->textField($model,'dia'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->label($model,'valor'); ?>
-		<?php echo $form->textField($model,'valor',array('size'=>1,'maxlength'=>1)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'Matricula_has_Sala_Matricula_cod_matricula'); ?>
-		<?php echo $form->textField($model,'Matricula_has_Sala_Matricula_cod_matricula',array('size'=>10,'maxlength'=>10)); ?>
-	</div>
-
-	<div class="row">
+        <div class="row">
 		<?php echo $form->label($model,'Matricula_has_Sala_Sala_cod_sala'); ?>
-		<?php echo $form->textField($model,'Matricula_has_Sala_Sala_cod_sala',array('size'=>10,'maxlength'=>10)); ?>
+                <?php echo CHtml::activeDropDownList($model, 'Matricula_has_Sala_Sala_cod_sala', $sala); ?>
+		<?php //echo $form->textField($model,'Matricula_has_Sala_Sala_cod_sala',array('size'=>10,'maxlength'=>10)); ?>
 	</div>
 
 	<div class="row buttons">

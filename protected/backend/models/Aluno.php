@@ -17,7 +17,7 @@
  * @property string $caminho
  * @property integer $Etnia_cod_etnia
  * @property string $password
- * @property integer $cep
+ * @property string $cep
  * @property string $end_aluno
  * @property integer $num_end
  * @property string $bairro_aluno
@@ -53,7 +53,7 @@ class Aluno extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('nome_aluno, sexo_aluno, data_nasc, nome_mae, Etnia_cod_etnia', 'required'),
-			array('Etnia_cod_etnia, cep, num_end', 'numerical', 'integerOnly'=>true),
+			array('Etnia_cod_etnia, num_end', 'numerical', 'integerOnly'=>true),
 			array('ra_aluno', 'length', 'max'=>14),
 			array('nome_aluno, nome_mae, nome_pai, end_aluno', 'length', 'max'=>60),
 			array('sexo_aluno', 'length', 'max'=>10),
@@ -61,6 +61,7 @@ class Aluno extends CActiveRecord
 			array('email_resp, email_aluno', 'length', 'max'=>100),
 			array('caminho', 'length', 'max'=>80),
 			array('password', 'length', 'max'=>32),
+			array('cep', 'length', 'max'=>9),
 			array('comp_aluno', 'length', 'max'=>25),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -91,25 +92,25 @@ class Aluno extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_aluno' => 'Cod Aluno',
-			'ra_aluno' => 'Ra Aluno',
-			'nome_aluno' => 'Nome Aluno',
-			'sexo_aluno' => 'Sexo Aluno',
-			'local_nasc_aluno' => 'Local Nasc Aluno',
+			'cod_aluno' => 'C&oacute;digo',
+			'ra_aluno' => 'R A',
+			'nome_aluno' => 'Nome',
+			'sexo_aluno' => 'Sexo',
+			'local_nasc_aluno' => 'Naturalidade',
 			'data_nasc' => 'Data Nasc',
-			'nome_mae' => 'Nome Mae',
-			'nome_pai' => 'Nome Pai',
-			'email_resp' => 'Email Resp',
-			'email_aluno' => 'Email Aluno',
-			'caminho' => 'Caminho',
-			'Etnia_cod_etnia' => 'Etnia Cod Etnia',
-			'password' => 'Password',
-			'cep' => 'Cep',
-			'end_aluno' => 'End Aluno',
-			'num_end' => 'Num End',
-			'bairro_aluno' => 'Bairro Aluno',
-			'comp_aluno' => 'Comp Aluno',
-			'cidade_aluno' => 'Cidade Aluno',
+			'nome_mae' => 'Nome da M&atilde;e',
+			'nome_pai' => 'Nome do Pai',
+			'email_resp' => 'Email do Respons&aacute;vel',
+			'email_aluno' => 'Email do Aluno',
+			'caminho' => 'Foto',
+			'Etnia_cod_etnia' => 'Etnia',
+			'password' => 'Senha',
+			'cep' => 'CEP',
+			'end_aluno' => 'Endere&ccedil;o',
+			'num_end' => 'N&uacute;mero',
+			'bairro_aluno' => 'Bairro',
+			'comp_aluno' => 'Complemento',
+			'cidade_aluno' => 'Cidade',
 		);
 	}
 
@@ -152,7 +153,7 @@ class Aluno extends CActiveRecord
 
 		$criteria->compare('password',$this->password,true);
 
-		$criteria->compare('cep',$this->cep);
+		$criteria->compare('cep',$this->cep,true);
 
 		$criteria->compare('end_aluno',$this->end_aluno,true);
 

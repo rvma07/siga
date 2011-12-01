@@ -7,4 +7,4 @@ $this->breadcrumbs=array(
 
 <h1>Cadastrar Matricula</h1>
 
-<?php echo $this->renderPartial('_form', array('model'=>$model,'salas' => $salas,'alunos' => $alunos,'procedencia' => $procedencia)); ?>
+<?php echo $this->renderPartial('_form', array('model'=>$model,'salas' => $salas,'alunos' => $alunos,'procedencia' => $procedencia, 'sexos'=> $sexos)); ?>

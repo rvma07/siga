@@ -17,7 +17,6 @@
 						                        array('label'=>'Etnia', 'url'=>array('./sisadm/etnia')),
 												array('label'=>'Funcionario', 'url'=>array('./sisadm/funcionario')))),
                         array('label'=>'Cadastro de Alunos', 'url'=>array('./sisadm/aluno')),
-						array('label'=>'Dias Letivos', 'url'=>array('./sisadm/diasLetivos')),
 						array('label'=>'Chamada', 'url'=>array('./sisadm/chamada')),
 						array('label'=>'CEP', 'url'=>array('./sisadm/CEP')),
 						array('label'=>'Matricula', 'url'=>array('./sisadm/matricula')),

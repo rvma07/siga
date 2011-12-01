@@ -57,9 +57,9 @@ class Sala extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'matriculas' => array(self::MANY_MANY, 'Matricula', 'matricula_has_sala(Matricula_cod_matricula, Sala_cod_sala)'),
-			'unidadeCodUnidade' => array(self::BELONGS_TO, 'Unidade', 'Unidade_cod_unidade'),
 			'periodoCodPeriodo' => array(self::BELONGS_TO, 'Periodo', 'Periodo_cod_periodo'),
 			'serieCodSerie' => array(self::BELONGS_TO, 'Serie', 'Serie_cod_serie'),
+			'unidadeCodUnidade' => array(self::BELONGS_TO, 'Unidade', 'Unidade_cod_unidade'),
 		);
 	}
 
@@ -71,9 +71,9 @@ class Sala extends CActiveRecord
 		return array(
 			'cod_sala' => 'C&oacute;digo',
 			'desc_sala' => 'Descri&ccedil;&atilde;o',
-			'Unidade_cod_unidade' => 'Unidade',
-			'Periodo_cod_periodo' => 'Per&iacute;odo',
-			'Serie_cod_serie' => 'C&oacute;digo Serie',
+			'Unidade_cod_unidade' => 'Unidade Cod Unidade',
+			'Periodo_cod_periodo' => 'Periodo Cod Periodo',
+			'Serie_cod_serie' => 'Serie Cod Serie',
 		);
 	}
 

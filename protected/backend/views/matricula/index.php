@@ -45,6 +45,10 @@ $this->renderPartial('_pesquisa');
 			'name' => 'Serie',
 			'value' => '$data->salas[0]->serieCodSerie->desc_serie'
 		),		
+                array(
+                    'name' => 'Sala',
+                    'value' => '$data->salas[0]->desc_sala'
+                ),
 		//'Procedencia_cod_procedencia',
 		array(
 			'class'=>'CButtonColumn',

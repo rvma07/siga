@@ -28,7 +28,11 @@ $this->renderPartial('_pesquisa');
 		'cod_aluno',
 		'ra_aluno',
 		'nome_aluno',
-		'sexo_aluno',
+		//'sexo_aluno',
+                array(
+                    'name' => 'Sexo',
+                    'value' =>'$data->sexoAluno0->desc_sexo'
+                ),
 		'local_nasc_aluno',
 		'data_nasc',
 		'nome_mae',

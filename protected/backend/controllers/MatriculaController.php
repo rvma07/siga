@@ -72,10 +72,13 @@ class MatriculaController extends Controller
                             $this->redirect(array('view','id'=>$model->cod_matricula));
                         }
 		}
-
+                $sala = array();
+                foreach(Sala::model()->findAll(array("order" => "desc_sala ASC")) as $s){
+                    $sala[$s->cod_sala] = $s->desc_sala . ' - ' .$s->serieCodSerie->desc_serie;
+                }
 		$this->render('create',array(
                     'model'=>$model,
-                    'salas' => Sala::model()->findAll(),
+                    'salas' => $sala,
                     'alunos' => Aluno::model()->findAll(),
                     'procedencia' => Procedencia::model()->findAll()
                    

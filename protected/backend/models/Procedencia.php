@@ -62,10 +62,10 @@ class Procedencia extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_procedencia' => 'C&oacute;digo',
-			'NomeEscolaProced' => 'Escola de Procedencia',
-			'SerieProced' => 'S&eacute;rie / Ano de Procedencia',
-			'CidadeProced' => 'Cidade de Procedencia',
+			'cod_procedencia' => 'Cod Procedencia',
+			'NomeEscolaProced' => 'Nome Escola Proced',
+			'SerieProced' => 'Serie Proced',
+			'CidadeProced' => 'Cidade Proced',
 		);
 	}
 

@@ -60,8 +60,8 @@ class Alergias extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_alergias' => 'C&oacute;digo',
-			'desc_alergias' => 'Descri&ccedil;&atilde;o de Alergias',
+			'cod_alergias' => 'Cod Alergias',
+			'desc_alergias' => 'Desc Alergias',
 		);
 	}
 

@@ -16,6 +16,7 @@ $this->renderPartial('_pesquisa');
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
+        'sala'=>$sala
 )); ?>
 </div><!-- search-form -->
 
@@ -29,7 +30,11 @@ $this->renderPartial('_pesquisa');
 		'dia',
 		'valor',
 		'Matricula_has_Sala_Matricula_cod_matricula',
-		'Matricula_has_Sala_Sala_cod_sala',
+                array(
+                    'name' => 'Sala',
+                    'value' => '$data->matriculaHasSalaSalaCodSala->salas->desc_sala'
+                    ),
+		//'Matricula_has_Sala_Sala_cod_sala',
 		array(
 			'class'=>'CButtonColumn',
 		),

@@ -67,7 +67,7 @@ class Presenca extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_presenca' => 'Cod Presenca',
+			'cod_presenca' => 'C&oacute;digo',
 			'dia' => 'Dia',
 			'valor' => 'Valor',
 			'Matricula_has_Sala_Matricula_cod_matricula' => 'Matricula Has Sala Matricula Cod Matricula',
@@ -100,7 +100,7 @@ class Presenca extends CActiveRecord
 
                 }else{
             
-                       		$criteria->compare('cod_presenca',$this->pesquisar,true,'OR');
+                $criteria->compare('cod_presenca',$this->pesquisar,true,'OR');
 
 		$criteria->compare('dia',$this->pesquisar,true,'OR');
 

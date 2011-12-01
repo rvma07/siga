@@ -60,8 +60,8 @@ class Nees extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_nees' => 'C&oacute;digo',
-			'desc_nees' => 'Descri&ccedil;&atilde;o',
+			'cod_nees' => 'Cod Nees',
+			'desc_nees' => 'Desc Nees',
 		);
 	}
 

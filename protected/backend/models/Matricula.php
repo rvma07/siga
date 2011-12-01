@@ -69,7 +69,7 @@ class Matricula extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cod_matricula' => 'Cod Matricula',
+			'cod_matricula' => 'C&oacute;digo de Matricula',
 			'cod_periodo' => 'Cod Periodo',
 			'cod_unidade' => 'Cod Unidade',
 			'Aluno_cod_aluno' => 'Aluno Cod Aluno',
